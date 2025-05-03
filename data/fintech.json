@@ -1,0 +1,553 @@
+[
+  {
+    "question": "What does 'Fintech' primarily stand for?",
+    "options": [
+      "Financial Technology",
+      "Finance Techniques",
+      "Funding Technology",
+      "Future Technology"
+    ],
+    "correctAnswer": "Financial Technology",
+    "category": "Core Concepts"
+  },
+  {
+    "question": "Which technology is fundamental to cryptocurrencies like Bitcoin?",
+    "options": [
+      "Artificial Intelligence",
+      "Cloud Computing",
+      "Blockchain",
+      "Augmented Reality"
+    ],
+    "correctAnswer": "Blockchain",
+    "category": "Technology"
+  },
+  {
+    "question": "What is the main purpose of 'Open Banking'?",
+    "options": [
+      "To make banking services free for everyone",
+      "To allow third-party developers secure access to bank data via APIs",
+      "To eliminate physical bank branches",
+      "To nationalize all private banks"
+    ],
+    "correctAnswer": "To allow third-party developers secure access to bank data via APIs",
+    "category": "Banking & APIs"
+  },
+  {
+    "question": "What does 'KYC' stand for in the context of financial regulation?",
+    "options": [
+      "Keep Your Cash",
+      "Know Your Customer",
+      "Key Yield Calculation",
+      "Knowledge Yields Capital"
+    ],
+    "correctAnswer": "Know Your Customer",
+    "category": "Regulation & Compliance"
+  },
+  {
+    "question": "Which of the following is an example of a 'Neobank'?",
+    "options": ["JPMorgan Chase", "Bank of America", "Revolut", "HSBC"],
+    "correctAnswer": "Revolut",
+    "category": "Banking"
+  },
+  {
+    "question": "What is 'Peer-to-Peer (P2P) Lending'?",
+    "options": [
+      "Lending money directly between individuals without a traditional bank intermediary",
+      "A government program for small business loans",
+      "A type of mortgage offered by credit unions",
+      "Borrowing money from a close friend or family member"
+    ],
+    "correctAnswer": "Lending money directly between individuals without a traditional bank intermediary",
+    "category": "Lending"
+  },
+  {
+    "question": "What is the primary function of a 'Robo-advisor'?",
+    "options": [
+      "To provide automated, algorithm-driven financial planning and investment management",
+      "To trade stocks manually based on user requests",
+      "To offer in-person financial consulting",
+      "To develop hardware for financial transactions"
+    ],
+    "correctAnswer": "To provide automated, algorithm-driven financial planning and investment management",
+    "category": "Investment & Wealth Management"
+  },
+  {
+    "question": "What does 'Insurtech' refer to?",
+    "options": [
+      "Technology specifically for health insurance",
+      "The use of technology innovations designed to squeeze out savings and efficiency from the current insurance industry model",
+      "Insurance policies for technology companies",
+      "A government agency regulating insurance"
+    ],
+    "correctAnswer": "The use of technology innovations designed to squeeze out savings and efficiency from the current insurance industry model",
+    "category": "Insurtech"
+  },
+  {
+    "question": "Which regulation in the EU mandates Strong Customer Authentication (SCA) for many online payments?",
+    "options": ["GDPR", "MiFID II", "PSD2", "Basel III"],
+    "correctAnswer": "PSD2",
+    "category": "Regulation & Compliance"
+  },
+  {
+    "question": "What is 'BNPL' an acronym for in the payments sector?",
+    "options": [
+      "Bank Network Payment Ledger",
+      "Buy Now Pay Later",
+      "Bilateral Netting Protocol Layer",
+      "Blockchain Network Public Ledger"
+    ],
+    "correctAnswer": "Buy Now Pay Later",
+    "category": "Payments & Lending"
+  },
+  {
+    "question": "What is the primary goal of 'RegTech'?",
+    "options": [
+      "To replace human regulators with AI",
+      "To help financial institutions comply with regulations more efficiently and effectively using technology",
+      "To create new financial regulations",
+      "To deregulate the financial industry"
+    ],
+    "correctAnswer": "To help financial institutions comply with regulations more efficiently and effectively using technology",
+    "category": "Regulation & Compliance"
+  },
+  {
+    "question": "Which of these is NOT typically a characteristic of a challenger bank?",
+    "options": [
+      "Primarily digital or mobile-first operations",
+      "Focus on user experience",
+      "Extensive physical branch network",
+      "Lower fee structures compared to traditional banks"
+    ],
+    "correctAnswer": "Extensive physical branch network",
+    "category": "Banking"
+  },
+  {
+    "question": "What does API stand for in a technology context?",
+    "options": [
+      "Advanced Programming Interface",
+      "Application Programming Interface",
+      "Automated Processing Infrastructure",
+      "Applied Payment Integration"
+    ],
+    "correctAnswer": "Application Programming Interface",
+    "category": "Technology"
+  },
+  {
+    "question": "How does 'Crowdfunding' work?",
+    "options": [
+      "A few large institutional investors provide capital",
+      "Funding a project or venture by raising small amounts of money from a large number of people, typically via the Internet",
+      "Securing a loan from a traditional bank",
+      "Using personal savings to fund a business"
+    ],
+    "correctAnswer": "Funding a project or venture by raising small amounts of money from a large number of people, typically via the Internet",
+    "category": "Investment & Funding"
+  },
+  {
+    "question": "What is 'Big Data' analysis often used for in Fintech?",
+    "options": [
+      "Designing bank branch interiors",
+      "Developing employee training manuals",
+      "Assessing credit risk, detecting fraud, and personalizing customer experiences",
+      "Calculating office electricity usage"
+    ],
+    "correctAnswer": "Assessing credit risk, detecting fraud, and personalizing customer experiences",
+    "category": "Technology"
+  },
+  {
+    "question": "What is 'Financial Inclusion'?",
+    "options": [
+      "Excluding certain groups from financial services",
+      "Making financial products and services accessible and affordable to all individuals and businesses, regardless of their personal net worth or company size",
+      "Merging multiple financial institutions into one",
+      "Investing exclusively in the financial sector"
+    ],
+    "correctAnswer": "Making financial products and services accessible and affordable to all individuals and businesses, regardless of their personal net worth or company size",
+    "category": "Impact & Trends"
+  },
+  {
+    "question": "What is a key security concern specific to mobile payments?",
+    "options": [
+      "Running out of battery",
+      "Losing the physical card",
+      "Data breaches and unauthorized access to the mobile device or payment app",
+      "Difficulty finding ATMs"
+    ],
+    "correctAnswer": "Data breaches and unauthorized access to the mobile device or payment app",
+    "category": "Payments & Security"
+  },
+  {
+    "question": "Which term describes the use of technology to automate and enhance back-office financial processes?",
+    "options": [
+      "Front-office automation",
+      "Robotic Process Automation (RPA)",
+      "Customer Relationship Management (CRM)",
+      "Marketing automation"
+    ],
+    "correctAnswer": "Robotic Process Automation (RPA)",
+    "category": "Technology"
+  },
+  {
+    "question": "What is 'Alternative Credit Scoring'?",
+    "options": [
+      "Using only traditional credit bureau data",
+      "A credit score provided by an alternative bank",
+      "Using non-traditional data sources (e.g., utility bills, rent payments, social media data) to assess creditworthiness",
+      "A scoring system used exclusively for business loans"
+    ],
+    "correctAnswer": "Using non-traditional data sources (e.g., utility bills, rent payments, social media data) to assess creditworthiness",
+    "category": "Lending"
+  },
+  {
+    "question": "What is 'Banking as a Service' (BaaS)?",
+    "options": [
+      "A service where banks offer consulting",
+      "Providing banking products and services (like payments, accounts) via APIs to third-party companies (like Fintechs)",
+      "A subscription model for basic banking access",
+      "Training programs for bankers"
+    ],
+    "correctAnswer": "Providing banking products and services (like payments, accounts) via APIs to third-party companies (like Fintechs)",
+    "category": "Banking & APIs"
+  },
+  {
+    "question": "What is the primary function of AML (Anti-Money Laundering) regulations?",
+    "options": [
+      "To prevent criminals from disguising illegally obtained funds as legitimate income",
+      "To encourage international money transfers",
+      "To standardize currency exchange rates",
+      "To provide tax breaks for financial institutions"
+    ],
+    "correctAnswer": "To prevent criminals from disguising illegally obtained funds as legitimate income",
+    "category": "Regulation & Compliance"
+  },
+  {
+    "question": "In the context of blockchain, what is a 'smart contract'?",
+    "options": [
+      "A legally binding paper contract written by lawyers",
+      "A self-executing contract with the terms of the agreement directly written into code",
+      "A financial derivative traded on an exchange",
+      "An insurance policy for technology failures"
+    ],
+    "correctAnswer": "A self-executing contract with the terms of the agreement directly written into code",
+    "category": "Technology"
+  },
+  {
+    "question": "Which of these payment methods typically offers the fastest cross-border settlement times?",
+    "options": [
+      "Traditional wire transfer (SWIFT)",
+      "International bank draft",
+      "Blockchain-based payment networks (e.g., RippleNet)",
+      "Sending cash via mail"
+    ],
+    "correctAnswer": "Blockchain-based payment networks (e.g., RippleNet)",
+    "category": "Payments & Technology"
+  },
+  {
+    "question": "What is a common application of AI/ML in Fintech lending?",
+    "options": [
+      "Designing the user interface of the lending app",
+      "Improving credit risk assessment models",
+      "Calculating the physical distance to the nearest bank branch",
+      "Writing marketing emails"
+    ],
+    "correctAnswer": "Improving credit risk assessment models",
+    "category": "Lending & Technology"
+  },
+  {
+    "question": "What is 'Micro-investing'?",
+    "options": [
+      "Investing only in penny stocks",
+      "Investing very large sums of money",
+      "A service that allows users to regularly invest very small amounts of money",
+      "Investing exclusively in microprocessor technology companies"
+    ],
+    "correctAnswer": "A service that allows users to regularly invest very small amounts of money",
+    "category": "Investment & Wealth Management"
+  },
+  {
+    "question": "What does GDPR stand for?",
+    "options": [
+      "General Data Protection Regulation",
+      "Global Digital Payment Rules",
+      "Government Data Privacy Register",
+      "General Database Processing Requirements"
+    ],
+    "correctAnswer": "General Data Protection Regulation",
+    "category": "Regulation & Compliance"
+  },
+  {
+    "question": "What type of insurance policy might adjust premiums based on driving habits monitored via telematics?",
+    "options": [
+      "Term Life Insurance",
+      "Usage-Based Insurance (UBI)",
+      "Homeowners Insurance",
+      "Travel Insurance"
+    ],
+    "correctAnswer": "Usage-Based Insurance (UBI)",
+    "category": "Insurtech"
+  },
+  {
+    "question": "What is a primary advantage of using cloud computing for Fintech companies?",
+    "options": [
+      "Guaranteed immunity from cyberattacks",
+      "Scalability and reduced need for physical IT infrastructure",
+      "Simplified regulatory compliance",
+      "Elimination of the need for software developers"
+    ],
+    "correctAnswer": "Scalability and reduced need for physical IT infrastructure",
+    "category": "Technology"
+  },
+  {
+    "question": "What is a 'Digital Wallet' (e-wallet)?",
+    "options": [
+      "A physical wallet made from digital materials",
+      "A software application, often on a smartphone, that stores payment information and allows electronic transactions",
+      "A secure vault for storing cryptocurrency hardware",
+      "A government database of financial assets"
+    ],
+    "correctAnswer": "A software application, often on a smartphone, that stores payment information and allows electronic transactions",
+    "category": "Payments"
+  },
+  {
+    "question": "Which factor is LEAST likely to be considered in an alternative credit scoring model?",
+    "options": [
+      "Social media activity",
+      "Utility payment history",
+      "Educational background",
+      "Traditional credit bureau score"
+    ],
+    "correctAnswer": "Traditional credit bureau score",
+    "category": "Lending"
+  },
+  {
+    "question": "What is the 'unbanked' population?",
+    "options": [
+      "People who prefer using cash only",
+      "Individuals who do not use or have access to traditional banking services",
+      "People who work for non-bank financial institutions",
+      "Customers who have closed their bank accounts"
+    ],
+    "correctAnswer": "Individuals who do not use or have access to traditional banking services",
+    "category": "Impact & Trends"
+  },
+  {
+    "question": "Which of the following represents a potential conflict in the Open Banking model?",
+    "options": [
+      "Increased competition leading to better services",
+      "Enhanced customer convenience",
+      "Concerns over data privacy and security when sharing bank data with third parties",
+      "Faster payment processing"
+    ],
+    "correctAnswer": "Concerns over data privacy and security when sharing bank data with third parties",
+    "category": "Banking & APIs"
+  },
+  {
+    "question": "What does 'Tokenization' mean in the context of payment security?",
+    "options": [
+      "Exchanging currency for arcade tokens",
+      "Replacing sensitive data (like a credit card number) with a unique identification symbol (a token) that retains all the essential information about the data without compromising its security",
+      "Issuing a new cryptocurrency token",
+      "Using a physical security token for login authentication"
+    ],
+    "correctAnswer": "Replacing sensitive data (like a credit card number) with a unique identification symbol (a token) that retains all the essential information about the data without compromising its security",
+    "category": "Payments & Security"
+  },
+  {
+    "question": "What is 'Parametric Insurance'?",
+    "options": [
+      "Insurance covering parameters and settings of machines",
+      "A type of insurance that pays out automatically based on pre-defined triggers (e.g., earthquake magnitude, rainfall levels) rather than the assessment of actual losses",
+      "Insurance provided by paramedics",
+      "A complex financial derivative based on insurance risk"
+    ],
+    "correctAnswer": "A type of insurance that pays out automatically based on pre-defined triggers (e.g., earthquake magnitude, rainfall levels) rather than the assessment of actual losses",
+    "category": "Insurtech"
+  },
+  {
+    "question": "Which statement best describes the relationship between Fintechs and traditional financial institutions?",
+    "options": [
+      "Purely adversarial, with Fintechs aiming to eliminate traditional banks",
+      "Exclusively collaborative, with Fintechs always partnering with banks",
+      "Varied, including competition, collaboration, and acquisition",
+      "Non-existent, as they operate in completely separate markets"
+    ],
+    "correctAnswer": "Varied, including competition, collaboration, and acquisition",
+    "category": "Business & Strategy"
+  },
+  {
+    "question": "What is a major challenge for scaling a Fintech startup globally?",
+    "options": [
+      "Lack of internet access worldwide",
+      "Navigating diverse and complex regulatory landscapes in different countries",
+      "Finding office space",
+      "Translating the app into different languages"
+    ],
+    "correctAnswer": "Navigating diverse and complex regulatory landscapes in different countries",
+    "category": "Business & Strategy"
+  },
+  {
+    "question": "What is 'Decentralized Finance' (DeFi)?",
+    "options": [
+      "Financial services offered by a central government agency",
+      "An umbrella term for financial applications built on blockchain technologies, aiming to recreate traditional financial systems without central intermediaries",
+      "A cost-cutting strategy used by traditional banks",
+      "A type of microfinance targeting rural areas"
+    ],
+    "correctAnswer": "An umbrella term for financial applications built on blockchain technologies, aiming to recreate traditional financial systems without central intermediaries",
+    "category": "Technology & Trends"
+  },
+  {
+    "question": "What type of funding is most common for early-stage Fintech startups?",
+    "options": [
+      "Initial Public Offering (IPO)",
+      "Bank Loans",
+      "Venture Capital (VC) funding",
+      "Government Grants"
+    ],
+    "correctAnswer": "Venture Capital (VC) funding",
+    "category": "Business & Funding"
+  },
+  {
+    "question": "What is 'Embedded Finance'?",
+    "options": [
+      "Hiding financial functions within complex code",
+      "Integrating financial services (like lending, payments, insurance) directly into non-financial businesses' products or platforms",
+      "Finance theory embedded in economic models",
+      "Financial hardware components embedded in devices"
+    ],
+    "correctAnswer": "Integrating financial services (like lending, payments, insurance) directly into non-financial businesses' products or platforms",
+    "category": "Trends & Strategy"
+  },
+  {
+    "question": "What is the role of a 'Payment Gateway'?",
+    "options": [
+      "A physical gate controlling access to a bank",
+      "A service that authorizes and processes credit card and direct payments for online and traditional merchants",
+      "A software tool for designing payment apps",
+      "A regulatory body overseeing payment systems"
+    ],
+    "correctAnswer": "A service that authorizes and processes credit card and direct payments for online and traditional merchants",
+    "category": "Payments"
+  },
+  {
+    "question": "What is a significant advantage of P2P payments over traditional methods like writing checks?",
+    "options": [
+      "Increased security against all types of fraud",
+      "Universally accepted by all merchants",
+      "Speed and convenience, often instant transfer between users",
+      "Provides detailed paper records"
+    ],
+    "correctAnswer": "Speed and convenience, often instant transfer between users",
+    "category": "Payments"
+  },
+  {
+    "question": "Which technology allows for secure, contactless payments using mobile devices?",
+    "options": [
+      "Bluetooth",
+      "Near Field Communication (NFC)",
+      "GPS",
+      "QR Codes (though QR can facilitate, NFC is primary for 'tap-to-pay')"
+    ],
+    "correctAnswer": "Near Field Communication (NFC)",
+    "category": "Payments & Technology"
+  },
+  {
+    "question": "In Insurtech, what is 'Telematics' data typically used for?",
+    "options": [
+      "Processing health insurance claims",
+      "Marketing insurance products via television",
+      "Assessing risk and determining premiums based on monitored behavior (e.g., driving habits, health metrics)",
+      "Automating customer service chatbots"
+    ],
+    "correctAnswer": "Assessing risk and determining premiums based on monitored behavior (e.g., driving habits, health metrics)",
+    "category": "Insurtech"
+  },
+  {
+    "question": "What is the main difference between a Neobank and a Challenger Bank?",
+    "options": [
+      "Neobanks operate only online, while Challenger Banks have physical branches.",
+      "Challenger Banks challenge incumbents directly, while Neobanks create entirely new markets.",
+      "Often used interchangeably, but sometimes Neobanks refer to tech companies offering banking products without their own banking license (using BaaS), while Challenger Banks typically hold their own license.",
+      "Neobanks focus on savings, Challenger Banks focus on lending."
+    ],
+    "correctAnswer": "Often used interchangeably, but sometimes Neobanks refer to tech companies offering banking products without their own banking license (using BaaS), while Challenger Banks typically hold their own license.",
+    "category": "Banking"
+  },
+  {
+    "question": "What is 'Sandboxing' in a Fintech regulatory context?",
+    "options": [
+      "A playground for bank employees",
+      "A secure, controlled environment provided by regulators where firms can test innovative products or services without immediately incurring all the normal regulatory consequences",
+      "Burying sensitive data offline",
+      "A type of cybersecurity attack"
+    ],
+    "correctAnswer": "A secure, controlled environment provided by regulators where firms can test innovative products or services without immediately incurring all the normal regulatory consequences",
+    "category": "Regulation & Compliance"
+  },
+  {
+    "question": "What is a primary driver behind the growth of BNPL services?",
+    "options": [
+      "Desire for complex financial products",
+      "Preference for long-term debt",
+      "Consumer demand for flexible, interest-free (initially) installment payments at point-of-sale",
+      "Strict regulations limiting credit card usage"
+    ],
+    "correctAnswer": "Consumer demand for flexible, interest-free (initially) installment payments at point-of-sale",
+    "category": "Payments & Lending"
+  },
+  {
+    "question": "Which area of finance has seen significant disruption from robo-advisors?",
+    "options": [
+      "Investment Banking Mergers & Acquisitions",
+      "Traditional Wealth Management and Financial Advisory",
+      "Commercial Real Estate Lending",
+      "Foreign Exchange Trading"
+    ],
+    "correctAnswer": "Traditional Wealth Management and Financial Advisory",
+    "category": "Investment & Wealth Management"
+  },
+  {
+    "question": "What is a 'Central Bank Digital Currency' (CBDC)?",
+    "options": [
+      "A cryptocurrency created by a private company (e.g., Bitcoin)",
+      "A digital form of a country's fiat currency, issued and backed by the central bank",
+      "A stablecoin pegged to a basket of currencies",
+      "A digital token used exclusively for interbank settlements"
+    ],
+    "correctAnswer": "A digital form of a country's fiat currency, issued and backed by the central bank",
+    "category": "Technology & Trends"
+  },
+  {
+    "question": "How might Fintech improve access to finance in emerging markets?",
+    "options": [
+      "By building more physical bank branches",
+      "By primarily offering complex derivative products",
+      "Through mobile banking, alternative credit scoring, and lower transaction costs, reaching previously unbanked or underbanked populations",
+      "By strictly adhering to traditional banking models"
+    ],
+    "correctAnswer": "Through mobile banking, alternative credit scoring, and lower transaction costs, reaching previously unbanked or underbanked populations",
+    "category": "Impact & Trends"
+  },
+  {
+    "question": "What does 'Disintermediation' mean in the context of Fintech?",
+    "options": [
+      "Adding more intermediaries to a financial process",
+      "The removal of traditional intermediaries (like banks or brokers) from financial transactions or processes",
+      "Mediating disputes between Fintech companies",
+      "A complex form of financial derivative"
+    ],
+    "correctAnswer": "The removal of traditional intermediaries (like banks or brokers) from financial transactions or processes",
+    "category": "Core Concepts"
+  },
+  {
+    "question": "What is a 'chargeback' in the context of card payments?",
+    "options": [
+      "A fee charged for using a debit card",
+      "A refund initiated by the merchant",
+      "A forced reversal of a transaction by the cardholder's bank, usually initiated by the cardholder due to a dispute",
+      "The process of recharging a prepaid card"
+    ],
+    "correctAnswer": "A forced reversal of a transaction by the cardholder's bank, usually initiated by the cardholder due to a dispute",
+    "category": "Payments"
+  }
+]

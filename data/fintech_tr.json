@@ -1,0 +1,553 @@
+[
+  {
+    "question": "'Fintek' öncelikli olarak ne anlama gelmektedir?",
+    "options": [
+      "Finansal Teknoloji",
+      "Finans Teknikleri",
+      "Fonlama Teknolojisi",
+      "Gelecek Teknolojisi"
+    ],
+    "correctAnswer": "Finansal Teknoloji",
+    "category": "Temel Kavramlar"
+  },
+  {
+    "question": "Bitcoin gibi kripto paraların temelinde hangi teknoloji yatar?",
+    "options": [
+      "Yapay Zeka",
+      "Bulut Bilişim",
+      "Blokzincir",
+      "Artırılmış Gerçeklik"
+    ],
+    "correctAnswer": "Blokzincir",
+    "category": "Teknoloji"
+  },
+  {
+    "question": "'Açık Bankacılık'ın temel amacı nedir?",
+    "options": [
+      "Bankacılık hizmetlerini herkes için ücretsiz yapmak",
+      "Üçüncü parti geliştiricilerin API'lar aracılığıyla banka verilerine güvenli erişimine izin vermek",
+      "Fiziksel banka şubelerini ortadan kaldırmak",
+      "Tüm özel bankaları kamulaştırmak"
+    ],
+    "correctAnswer": "Üçüncü parti geliştiricilerin API'lar aracılığıyla banka verilerine güvenli erişimine izin vermek",
+    "category": "Bankacılık ve API'ler"
+  },
+  {
+    "question": "Finansal düzenlemeler bağlamında 'KYC' neyin kısaltmasıdır?",
+    "options": [
+      "Nakit Paranızı Koruyun (Keep Your Cash)",
+      "Müşterini Tanı (Know Your Customer)",
+      "Anahtar Getiri Hesaplaması (Key Yield Calculation)",
+      "Bilgi Sermaye Getirir (Knowledge Yields Capital)"
+    ],
+    "correctAnswer": "Müşterini Tanı (Know Your Customer)",
+    "category": "Mevzuat ve Uyum"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bir 'Neobank' örneğidir?",
+    "options": ["JPMorgan Chase", "Bank of America", "Revolut", "HSBC"],
+    "correctAnswer": "Revolut",
+    "category": "Bankacılık"
+  },
+  {
+    "question": "'Eşten Eşe (P2P) Borç Verme' nedir?",
+    "options": [
+      "Geleneksel bir banka aracısı olmadan doğrudan bireyler arasında borç para verme",
+      "Küçük işletme kredileri için bir devlet programı",
+      "Kredi birlikleri tarafından sunulan bir ipotek türü",
+      "Yakın bir arkadaş veya aile üyesinden borç alma"
+    ],
+    "correctAnswer": "Geleneksel bir banka aracısı olmadan doğrudan bireyler arasında borç para verme",
+    "category": "Borç Verme"
+  },
+  {
+    "question": "Bir 'Robo-danışman'ın birincil işlevi nedir?",
+    "options": [
+      "Otomatik, algoritma tabanlı finansal planlama ve yatırım yönetimi sağlamak",
+      "Kullanıcı taleplerine göre manuel olarak hisse senedi alım satımı yapmak",
+      "Yüz yüze finansal danışmanlık sunmak",
+      "Finansal işlemler için donanım geliştirmek"
+    ],
+    "correctAnswer": "Otomatik, algoritma tabanlı finansal planlama ve yatırım yönetimi sağlamak",
+    "category": "Yatırım ve Varlık Yönetimi"
+  },
+  {
+    "question": "'Insurtech' (Sigorta Teknolojisi) ne anlama gelir?",
+    "options": [
+      "Özellikle sağlık sigortası için teknoloji",
+      "Mevcut sigorta sektörü modelinden tasarruf ve verimlilik sağlamak üzere tasarlanmış teknoloji yeniliklerinin kullanımı",
+      "Teknoloji şirketleri için sigorta poliçeleri",
+      "Sigortayı düzenleyen bir devlet kurumu"
+    ],
+    "correctAnswer": "Mevcut sigorta sektörü modelinden tasarruf ve verimlilik sağlamak üzere tasarlanmış teknoloji yeniliklerinin kullanımı",
+    "category": "Sigorta Teknolojisi (Insurtech)"
+  },
+  {
+    "question": "AB'de hangi düzenleme birçok çevrimiçi ödeme için Güçlü Müşteri Kimlik Doğrulaması'nı (SCA) zorunlu kılar?",
+    "options": ["GDPR", "MiFID II", "PSD2", "Basel III"],
+    "correctAnswer": "PSD2",
+    "category": "Mevzuat ve Uyum"
+  },
+  {
+    "question": "Ödeme sektöründe 'BNPL' neyin kısaltmasıdır?",
+    "options": [
+      "Banka Ağı Ödeme Defteri (Bank Network Payment Ledger)",
+      "Şimdi Al Sonra Öde (Buy Now Pay Later)",
+      "İkili Netleştirme Protokol Katmanı (Bilateral Netting Protocol Layer)",
+      "Blokzincir Ağı Kamu Defteri (Blockchain Network Public Ledger)"
+    ],
+    "correctAnswer": "Şimdi Al Sonra Öde (Buy Now Pay Later)",
+    "category": "Ödemeler ve Borç Verme"
+  },
+  {
+    "question": "'RegTech'in (Düzenleme Teknolojisi) temel amacı nedir?",
+    "options": [
+      "İnsan denetçileri yapay zeka ile değiştirmek",
+      "Finans kuruluşlarının teknolojiyi kullanarak düzenlemelere daha verimli ve etkili bir şekilde uymalarına yardımcı olmak",
+      "Yeni finansal düzenlemeler oluşturmak",
+      "Finans sektörünü serbestleştirmek"
+    ],
+    "correctAnswer": "Finans kuruluşlarının teknolojiyi kullanarak düzenlemelere daha verimli ve etkili bir şekilde uymalarına yardımcı olmak",
+    "category": "Mevzuat ve Uyum"
+  },
+  {
+    "question": "Hangisi tipik olarak bir meydan okuyan bankanın (challenger bank) özelliği DEĞİLDİR?",
+    "options": [
+      "Öncelikli olarak dijital veya mobil odaklı operasyonlar",
+      "Kullanıcı deneyimine odaklanma",
+      "Geniş fiziksel şube ağı",
+      "Geleneksel bankalara kıyasla daha düşük ücret yapıları"
+    ],
+    "correctAnswer": "Geniş fiziksel şube ağı",
+    "category": "Bankacılık"
+  },
+  {
+    "question": "Teknoloji bağlamında API ne anlama gelir?",
+    "options": [
+      "Gelişmiş Programlama Arayüzü (Advanced Programming Interface)",
+      "Uygulama Programlama Arayüzü (Application Programming Interface)",
+      "Otomatik İşleme Altyapısı (Automated Processing Infrastructure)",
+      "Uygulamalı Ödeme Entegrasyonu (Applied Payment Integration)"
+    ],
+    "correctAnswer": "Uygulama Programlama Arayüzü (Application Programming Interface)",
+    "category": "Teknoloji"
+  },
+  {
+    "question": "'Kitlesel Fonlama' (Crowdfunding) nasıl çalışır?",
+    "options": [
+      "Birkaç büyük kurumsal yatırımcı sermaye sağlar",
+      "Genellikle İnternet aracılığıyla çok sayıda insandan küçük miktarlarda para toplayarak bir proje veya girişimi finanse etmek",
+      "Geleneksel bir bankadan kredi sağlamak",
+      "Bir işi finanse etmek için kişisel tasarrufları kullanmak"
+    ],
+    "correctAnswer": "Genellikle İnternet aracılığıyla çok sayıda insandan küçük miktarlarda para toplayarak bir proje veya girişimi finanse etmek",
+    "category": "Yatırım ve Fonlama"
+  },
+  {
+    "question": "Fintek'te 'Büyük Veri' analizi genellikle ne için kullanılır?",
+    "options": [
+      "Banka şubelerinin iç mekanlarını tasarlamak",
+      "Çalışan eğitim kılavuzları geliştirmek",
+      "Kredi riskini değerlendirmek, dolandırıcılığı tespit etmek ve müşteri deneyimlerini kişiselleştirmek",
+      "Ofis elektrik kullanımını hesaplamak"
+    ],
+    "correctAnswer": "Kredi riskini değerlendirmek, dolandırıcılığı tespit etmek ve müşteri deneyimlerini kişiselleştirmek",
+    "category": "Teknoloji"
+  },
+  {
+    "question": "'Finansal Kapsayıcılık' nedir?",
+    "options": [
+      "Belirli grupları finansal hizmetlerden dışlamak",
+      "Kişisel net değerlerine veya şirket büyüklüklerine bakılmaksızın tüm bireylerin ve işletmelerin finansal ürün ve hizmetlere erişilebilir ve uygun fiyatlı olmasını sağlamak",
+      "Birden fazla finans kurumunu tek bir çatı altında birleştirmek",
+      "Yalnızca finans sektörüne yatırım yapmak"
+    ],
+    "correctAnswer": "Kişisel net değerlerine veya şirket büyüklüklerine bakılmaksızın tüm bireylerin ve işletmelerin finansal ürün ve hizmetlere erişilebilir ve uygun fiyatlı olmasını sağlamak",
+    "category": "Etki ve Trendler"
+  },
+  {
+    "question": "Mobil ödemelere özgü önemli bir güvenlik endişesi nedir?",
+    "options": [
+      "Pilinin bitmesi",
+      "Fiziksel kartı kaybetmek",
+      "Veri ihlalleri ve mobil cihaza veya ödeme uygulamasına yetkisiz erişim",
+      "ATM bulma zorluğu"
+    ],
+    "correctAnswer": "Veri ihlalleri ve mobil cihaza veya ödeme uygulamasına yetkisiz erişim",
+    "category": "Ödemeler ve Güvenlik"
+  },
+  {
+    "question": "Hangi terim, arka ofis finansal süreçlerini otomatikleştirmek ve geliştirmek için teknoloji kullanımını tanımlar?",
+    "options": [
+      "Ön ofis otomasyonu",
+      "Robotik Süreç Otomasyonu (RPA)",
+      "Müşteri İlişkileri Yönetimi (CRM)",
+      "Pazarlama otomasyonu"
+    ],
+    "correctAnswer": "Robotik Süreç Otomasyonu (RPA)",
+    "category": "Teknoloji"
+  },
+  {
+    "question": "'Alternatif Kredi Puanlaması' nedir?",
+    "options": [
+      "Yalnızca geleneksel kredi bürosu verilerini kullanmak",
+      "Alternatif bir banka tarafından sağlanan kredi puanı",
+      "Kredi değerliliğini değerlendirmek için geleneksel olmayan veri kaynaklarını (ör. fatura ödemeleri, kira ödemeleri, sosyal medya verileri) kullanmak",
+      "Yalnızca ticari krediler için kullanılan bir puanlama sistemi"
+    ],
+    "correctAnswer": "Kredi değerliliğini değerlendirmek için geleneksel olmayan veri kaynaklarını (ör. fatura ödemeleri, kira ödemeleri, sosyal medya verileri) kullanmak",
+    "category": "Borç Verme"
+  },
+  {
+    "question": "'Hizmet Olarak Bankacılık' (BaaS - Banking as a Service) nedir?",
+    "options": [
+      "Bankaların danışmanlık sunduğu bir hizmet",
+      "Bankacılık ürün ve hizmetlerini (ödemeler, hesaplar gibi) API'lar aracılığıyla üçüncü taraf şirketlere (Fintekler gibi) sunmak",
+      "Temel bankacılık erişimi için bir abonelik modeli",
+      "Bankacılar için eğitim programları"
+    ],
+    "correctAnswer": "Bankacılık ürün ve hizmetlerini (ödemeler, hesaplar gibi) API'lar aracılığıyla üçüncü taraf şirketlere (Fintekler gibi) sunmak",
+    "category": "Bankacılık ve API'ler"
+  },
+  {
+    "question": "AML (Kara Para Aklamayı Önleme) düzenlemelerinin temel işlevi nedir?",
+    "options": [
+      "Suçluların yasa dışı yollarla elde edilen fonları meşru gelir gibi göstermelerini önlemek",
+      "Uluslararası para transferlerini teşvik etmek",
+      "Döviz kurlarını standartlaştırmak",
+      "Finans kuruluşlarına vergi indirimleri sağlamak"
+    ],
+    "correctAnswer": "Suçluların yasa dışı yollarla elde edilen fonları meşru gelir gibi göstermelerini önlemek",
+    "category": "Mevzuat ve Uyum"
+  },
+  {
+    "question": "Blokzincir bağlamında 'akıllı sözleşme' nedir?",
+    "options": [
+      "Avukatlar tarafından yazılmış yasal olarak bağlayıcı bir kağıt sözleşme",
+      "Anlaşma şartlarının doğrudan koda yazıldığı, kendi kendine yürüyen bir sözleşme",
+      "Bir borsada işlem gören bir finansal türev",
+      "Teknoloji arızaları için bir sigorta poliçesi"
+    ],
+    "correctAnswer": "Anlaşma şartlarının doğrudan koda yazıldığı, kendi kendine yürüyen bir sözleşme",
+    "category": "Teknoloji"
+  },
+  {
+    "question": "Bu ödeme yöntemlerinden hangisi tipik olarak en hızlı sınır ötesi uzlaşma sürelerini sunar?",
+    "options": [
+      "Geleneksel banka havalesi (SWIFT)",
+      "Uluslararası banka poliçesi",
+      "Blokzincir tabanlı ödeme ağları (ör. RippleNet)",
+      "Posta yoluyla nakit gönderme"
+    ],
+    "correctAnswer": "Blokzincir tabanlı ödeme ağları (ör. RippleNet)",
+    "category": "Ödemeler ve Teknoloji"
+  },
+  {
+    "question": "Fintek borç verme alanında YZ/Makine Öğreniminin yaygın bir uygulaması nedir?",
+    "options": [
+      "Borç verme uygulamasının kullanıcı arayüzünü tasarlamak",
+      "Kredi riski değerlendirme modellerini iyileştirmek",
+      "En yakın banka şubesine olan fiziksel mesafeyi hesaplamak",
+      "Pazarlama e-postaları yazmak"
+    ],
+    "correctAnswer": "Kredi riski değerlendirme modellerini iyileştirmek",
+    "category": "Borç Verme ve Teknoloji"
+  },
+  {
+    "question": "'Mikro yatırım' nedir?",
+    "options": [
+      "Sadece kuruşluk hisse senetlerine yatırım yapmak",
+      "Çok büyük meblağlarda para yatırmak",
+      "Kullanıcıların düzenli olarak çok küçük miktarlarda para yatırmasına olanak tanıyan bir hizmet",
+      "Yalnızca mikroişlemci teknolojisi şirketlerine yatırım yapmak"
+    ],
+    "correctAnswer": "Kullanıcıların düzenli olarak çok küçük miktarlarda para yatırmasına olanak tanıyan bir hizmet",
+    "category": "Yatırım ve Varlık Yönetimi"
+  },
+  {
+    "question": "GDPR neyin kısaltmasıdır?",
+    "options": [
+      "Genel Veri Koruma Yönetmeliği (General Data Protection Regulation)",
+      "Küresel Dijital Ödeme Kuralları (Global Digital Payment Rules)",
+      "Devlet Veri Gizliliği Sicili (Government Data Privacy Register)",
+      "Genel Veritabanı İşleme Gereksinimleri (General Database Processing Requirements)"
+    ],
+    "correctAnswer": "Genel Veri Koruma Yönetmeliği (General Data Protection Regulation)",
+    "category": "Mevzuat ve Uyum"
+  },
+  {
+    "question": "Hangi tür sigorta poliçesi, telematik aracılığıyla izlenen sürüş alışkanlıklarına göre primleri ayarlayabilir?",
+    "options": [
+      "Vadeli Hayat Sigortası",
+      "Kullanıma Dayalı Sigorta (UBI)",
+      "Konut Sigortası",
+      "Seyahat Sigortası"
+    ],
+    "correctAnswer": "Kullanıma Dayalı Sigorta (UBI)",
+    "category": "Sigorta Teknolojisi (Insurtech)"
+  },
+  {
+    "question": "Fintek şirketleri için bulut bilişim kullanmanın temel avantajı nedir?",
+    "options": [
+      "Siber saldırılara karşı garantili bağışıklık",
+      "Ölçeklenebilirlik ve fiziksel BT altyapısı ihtiyacının azalması",
+      "Basitleştirilmiş mevzuata uyum",
+      "Yazılım geliştiricilere olan ihtiyacın ortadan kalkması"
+    ],
+    "correctAnswer": "Ölçeklenebilirlik ve fiziksel BT altyapısı ihtiyacının azalması",
+    "category": "Teknoloji"
+  },
+  {
+    "question": "'Dijital Cüzdan' (e-cüzdan) nedir?",
+    "options": [
+      "Dijital materyallerden yapılmış fiziksel bir cüzdan",
+      "Genellikle bir akıllı telefonda bulunan, ödeme bilgilerini saklayan ve elektronik işlemlere izin veren bir yazılım uygulaması",
+      "Kripto para donanımlarını saklamak için güvenli bir kasa",
+      "Finansal varlıkların bir devlet veritabanı"
+    ],
+    "correctAnswer": "Genellikle bir akıllı telefonda bulunan, ödeme bilgilerini saklayan ve elektronik işlemlere izin veren bir yazılım uygulaması",
+    "category": "Ödemeler"
+  },
+  {
+    "question": "Alternatif bir kredi puanlama modelinde hangi faktörün dikkate alınma olasılığı EN DÜŞÜKTÜR?",
+    "options": [
+      "Sosyal medya etkinliği",
+      "Fatura ödeme geçmişi",
+      "Eğitim geçmişi",
+      "Geleneksel kredi bürosu puanı"
+    ],
+    "correctAnswer": "Geleneksel kredi bürosu puanı",
+    "category": "Borç Verme"
+  },
+  {
+    "question": "'Bankasız' (unbanked) nüfus nedir?",
+    "options": [
+      "Sadece nakit kullanmayı tercih eden insanlar",
+      "Geleneksel bankacılık hizmetlerini kullanmayan veya bunlara erişimi olmayan bireyler",
+      "Banka dışı finans kuruluşlarında çalışan kişiler",
+      "Banka hesaplarını kapatmış müşteriler"
+    ],
+    "correctAnswer": "Geleneksel bankacılık hizmetlerini kullanmayan veya bunlara erişimi olmayan bireyler",
+    "category": "Etki ve Trendler"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Açık Bankacılık modelinde potansiyel bir çıkar çatışmasını temsil eder?",
+    "options": [
+      "Daha iyi hizmetlere yol açan artan rekabet",
+      "Geliştirilmiş müşteri kolaylığı",
+      "Banka verilerini üçüncü taraflarla paylaşırken veri gizliliği ve güvenliği konusundaki endişeler",
+      "Daha hızlı ödeme işleme"
+    ],
+    "correctAnswer": "Banka verilerini üçüncü taraflarla paylaşırken veri gizliliği ve güvenliği konusundaki endişeler",
+    "category": "Bankacılık ve API'ler"
+  },
+  {
+    "question": "Ödeme güvenliği bağlamında 'Tokenizasyon' ne anlama gelir?",
+    "options": [
+      "Para birimini jetonlarla değiştirmek",
+      "Hassas verileri (kredi kartı numarası gibi) güvenliğini tehlikeye atmadan veriyle ilgili tüm temel bilgileri koruyan benzersiz bir kimlik sembolü (token) ile değiştirmek",
+      "Yeni bir kripto para birimi tokenı çıkarmak",
+      "Oturum açma kimlik doğrulaması için fiziksel bir güvenlik belirteci kullanmak"
+    ],
+    "correctAnswer": "Hassas verileri (kredi kartı numarası gibi) güvenliğini tehlikeye atmadan veriyle ilgili tüm temel bilgileri koruyan benzersiz bir kimlik sembolü (token) ile değiştirmek",
+    "category": "Ödemeler ve Güvenlik"
+  },
+  {
+    "question": "'Parametrik Sigorta' nedir?",
+    "options": [
+      "Makinelerin parametrelerini ve ayarlarını kapsayan sigorta",
+      "Gerçek kayıpların değerlendirilmesi yerine önceden tanımlanmış tetikleyicilere (ör. deprem büyüklüğü, yağış seviyeleri) dayalı olarak otomatik ödeme yapan bir sigorta türü",
+      "Paramedikler tarafından sağlanan sigorta",
+      "Sigorta riskine dayalı karmaşık bir finansal türev"
+    ],
+    "correctAnswer": "Gerçek kayıpların değerlendirilmesi yerine önceden tanımlanmış tetikleyicilere (ör. deprem büyüklüğü, yağış seviyeleri) dayalı olarak otomatik ödeme yapan bir sigorta türü",
+    "category": "Sigorta Teknolojisi (Insurtech)"
+  },
+  {
+    "question": "Hangi ifade Fintekler ve geleneksel finans kurumları arasındaki ilişkiyi en iyi tanımlar?",
+    "options": [
+      "Tamamen düşmanca, Finteklerin geleneksel bankaları ortadan kaldırmayı hedeflemesi",
+      "Sadece işbirlikçi, Finteklerin her zaman bankalarla ortaklık kurması",
+      "Rekabet, işbirliği ve satın almayı içeren çeşitli ilişkiler",
+      "Var olmayan, çünkü tamamen ayrı pazarlarda faaliyet gösteriyorlar"
+    ],
+    "correctAnswer": "Rekabet, işbirliği ve satın almayı içeren çeşitli ilişkiler",
+    "category": "İş ve Strateji"
+  },
+  {
+    "question": "Bir Fintek girişimini küresel olarak ölçeklendirmenin önündeki en büyük zorluk nedir?",
+    "options": [
+      "Dünya çapında internet erişimi eksikliği",
+      "Farklı ülkelerdeki çeşitli ve karmaşık düzenleyici ortamlarla başa çıkmak",
+      "Ofis alanı bulmak",
+      "Uygulamayı farklı dillere çevirmek"
+    ],
+    "correctAnswer": "Farklı ülkelerdeki çeşitli ve karmaşık düzenleyici ortamlarla başa çıkmak",
+    "category": "İş ve Strateji"
+  },
+  {
+    "question": "'Merkeziyetsiz Finans' (DeFi) nedir?",
+    "options": [
+      "Merkezi bir devlet kurumu tarafından sunulan finansal hizmetler",
+      "Merkezi aracılar olmadan geleneksel finansal sistemleri yeniden yaratmayı amaçlayan, blokzincir teknolojileri üzerine kurulu finansal uygulamalar için kullanılan bir şemsiye terim",
+      "Geleneksel bankalar tarafından kullanılan bir maliyet düşürme stratejisi",
+      "Kırsal alanları hedefleyen bir tür mikrofinans"
+    ],
+    "correctAnswer": "Merkezi aracılar olmadan geleneksel finansal sistemleri yeniden yaratmayı amaçlayan, blokzincir teknolojileri üzerine kurulu finansal uygulamalar için kullanılan bir şemsiye terim",
+    "category": "Teknoloji ve Trendler"
+  },
+  {
+    "question": "Erken aşama Fintek girişimleri için en yaygın finansman türü nedir?",
+    "options": [
+      "Halka Arz (IPO)",
+      "Banka Kredileri",
+      "Risk Sermayesi (VC) finansmanı",
+      "Devlet Teşvikleri"
+    ],
+    "correctAnswer": "Risk Sermayesi (VC) finansmanı",
+    "category": "İş ve Fonlama"
+  },
+  {
+    "question": "'Gömülü Finans' (Embedded Finance) nedir?",
+    "options": [
+      "Finansal fonksiyonları karmaşık kod içinde gizlemek",
+      "Finansal hizmetleri (borç verme, ödemeler, sigorta gibi) doğrudan finansal olmayan işletmelerin ürünlerine veya platformlarına entegre etmek",
+      "Ekonomik modellere gömülü finans teorisi",
+      "Cihazlara gömülü finansal donanım bileşenleri"
+    ],
+    "correctAnswer": "Finansal hizmetleri (borç verme, ödemeler, sigorta gibi) doğrudan finansal olmayan işletmelerin ürünlerine veya platformlarına entegre etmek",
+    "category": "Trendler ve Strateji"
+  },
+  {
+    "question": "Bir 'Ödeme Geçidi'nin (Payment Gateway) rolü nedir?",
+    "options": [
+      "Bir bankaya erişimi kontrol eden fiziksel bir geçit",
+      "Çevrimiçi ve geleneksel tüccarlar için kredi kartı ve doğrudan ödemeleri yetkilendiren ve işleyen bir hizmet",
+      "Ödeme uygulamaları tasarlamak için bir yazılım aracı",
+      "Ödeme sistemlerini denetleyen bir düzenleyici kurum"
+    ],
+    "correctAnswer": "Çevrimiçi ve geleneksel tüccarlar için kredi kartı ve doğrudan ödemeleri yetkilendiren ve işleyen bir hizmet",
+    "category": "Ödemeler"
+  },
+  {
+    "question": "P2P ödemelerin çek yazmak gibi geleneksel yöntemlere göre önemli bir avantajı nedir?",
+    "options": [
+      "Her türlü dolandırıcılığa karşı artırılmış güvenlik",
+      "Tüm tüccarlar tarafından evrensel olarak kabul edilme",
+      "Hız ve kolaylık, genellikle kullanıcılar arasında anında transfer",
+      "Detaylı kağıt kayıtları sağlama"
+    ],
+    "correctAnswer": "Hız ve kolaylık, genellikle kullanıcılar arasında anında transfer",
+    "category": "Ödemeler"
+  },
+  {
+    "question": "Hangi teknoloji, mobil cihazları kullanarak güvenli, temassız ödemelere olanak tanır?",
+    "options": [
+      "Bluetooth",
+      "Yakın Alan İletişimi (NFC)",
+      "GPS",
+      "QR Kodları (QR kolaylaştırabilse de, 'dokun ve öde' için birincil olan NFC'dir)"
+    ],
+    "correctAnswer": "Yakın Alan İletişimi (NFC)",
+    "category": "Ödemeler ve Teknoloji"
+  },
+  {
+    "question": "Sigorta Teknolojisinde (Insurtech), 'Telematik' verileri tipik olarak ne için kullanılır?",
+    "options": [
+      "Sağlık sigortası taleplerini işlemek",
+      "Televizyon aracılığıyla sigorta ürünlerini pazarlamak",
+      "İzlenen davranışlara (ör. sürüş alışkanlıkları, sağlık ölçümleri) dayalı olarak riski değerlendirmek ve primleri belirlemek",
+      "Müşteri hizmetleri sohbet botlarını otomatikleştirmek"
+    ],
+    "correctAnswer": "İzlenen davranışlara (ör. sürüş alışkanlıkları, sağlık ölçümleri) dayalı olarak riski değerlendirmek ve primleri belirlemek",
+    "category": "Sigorta Teknolojisi (Insurtech)"
+  },
+  {
+    "question": "Bir Neobank ile bir Meydan Okuyan Banka (Challenger Bank) arasındaki temel fark nedir?",
+    "options": [
+      "Neobanklar sadece çevrimiçi çalışırken, Meydan Okuyan Bankaların fiziksel şubeleri vardır.",
+      "Meydan Okuyan Bankalar doğrudan yerleşiklere meydan okurken, Neobanklar tamamen yeni pazarlar yaratır.",
+      "Genellikle birbirinin yerine kullanılır, ancak bazen Neobanklar kendi bankacılık lisansı olmayan (BaaS kullanarak) bankacılık ürünleri sunan teknoloji şirketlerini ifade ederken, Meydan Okuyan Bankalar tipik olarak kendi lisanslarına sahiptir.",
+      "Neobanklar tasarrufa, Meydan Okuyan Bankalar borç vermeye odaklanır."
+    ],
+    "correctAnswer": "Genellikle birbirinin yerine kullanılır, ancak bazen Neobanklar kendi bankacılık lisansı olmayan (BaaS kullanarak) bankacılık ürünleri sunan teknoloji şirketlerini ifade ederken, Meydan Okuyan Bankalar tipik olarak kendi lisanslarına sahiptir.",
+    "category": "Bankacılık"
+  },
+  {
+    "question": "Fintek düzenleyici bağlamında 'Sandbox' (Düzenleyici Kum Havuzu) nedir?",
+    "options": [
+      "Banka çalışanları için bir oyun alanı",
+      "Düzenleyiciler tarafından sağlanan, firmaların yenilikçi ürün veya hizmetleri tüm normal düzenleyici sonuçlara hemen maruz kalmadan test edebilecekleri güvenli, kontrollü bir ortam",
+      "Hassas verileri çevrimdışı gömmek",
+      "Bir tür siber güvenlik saldırısı"
+    ],
+    "correctAnswer": "Düzenleyiciler tarafından sağlanan, firmaların yenilikçi ürün veya hizmetleri tüm normal düzenleyici sonuçlara hemen maruz kalmadan test edebilecekleri güvenli, kontrollü bir ortam",
+    "category": "Mevzuat ve Uyum"
+  },
+  {
+    "question": "BNPL (Şimdi Al Sonra Öde) hizmetlerinin büyümesinin arkasındaki temel itici güç nedir?",
+    "options": [
+      "Karmaşık finansal ürünlere duyulan istek",
+      "Uzun vadeli borç tercihi",
+      "Satış noktasında esnek, (başlangıçta) faizsiz taksitli ödemelere yönelik tüketici talebi",
+      "Kredi kartı kullanımını sınırlayan katı düzenlemeler"
+    ],
+    "correctAnswer": "Satış noktasında esnek, (başlangıçta) faizsiz taksitli ödemelere yönelik tüketici talebi",
+    "category": "Ödemeler ve Borç Verme"
+  },
+  {
+    "question": "Finansın hangi alanı robo-danışmanlardan önemli ölçüde etkilenmiştir?",
+    "options": [
+      "Yatırım Bankacılığı Birleşme ve Devralmaları",
+      "Geleneksel Varlık Yönetimi ve Finansal Danışmanlık",
+      "Ticari Gayrimenkul Kredileri",
+      "Döviz Alım Satımı"
+    ],
+    "correctAnswer": "Geleneksel Varlık Yönetimi ve Finansal Danışmanlık",
+    "category": "Yatırım ve Varlık Yönetimi"
+  },
+  {
+    "question": "'Merkez Bankası Dijital Para Birimi' (CBDC) nedir?",
+    "options": [
+      "Özel bir şirket tarafından oluşturulan bir kripto para birimi (ör. Bitcoin)",
+      "Merkez bankası tarafından çıkarılan ve desteklenen, bir ülkenin fiat para biriminin dijital bir formu",
+      "Bir para sepetine sabitlenmiş bir stabilcoin",
+      "Yalnızca bankalararası uzlaşmalar için kullanılan dijital bir belirteç"
+    ],
+    "correctAnswer": "Merkez bankası tarafından çıkarılan ve desteklenen, bir ülkenin fiat para biriminin dijital bir formu",
+    "category": "Teknoloji ve Trendler"
+  },
+  {
+    "question": "Fintek, gelişmekte olan pazarlarda finansa erişimi nasıl iyileştirebilir?",
+    "options": [
+      "Daha fazla fiziksel banka şubesi inşa ederek",
+      "Öncelikle karmaşık türev ürünler sunarak",
+      "Mobil bankacılık, alternatif kredi puanlaması ve daha düşük işlem maliyetleri aracılığıyla, daha önce bankacılık hizmeti alamayan veya yetersiz hizmet alan nüfusa ulaşarak",
+      "Geleneksel bankacılık modellerine sıkı sıkıya bağlı kalarak"
+    ],
+    "correctAnswer": "Mobil bankacılık, alternatif kredi puanlaması ve daha düşük işlem maliyetleri aracılığıyla, daha önce bankacılık hizmeti alamayan veya yetersiz hizmet alan nüfusa ulaşarak",
+    "category": "Etki ve Trendler"
+  },
+  {
+    "question": "Fintek bağlamında 'Aracısızlaştırma' (Disintermediation) ne anlama gelir?",
+    "options": [
+      "Bir finansal sürece daha fazla aracı eklemek",
+      "Finansal işlemlerden veya süreçlerden geleneksel aracıların (bankalar veya brokerlar gibi) kaldırılması",
+      "Fintek şirketleri arasındaki anlaşmazlıklara aracılık etmek",
+      "Karmaşık bir finansal türev türü"
+    ],
+    "correctAnswer": "Finansal işlemlerden veya süreçlerden geleneksel aracıların (bankalar veya brokerlar gibi) kaldırılması",
+    "category": "Temel Kavramlar"
+  },
+  {
+    "question": "Kartlı ödemeler bağlamında 'ters ibraz' (chargeback) nedir?",
+    "options": [
+      "Banka kartı kullanmak için alınan bir ücret",
+      "Satıcı tarafından başlatılan bir geri ödeme",
+      "Genellikle bir anlaşmazlık nedeniyle kart sahibi tarafından başlatılan, kart sahibinin bankası tarafından bir işlemin zorla tersine çevrilmesi",
+      "Ön ödemeli bir kartın yeniden doldurulması işlemi"
+    ],
+    "correctAnswer": "Genellikle bir anlaşmazlık nedeniyle kart sahibi tarafından başlatılan, kart sahibinin bankası tarafından bir işlemin zorla tersine çevrilmesi",
+    "category": "Ödemeler"
+  }
+]

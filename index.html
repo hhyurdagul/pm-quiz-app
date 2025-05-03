@@ -4,100 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Manager Quiz</title>
+  <title>Quiz Index</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    /* Use Inter font */
     body {
       font-family: 'Inter', sans-serif;
-      /* Smooth transition for background color changes */
       transition: background-color 0.3s ease;
     }
 
-    /* Custom transition for smooth feedback */
-    .option-button {
-      transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.1s ease, color 0.3s ease;
-    }
-
-    .option-button:active:not(:disabled) {
-      transform: scale(0.98);
-    }
-
-    /* Styling for correct/incorrect feedback */
-    /* Light mode */
-    .correct {
-      background-color: #22c55e !important;
-      /* green-500 */
-      border-color: #16a34a !important;
-      /* green-600 */
-      color: white !important;
-      cursor: not-allowed;
-    }
-
-    .incorrect {
-      background-color: #ef4444 !important;
-      /* red-500 */
-      border-color: #dc2626 !important;
-      /* red-600 */
-      color: white !important;
-      cursor: not-allowed;
-    }
-
-    /* Dark mode adjustments for feedback (optional, base colors might be fine) */
-    .dark .correct {
-      background-color: #16a34a !important;
-      /* green-600 */
-      border-color: #15803d !important;
-      /* green-700 */
-    }
-
-    .dark .incorrect {
-      background-color: #dc2626 !important;
-      /* red-600 */
-      border-color: #b91c1c !important;
-      /* red-700 */
-    }
-
-    /* Style for disabled options container */
-    .disabled-options .option-button {
-      cursor: not-allowed;
-      opacity: 0.7;
-    }
-
-    /* Ensure minimum height for feedback area */
-    #feedback {
-      min-height: 48px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      white-space: pre-line;
-      /* Smooth transition for text color */
-      transition: color 0.3s ease;
-    }
-
-    /* Hide one icon at a time */
-    .dark #dark-icon {
-      display: none;
+    /* --- Dark Mode Icon Toggle Styling --- */
+    #dark-icon {
+      display: inline-block;
     }
 
     #light-icon {
       display: none;
     }
 
+    .dark #dark-icon {
+      display: none;
+    }
+
     .dark #light-icon {
       display: inline-block;
     }
-
-    /* Show moon in dark */
-    #dark-icon {
-      display: inline-block;
-    }
-
-    /* Show sun in light */
   </style>
 </head>
 
@@ -105,216 +39,51 @@
   class="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900 min-h-screen flex items-center justify-center p-4 transition-colors duration-300">
 
   <div
-    class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 md:p-10 w-full max-w-2xl relative transition-colors duration-300">
+    class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 md:p-10 w-full max-w-lg relative transition-colors duration-300">
+
+    <a class="absolute top-4 left-4 p-2 rounded-full text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800 transition-colors duration-300 hover:cursor-pointer"
+      aria-label="Go to home page">
+      <i id="light-icon" class="fas fa-home text-lg"></i> <i id="dark-icon" class="fas fa-home text-lg"></i>
+    </a>
 
     <button id="dark-mode-toggle"
       class="absolute top-4 right-4 p-2 rounded-full text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800 transition-colors duration-300"
       aria-label="Toggle dark mode">
       <i id="light-icon" class="fas fa-moon text-lg"></i> <i id="dark-icon" class="fas fa-sun text-lg"></i> </button>
 
-
     <h1
-      class="text-2xl md:text-3xl font-bold text-center text-gray-800 dark:text-white mb-6 transition-colors duration-300">
-      Product Manager Quiz</h1>
+      class="text-2xl md:text-3xl font-bold text-center text-gray-800 dark:text-white mb-8 transition-colors duration-300">
+      Available Quizzes</h1>
 
-    <div id="loading-state" class="text-center text-gray-600 dark:text-gray-400">Loading questions...</div>
-    <div id="error-state" class="hidden text-center text-red-600 dark:text-red-400">Failed to load questions. Please try
-      again later.</div>
+    <div class="space-y-4">
+      <a href="pm_quiz.html"
+        class="block w-full p-4 bg-indigo-100 dark:bg-indigo-900 hover:bg-indigo-200 dark:hover:bg-indigo-800 rounded-lg text-center text-indigo-800 dark:text-indigo-200 font-semibold transition duration-200 ease-in-out">
+        Product Management Quiz
+      </a>
 
-    <div id="quiz-area" class="hidden">
-      <div
-        class="flex justify-between items-center mb-1 text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
-        <span id="question-number">Question 1/10</span>
-        <span id="score">Score: 0</span>
-      </div>
-      <div
-        class="text-sm text-indigo-600 dark:text-indigo-400 font-medium mb-4 text-right transition-colors duration-300"
-        id="question-category">Category: ...</div>
+      <a href="fintech_quiz.html"
+        class="block w-full p-4 bg-indigo-100 dark:bg-indigo-900 hover:bg-indigo-200 dark:hover:bg-indigo-800 rounded-lg text-center text-indigo-800 dark:text-indigo-200 font-semibold transition duration-200 ease-in-out">
+        Fintech Quiz
+      </a>
 
+      <p class="text-center text-sm text-gray-500 dark:text-gray-400">(More quizzes coming soon!)</p>
 
-      <p id="question-text"
-        class="text-lg md:text-xl font-medium text-gray-700 dark:text-gray-200 mb-6 min-h-[60px] transition-colors duration-300">
-      </p>
-
-      <div id="options-container" class="space-y-3">
-      </div>
-
-      <div id="feedback" class="mt-5 text-center font-medium text-gray-700 dark:text-gray-300"></div>
-      <div class="mt-6 flex justify-between items-center">
-        <button id="prev-button"
-          class="bg-gray-500 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-500 text-white font-semibold py-2 px-6 rounded-lg shadow transition duration-200 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed">
-          Previous
-        </button>
-        <button id="next-button"
-          class="bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-700 dark:hover:bg-indigo-600 text-white font-semibold py-2 px-6 rounded-lg shadow transition duration-200 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed">
-          Next
-        </button>
-      </div>
-    </div>
-
-    <div id="results-area" class="hidden text-center">
-      <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-4 transition-colors duration-300">Quiz Complete!
-      </h2>
-      <p id="final-score" class="text-xl text-gray-700 dark:text-gray-300 mb-6 transition-colors duration-300"></p>
-      <button id="restart-button"
-        class="bg-green-500 hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-500 text-white font-semibold py-2 px-8 rounded-lg shadow transition duration-200 ease-in-out">
-        Restart Quiz
-      </button>
     </div>
 
   </div>
 
   <script>
-    // --- Configuration ---
-    // Simulate loading from a JSON file using a data URL
-    const questionsDataUrl_ = `data:application/json;base64,${btoa(JSON.stringify([
-      {
-        question: "What is the primary goal of a Minimum Viable Product (MVP)?",
-        options: [
-          "To launch a fully featured product quickly",
-          "To test a core hypothesis with minimal resources",
-          "To generate maximum initial revenue",
-          "To satisfy all potential customer segments"
-        ],
-        correctAnswer: "To test a core hypothesis with minimal resources",
-        category: "Core Concepts"
-      },
-      {
-        question: "Which framework is commonly used for prioritizing product features based on Value vs. Effort?",
-        options: [
-          "Kano Model",
-          "MoSCoW Method",
-          "RICE Scoring",
-          "Value Proposition Canvas"
-        ],
-        correctAnswer: "RICE Scoring",
-        category: "Prioritization"
-      },
-      {
-        question: "What does 'A/B testing' primarily help a Product Manager achieve?",
-        options: [
-          "Gathering qualitative user feedback",
-          "Comparing two versions of a feature to see which performs better",
-          "Planning the long-term product roadmap",
-          "Defining user personas"
-        ],
-        correctAnswer: "Comparing two versions of a feature to see which performs better",
-        category: "Metrics & Analysis"
-      },
-      {
-        question: "In Agile development, what is the purpose of a 'Sprint Retrospective'?",
-        options: [
-          "To plan the work for the next sprint",
-          "To demonstrate the completed work to stakeholders",
-          "To reflect on the past sprint and identify improvements",
-          "To estimate the effort for backlog items"
-        ],
-        correctAnswer: "To reflect on the past sprint and identify improvements",
-        category: "Agile & Process"
-      },
-      {
-        question: "What is a 'User Story' in the context of product development?",
-        options: [
-          "A detailed technical specification",
-          "A fictional narrative about a user's life",
-          "A high-level requirement description from an end-user perspective",
-          "A marketing campaign theme"
-        ],
-        correctAnswer: "A high-level requirement description from an end-user perspective",
-        category: "Agile & Process"
-      },
-      {
-        question: "Which metric measures the percentage of users who stop using a product over a specific period?",
-        options: [
-          "Conversion Rate",
-          "Customer Acquisition Cost (CAC)",
-          "Churn Rate",
-          "Monthly Recurring Revenue (MRR)"
-        ],
-        correctAnswer: "Churn Rate",
-        category: "Metrics & Analysis"
-      },
-      {
-        question: "What is the main focus of the 'Discovery' phase in product development?",
-        options: [
-          "Writing code and building the product",
-          "Marketing and launching the product",
-          "Understanding the problem space and validating ideas",
-          "Optimizing the existing product features"
-        ],
-        correctAnswer: "Understanding the problem space and validating ideas",
-        category: "Strategy & Discovery"
-      },
-      {
-        question: "The 'North Star Metric' for a product should ideally reflect:",
-        options: [
-          "The total number of registered users",
-          "The core value delivered to customers",
-          "The engineering team's velocity",
-          "The daily active users only"
-        ],
-        correctAnswer: "The core value delivered to customers",
-        category: "Metrics & Analysis"
-      },
-      {
-        question: "What does SWOT analysis stand for?",
-        options: [
-          "Strategy, Weaknesses, Opportunities, Tactics",
-          "Strengths, Weaknesses, Opportunities, Threats",
-          "Sales, Workflow, Operations, Technology",
-          "Software, Web, Optimization, Testing"
-        ],
-        correctAnswer: "Strengths, Weaknesses, Opportunities, Threats",
-        category: "Strategy & Discovery"
-      },
-      {
-        question: "Which role is typically responsible for defining the 'Why' behind a product or feature?",
-        options: [
-          "Project Manager",
-          "Software Engineer",
-          "UX Designer",
-          "Product Manager"
-        ],
-        correctAnswer: "Product Manager",
-        category: "Roles & Responsibilities"
-      }
-    ]))}`;
-    const questionsDataUrl = "data/pm_tr.json";
-
     // --- DOM Elements ---
-    const htmlElement = document.documentElement; // Target for dark class
-    const loadingState = document.getElementById('loading-state');
-    const errorState = document.getElementById('error-state');
-    const quizArea = document.getElementById('quiz-area');
-    const resultsArea = document.getElementById('results-area');
-    const questionNumberEl = document.getElementById('question-number');
-    const questionCategoryEl = document.getElementById('question-category');
-    const scoreEl = document.getElementById('score');
-    const questionTextEl = document.getElementById('question-text');
-    const optionsContainer = document.getElementById('options-container');
-    const feedbackEl = document.getElementById('feedback');
-    const prevButton = document.getElementById('prev-button');
-    const nextButton = document.getElementById('next-button');
-    const finalScoreEl = document.getElementById('final-score');
-    const restartButton = document.getElementById('restart-button');
+    const htmlElement = document.documentElement;
     const darkModeToggle = document.getElementById('dark-mode-toggle');
 
     // --- State Variables ---
-    let quizData = []; // Will be populated from fetch
-    let currentQuestionIndex = 0;
-    let score = 0;
-    let userAnswers = {}; // Store user answers { index: selectedOption }
-    let isDarkMode = false; // Dark mode state
+    let isDarkMode = false;
 
-    // --- Local Storage Keys ---
-    const LS_INDEX_KEY = 'pmQuiz_currentQuestionIndex_v3'; // Updated key
-    const LS_SCORE_KEY = 'pmQuiz_score_v3';
-    const LS_ANSWERS_KEY = 'pmQuiz_userAnswers_v3';
-    const LS_DARK_MODE_KEY = 'pmQuiz_darkMode_v3'; // New key for dark mode
+    // --- Local Storage Key ---
+    const LS_DARK_MODE_KEY = 'pmQuiz_darkMode'; // Use the same key as the quiz page for consistency
 
-    // --- Functions ---
-
-    // Apply Dark Mode based on state
+    // --- Dark Mode Functions ---
     function applyDarkMode() {
       if (isDarkMode) {
         htmlElement.classList.add('dark');
@@ -323,291 +92,23 @@
       }
     }
 
-    // Toggle Dark Mode
     function toggleDarkMode() {
-      console.log("Toggle dark mode");
       isDarkMode = !isDarkMode;
-      localStorage.setItem(LS_DARK_MODE_KEY, isDarkMode); // Save preference
+      localStorage.setItem(LS_DARK_MODE_KEY, isDarkMode);
       applyDarkMode();
     }
 
-    // Load Dark Mode preference
     function loadDarkModePreference() {
       const savedMode = localStorage.getItem(LS_DARK_MODE_KEY);
-      // Set state based on saved value, default to false (light mode)
       isDarkMode = savedMode === 'true';
-      applyDarkMode(); // Apply the loaded preference
-    }
-
-    // Fetch quiz questions
-    async function fetchQuestions() {
-      try {
-        const response = await fetch(questionsDataUrl);
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        quizData = await response.json();
-        // Questions loaded successfully, hide loading/error, show quiz
-        loadingState.classList.add('hidden');
-        errorState.classList.add('hidden');
-        // Initialize quiz state *after* data is loaded
-        initializeQuiz();
-      } catch (error) {
-        console.error("Failed to fetch questions:", error);
-        // Show error message, hide loading
-        loadingState.classList.add('hidden');
-        errorState.classList.remove('hidden');
-      }
-    }
-
-    // Initialize quiz state (called after questions are fetched)
-    function initializeQuiz() {
-      // Show quiz area now that questions are ready
-      quizArea.classList.remove('hidden');
-      // Load quiz progress
-      loadState();
-    }
-
-    // Load quiz progress state from Local Storage
-    function loadState() {
-      const savedIndex = localStorage.getItem(LS_INDEX_KEY);
-      const savedScore = localStorage.getItem(LS_SCORE_KEY);
-      const savedAnswers = localStorage.getItem(LS_ANSWERS_KEY);
-
-      currentQuestionIndex = savedIndex !== null ? parseInt(savedIndex, 10) : 0;
-      score = savedScore !== null ? parseInt(savedScore, 10) : 0;
-      userAnswers = savedAnswers !== null ? JSON.parse(savedAnswers) : {};
-
-      // Check if quizData is available (should be if initializeQuiz was called)
-      if (!quizData || quizData.length === 0) {
-        console.error("Quiz data not available during state load.");
-        errorState.classList.remove('hidden'); // Show error if data is missing
-        quizArea.classList.add('hidden');
-        return;
-      }
-
-      if (currentQuestionIndex >= quizData.length || currentQuestionIndex < 0) {
-        if (Object.keys(userAnswers).length > 0 && currentQuestionIndex >= quizData.length) {
-          showResults();
-        } else {
-          // If state is invalid but answers exist, likely means quiz was finished
-          // If no answers, treat as fresh start
-          if (Object.keys(userAnswers).length > 0) {
-            showResults();
-          } else {
-            // Reset to start if index is invalid and no answers saved
-            currentQuestionIndex = 0;
-            score = 0;
-            userAnswers = {};
-            saveState(); // Save the reset state
-            displayQuestion();
-          }
-        }
-      } else {
-        updateScoreDisplay();
-        displayQuestion();
-      }
-    }
-
-    // Save quiz progress state to Local Storage
-    function saveState() {
-      localStorage.setItem(LS_INDEX_KEY, currentQuestionIndex);
-      localStorage.setItem(LS_SCORE_KEY, score);
-      localStorage.setItem(LS_ANSWERS_KEY, JSON.stringify(userAnswers));
-    }
-
-    // Update score display
-    function updateScoreDisplay() {
-      scoreEl.textContent = `Score: ${score}`;
-    }
-
-    // Display the current question and options
-    function displayQuestion() {
-      // Ensure quizData is loaded
-      if (!quizData || quizData.length === 0) {
-        console.error("Attempted to display question before data loaded.");
-        quizArea.classList.add('hidden');
-        errorState.classList.remove('hidden');
-        return; // Exit if data isn't ready
-      }
-
-      if (currentQuestionIndex >= quizData.length) {
-        showResults();
-        return;
-      }
-      if (currentQuestionIndex < 0) {
-        currentQuestionIndex = 0; // Safety check
-      }
-
-      const currentQuestion = quizData[currentQuestionIndex];
-      const questionAlreadyAnswered = userAnswers.hasOwnProperty(currentQuestionIndex);
-      const userAnswer = userAnswers[currentQuestionIndex];
-
-      questionNumberEl.textContent = `Question ${currentQuestionIndex + 1}/${quizData.length}`;
-      questionCategoryEl.textContent = `Category: ${currentQuestion.category}`;
-      questionTextEl.textContent = currentQuestion.question;
-
-      optionsContainer.innerHTML = '';
-      feedbackEl.innerHTML = '';
-      feedbackEl.className = 'mt-5 text-center font-medium min-h-[48px] flex items-center justify-center text-gray-700 dark:text-gray-300'; // Reset feedback class
-
-      currentQuestion.options.forEach(option => {
-        const button = document.createElement('button');
-        button.textContent = option;
-        // Base classes with dark mode variants
-        button.classList.add(
-          'option-button', 'block', 'w-full', 'text-left', 'p-3',
-          'border', 'border-gray-300', 'dark:border-gray-600',
-          'rounded-lg', 'transition', 'duration-150',
-          'text-gray-700', 'dark:text-gray-200', // Text color
-          'bg-white', 'dark:bg-gray-700' // Background
-        );
-        if (!questionAlreadyAnswered) {
-          // Hover effects with dark mode variants
-          button.classList.add(
-            'hover:bg-gray-100', 'dark:hover:bg-gray-600',
-            'focus:outline-none', 'focus:ring-2', 'focus:ring-indigo-300', 'dark:focus:ring-indigo-500'
-          );
-        }
-
-        button.onclick = () => handleAnswer(option, currentQuestion.correctAnswer);
-
-        // Apply styles if already answered
-        if (questionAlreadyAnswered) {
-          button.disabled = true;
-          optionsContainer.classList.add('disabled-options');
-          if (option === userAnswer) { // This is the user's selected answer
-            if (userAnswer === currentQuestion.correctAnswer) {
-              button.classList.add('correct');
-            } else {
-              button.classList.add('incorrect');
-            }
-          } else if (option === currentQuestion.correctAnswer) { // This is the correct answer (and user chose wrong)
-            if (userAnswer !== currentQuestion.correctAnswer) {
-              // Highlight the correct answer gently if user was wrong
-              button.classList.add('correct');
-              button.style.opacity = '0.8'; // Make it slightly less prominent than selected wrong answer
-            }
-          }
-          // Remove hover effects explicitly when disabled
-          button.classList.remove('hover:bg-gray-100', 'dark:hover:bg-gray-600');
-        } else {
-          button.disabled = false;
-          optionsContainer.classList.remove('disabled-options');
-        }
-
-        optionsContainer.appendChild(button);
-      });
-
-      // Set feedback text using innerHTML if already answered
-      if (questionAlreadyAnswered) {
-        if (userAnswer === currentQuestion.correctAnswer) {
-          feedbackEl.textContent = 'Correct!';
-          feedbackEl.classList.add('text-green-600', 'dark:text-green-400'); // Correct color
-        } else {
-          feedbackEl.innerHTML = `You answered: ${userAnswer}.<br>Correct answer: ${currentQuestion.correctAnswer}`;
-          feedbackEl.classList.add('text-red-600', 'dark:text-red-400'); // Incorrect color
-        }
-      }
-
-      // Update Navigation Buttons State
-      prevButton.disabled = currentQuestionIndex === 0;
-      nextButton.disabled = !questionAlreadyAnswered; // Enable only if answered
-
-      // Update Next Button Text/Functionality for last question
-      if (currentQuestionIndex === quizData.length - 1) {
-        nextButton.textContent = questionAlreadyAnswered ? 'Finish Quiz' : 'Next Question'; // Show Finish only when last Q is answered
-      } else {
-        nextButton.textContent = 'Next Question';
-      }
-    }
-
-    // Handle user selecting an answer
-    function handleAnswer(selectedOption, correctAnswer) {
-      if (userAnswers.hasOwnProperty(currentQuestionIndex)) {
-        return; // Already answered
-      }
-
-      userAnswers[currentQuestionIndex] = selectedOption;
-      const isCorrect = selectedOption === correctAnswer;
-
-      if (isCorrect) {
-        score++;
-      }
-
-      updateScoreDisplay();
-      saveState(); // Save answer and score immediately
-      displayQuestion(); // Redisplay to show feedback and update button states
-    }
-
-    // Move to the previous question
-    function previousQuestion() {
-      if (currentQuestionIndex > 0) {
-        currentQuestionIndex--;
-        saveState();
-        displayQuestion();
-      }
-    }
-
-    // Move to the next question or show results
-    function nextQuestion() {
-      // Only proceed if the current question has been answered
-      if (!userAnswers.hasOwnProperty(currentQuestionIndex)) {
-        console.warn("Next button clicked but question not answered.");
-        return;
-      }
-
-      if (currentQuestionIndex >= quizData.length - 1) {
-        // Already on the last question, show results
-        currentQuestionIndex++; // Increment index to mark completion
-        saveState();
-        showResults();
-      } else {
-        // Move to the next question
-        currentQuestionIndex++;
-        saveState();
-        displayQuestion();
-      }
-    }
-
-    // Show final results
-    function showResults() {
-      quizArea.classList.add('hidden');
-      resultsArea.classList.remove('hidden');
-      finalScoreEl.textContent = `Your final score is ${score} out of ${quizData.length}.`;
-      // Save the final state (index >= length) so reloading shows results
-      saveState();
-    }
-
-    // Restart the quiz
-    function restartQuiz() {
-      currentQuestionIndex = 0;
-      score = 0;
-      userAnswers = {};
-      localStorage.removeItem(LS_INDEX_KEY);
-      localStorage.removeItem(LS_SCORE_KEY);
-      localStorage.removeItem(LS_ANSWERS_KEY);
-      resultsArea.classList.add('hidden');
-      quizArea.classList.remove('hidden'); // Show quiz area again
-      // Ensure quiz data is available before displaying
-      if (quizData && quizData.length > 0) {
-        updateScoreDisplay();
-        displayQuestion();
-      } else {
-        // If data somehow got lost, attempt to fetch again or show error
-        fetchQuestions(); // Re-fetch if needed
-      }
+      applyDarkMode();
     }
 
     // --- Event Listeners ---
     darkModeToggle.addEventListener('click', toggleDarkMode);
-    prevButton.addEventListener('click', previousQuestion);
-    nextButton.addEventListener('click', nextQuestion);
-    restartButton.addEventListener('click', restartQuiz);
 
     // --- Initial Load ---
-    loadDarkModePreference(); // Apply dark mode preference first
-    fetchQuestions(); // Then fetch questions and initialize quiz
+    loadDarkModePreference(); // Apply dark mode on page load
 
   </script>
 
