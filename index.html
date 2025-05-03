@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Manager Quiz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Use Inter font */
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Custom transition for smooth feedback */
+    .option-button {
+      transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.1s ease;
+    }
+
+    .option-button:active:not(:disabled) {
+      /* Apply scale only if not disabled */
+      transform: scale(0.98);
+      /* Slight shrink effect on click */
+    }
+
+    /* Styling for correct/incorrect feedback */
+    .correct {
+      background-color: #22c55e !important;
+      /* Tailwind green-500 */
+      border-color: #16a34a !important;
+      /* Tailwind green-600 */
+      color: white !important;
+      cursor: not-allowed;
+      /* Indicate non-interactivity */
+    }
+
+    .incorrect {
+      background-color: #ef4444 !important;
+      /* Tailwind red-500 */
+      border-color: #dc2626 !important;
+      /* Tailwind red-600 */
+      color: white !important;
+      cursor: not-allowed;
+      /* Indicate non-interactivity */
+    }
+
+    /* Style for disabled options container */
+    .disabled-options .option-button {
+      cursor: not-allowed;
+      opacity: 0.7;
+      /* Slightly dim disabled options */
+    }
+
+    /* Ensure minimum height for feedback area */
+    #feedback {
+      min-height: 48px;
+      /* Adjust as needed for potentially longer feedback */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* Ensure line breaks are respected */
+      white-space: pre-line;
+      /* This might not be needed if using <br> with innerHTML */
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex items-center justify-center p-4">
+
+  <div class="bg-white rounded-xl shadow-2xl p-6 md:p-10 w-full max-w-2xl">
+
+    <h1 class="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-6">Product Manager Quiz</h1>
+
+    <div id="quiz-area">
+      <div class="flex justify-between items-center mb-1 text-sm text-gray-600">
+        <span id="question-number">Question 1/10</span>
+        <span id="score">Score: 0</span>
+      </div>
+      <div class="text-sm text-indigo-600 font-medium mb-4 text-right" id="question-category">Category: ...</div>
+
+
+      <p id="question-text" class="text-lg md:text-xl font-medium text-gray-700 mb-6 min-h-[60px]"></p>
+
+      <div id="options-container" class="space-y-3">
+      </div>
+
+      <div id="feedback" class="mt-5 text-center font-medium"></div>
+      <div class="mt-6 flex justify-between items-center">
+        <button id="prev-button"
+          class="bg-gray-500 hover:bg-gray-600 text-white font-semibold py-2 px-6 rounded-lg shadow transition duration-200 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed">
+          Previous
+        </button>
+        <button id="next-button"
+          class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-6 rounded-lg shadow transition duration-200 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed">
+          Next
+        </button>
+      </div>
+    </div>
+
+    <div id="results-area" class="hidden text-center">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">Quiz Complete!</h2>
+      <p id="final-score" class="text-xl text-gray-700 mb-6"></p>
+      <button id="restart-button"
+        class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-8 rounded-lg shadow transition duration-200 ease-in-out">
+        Restart Quiz
+      </button>
+    </div>
+
+  </div>
+
+  <script>
+    // --- Quiz Data (JSON format with Categories) ---
+    const quizData = [
+      // ... (Quiz data remains the same) ...
+      {
+        question: "What is the primary goal of a Minimum Viable Product (MVP)?",
+        options: [
+          "To launch a fully featured product quickly",
+          "To test a core hypothesis with minimal resources",
+          "To generate maximum initial revenue",
+          "To satisfy all potential customer segments"
+        ],
+        correctAnswer: "To test a core hypothesis with minimal resources",
+        category: "Core Concepts"
+      },
+      {
+        question: "Which framework is commonly used for prioritizing product features based on Value vs. Effort?",
+        options: [
+          "Kano Model",
+          "MoSCoW Method",
+          "RICE Scoring",
+          "Value Proposition Canvas"
+        ],
+        correctAnswer: "RICE Scoring",
+        category: "Prioritization"
+      },
+      {
+        question: "What does 'A/B testing' primarily help a Product Manager achieve?",
+        options: [
+          "Gathering qualitative user feedback",
+          "Comparing two versions of a feature to see which performs better",
+          "Planning the long-term product roadmap",
+          "Defining user personas"
+        ],
+        correctAnswer: "Comparing two versions of a feature to see which performs better",
+        category: "Metrics & Analysis"
+      },
+      {
+        question: "In Agile development, what is the purpose of a 'Sprint Retrospective'?",
+        options: [
+          "To plan the work for the next sprint",
+          "To demonstrate the completed work to stakeholders",
+          "To reflect on the past sprint and identify improvements",
+          "To estimate the effort for backlog items"
+        ],
+        correctAnswer: "To reflect on the past sprint and identify improvements",
+        category: "Agile & Process"
+      },
+      {
+        question: "What is a 'User Story' in the context of product development?",
+        options: [
+          "A detailed technical specification",
+          "A fictional narrative about a user's life",
+          "A high-level requirement description from an end-user perspective",
+          "A marketing campaign theme"
+        ],
+        correctAnswer: "A high-level requirement description from an end-user perspective",
+        category: "Agile & Process"
+      },
+      {
+        question: "Which metric measures the percentage of users who stop using a product over a specific period?",
+        options: [
+          "Conversion Rate",
+          "Customer Acquisition Cost (CAC)",
+          "Churn Rate",
+          "Monthly Recurring Revenue (MRR)"
+        ],
+        correctAnswer: "Churn Rate",
+        category: "Metrics & Analysis"
+      },
+      {
+        question: "What is the main focus of the 'Discovery' phase in product development?",
+        options: [
+          "Writing code and building the product",
+          "Marketing and launching the product",
+          "Understanding the problem space and validating ideas",
+          "Optimizing the existing product features"
+        ],
+        correctAnswer: "Understanding the problem space and validating ideas",
+        category: "Strategy & Discovery"
+      },
+      {
+        question: "The 'North Star Metric' for a product should ideally reflect:",
+        options: [
+          "The total number of registered users",
+          "The core value delivered to customers",
+          "The engineering team's velocity",
+          "The daily active users only"
+        ],
+        correctAnswer: "The core value delivered to customers",
+        category: "Metrics & Analysis"
+      },
+      {
+        question: "What does SWOT analysis stand for?",
+        options: [
+          "Strategy, Weaknesses, Opportunities, Tactics",
+          "Strengths, Weaknesses, Opportunities, Threats",
+          "Sales, Workflow, Operations, Technology",
+          "Software, Web, Optimization, Testing"
+        ],
+        correctAnswer: "Strengths, Weaknesses, Opportunities, Threats",
+        category: "Strategy & Discovery"
+      },
+      {
+        question: "Which role is typically responsible for defining the 'Why' behind a product or feature?",
+        options: [
+          "Project Manager",
+          "Software Engineer",
+          "UX Designer",
+          "Product Manager"
+        ],
+        correctAnswer: "Product Manager",
+        category: "Roles & Responsibilities"
+      }
+    ];
+
+    // --- DOM Elements ---
+    const quizArea = document.getElementById('quiz-area');
+    const resultsArea = document.getElementById('results-area');
+    const questionNumberEl = document.getElementById('question-number');
+    const questionCategoryEl = document.getElementById('question-category');
+    const scoreEl = document.getElementById('score');
+    const questionTextEl = document.getElementById('question-text');
+    const optionsContainer = document.getElementById('options-container');
+    const feedbackEl = document.getElementById('feedback');
+    const prevButton = document.getElementById('prev-button');
+    const nextButton = document.getElementById('next-button');
+    const finalScoreEl = document.getElementById('final-score');
+    const restartButton = document.getElementById('restart-button');
+
+    // --- State Variables ---
+    let currentQuestionIndex = 0;
+    let score = 0;
+    let userAnswers = {}; // Store user answers { index: selectedOption }
+
+    // --- Local Storage Keys ---
+    const LS_INDEX_KEY = 'pmQuiz_currentQuestionIndex_v2';
+    const LS_SCORE_KEY = 'pmQuiz_score_v2';
+    const LS_ANSWERS_KEY = 'pmQuiz_userAnswers_v2';
+
+    // --- Functions ---
+
+    // Load state from Local Storage
+    function loadState() {
+      const savedIndex = localStorage.getItem(LS_INDEX_KEY);
+      const savedScore = localStorage.getItem(LS_SCORE_KEY);
+      const savedAnswers = localStorage.getItem(LS_ANSWERS_KEY);
+
+      currentQuestionIndex = savedIndex !== null ? parseInt(savedIndex, 10) : 0;
+      score = savedScore !== null ? parseInt(savedScore, 10) : 0;
+      userAnswers = savedAnswers !== null ? JSON.parse(savedAnswers) : {};
+
+      if (currentQuestionIndex >= quizData.length || currentQuestionIndex < 0) {
+        if (Object.keys(userAnswers).length > 0 && currentQuestionIndex >= quizData.length) {
+          showResults();
+        } else {
+          restartQuiz();
+          return;
+        }
+      } else {
+        updateScoreDisplay();
+        displayQuestion();
+      }
+    }
+
+    // Save state to Local Storage
+    function saveState() {
+      localStorage.setItem(LS_INDEX_KEY, currentQuestionIndex);
+      localStorage.setItem(LS_SCORE_KEY, score);
+      localStorage.setItem(LS_ANSWERS_KEY, JSON.stringify(userAnswers));
+    }
+
+    // Update score display
+    function updateScoreDisplay() {
+      scoreEl.textContent = `Score: ${score}`;
+    }
+
+    // Display the current question and options
+    function displayQuestion() {
+      if (currentQuestionIndex >= quizData.length) {
+        showResults();
+        return;
+      }
+      if (currentQuestionIndex < 0) {
+        currentQuestionIndex = 0;
+      }
+
+      const currentQuestion = quizData[currentQuestionIndex];
+      const questionAlreadyAnswered = userAnswers.hasOwnProperty(currentQuestionIndex);
+      const userAnswer = userAnswers[currentQuestionIndex];
+
+      questionNumberEl.textContent = `Question ${currentQuestionIndex + 1}/${quizData.length}`;
+      questionCategoryEl.textContent = `Category: ${currentQuestion.category}`;
+      questionTextEl.textContent = currentQuestion.question;
+
+      optionsContainer.innerHTML = '';
+      feedbackEl.innerHTML = ''; // Use innerHTML and clear it
+      feedbackEl.className = 'mt-5 text-center font-medium min-h-[48px] flex items-center justify-center'; // Reset feedback class
+
+      currentQuestion.options.forEach(option => {
+        const button = document.createElement('button');
+        button.textContent = option;
+        button.classList.add('option-button', 'block', 'w-full', 'text-left', 'p-3', 'border', 'border-gray-300', 'rounded-lg', 'transition', 'duration-150');
+        if (!questionAlreadyAnswered) {
+          button.classList.add('hover:bg-gray-100', 'focus:outline-none', 'focus:ring-2', 'focus:ring-indigo-300');
+        }
+
+        button.onclick = () => handleAnswer(option, currentQuestion.correctAnswer);
+
+        if (questionAlreadyAnswered) {
+          button.disabled = true;
+          optionsContainer.classList.add('disabled-options');
+          if (option === userAnswer) {
+            if (userAnswer === currentQuestion.correctAnswer) {
+              button.classList.add('correct');
+            } else {
+              button.classList.add('incorrect');
+            }
+          } else if (option === currentQuestion.correctAnswer) {
+            if (userAnswer !== currentQuestion.correctAnswer) {
+              button.classList.add('correct');
+              button.style.opacity = '0.8';
+            }
+          }
+        } else {
+          button.disabled = false;
+          optionsContainer.classList.remove('disabled-options');
+        }
+
+        optionsContainer.appendChild(button);
+      });
+
+      // Set feedback text using innerHTML if already answered
+      if (questionAlreadyAnswered) {
+        if (userAnswer === currentQuestion.correctAnswer) {
+          feedbackEl.textContent = 'Correct!'; // textContent is fine for simple text
+          feedbackEl.classList.add('text-green-600');
+        } else {
+          // *** MODIFIED LINE: Use innerHTML and <br> for line break ***
+          feedbackEl.innerHTML = `You answered: ${userAnswer}.<br>Correct answer: ${currentQuestion.correctAnswer}`;
+          feedbackEl.classList.add('text-red-600');
+        }
+      }
+
+      prevButton.disabled = currentQuestionIndex === 0;
+      nextButton.disabled = !questionAlreadyAnswered && currentQuestionIndex < quizData.length;
+      if (currentQuestionIndex === quizData.length - 1 && questionAlreadyAnswered) {
+        nextButton.textContent = 'Finish Quiz';
+        nextButton.disabled = false;
+      } else {
+        nextButton.textContent = 'Next Question';
+      }
+    }
+
+    // Handle user selecting an answer
+    function handleAnswer(selectedOption, correctAnswer) {
+      if (userAnswers.hasOwnProperty(currentQuestionIndex)) {
+        return;
+      }
+
+      userAnswers[currentQuestionIndex] = selectedOption;
+      const isCorrect = selectedOption === correctAnswer;
+
+      if (isCorrect) {
+        score++;
+      }
+
+      updateScoreDisplay();
+      saveState();
+      displayQuestion(); // Redisplay to show feedback
+    }
+
+    // Move to the previous question
+    function previousQuestion() {
+      if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        saveState();
+        displayQuestion();
+      }
+    }
+
+    // Move to the next question or show results
+    function nextQuestion() {
+      if (currentQuestionIndex >= quizData.length - 1 && userAnswers.hasOwnProperty(currentQuestionIndex)) {
+        currentQuestionIndex++;
+        saveState();
+        showResults();
+      }
+      else if (currentQuestionIndex < quizData.length - 1 && userAnswers.hasOwnProperty(currentQuestionIndex)) {
+        currentQuestionIndex++;
+        saveState();
+        displayQuestion();
+      } else {
+        console.warn("Next button clicked but question not answered or already at end.");
+      }
+    }
+
+    // Show final results
+    function showResults() {
+      quizArea.classList.add('hidden');
+      resultsArea.classList.remove('hidden');
+      finalScoreEl.textContent = `Your final score is ${score} out of ${quizData.length}.`;
+      saveState(); // Save the final state (index >= length)
+    }
+
+    // Restart the quiz
+    function restartQuiz() {
+      currentQuestionIndex = 0;
+      score = 0;
+      userAnswers = {};
+      localStorage.removeItem(LS_INDEX_KEY);
+      localStorage.removeItem(LS_SCORE_KEY);
+      localStorage.removeItem(LS_ANSWERS_KEY);
+      resultsArea.classList.add('hidden');
+      quizArea.classList.remove('hidden');
+      updateScoreDisplay();
+      displayQuestion();
+    }
+
+    // --- Event Listeners ---
+    prevButton.addEventListener('click', previousQuestion);
+    nextButton.addEventListener('click', nextQuestion);
+    restartButton.addEventListener('click', restartQuiz);
+
+    // --- Initial Load ---
+    loadState();
+
+  </script>
+
+</body>
+
+</html>
