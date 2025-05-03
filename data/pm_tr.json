@@ -1,0 +1,827 @@
+[
+  {
+    "question": "Minimum Uygulanabilir Ürün (MVP)'nin temel amacı nedir?",
+    "options": [
+      "Tam özellikli bir ürünü hızla piyasaya sürmek",
+      "Temel bir hipotezi minimum kaynakla test etmek",
+      "Maksimum başlangıç geliri elde etmek",
+      "Tüm potansiyel müşteri segmentlerini tatmin etmek"
+    ],
+    "correctAnswer": "Temel bir hipotezi minimum kaynakla test etmek",
+    "category": "Temel Kavramlar"
+  },
+  {
+    "question": "Hangi çerçeve görevleri 'Olmalı', 'Olmamalı', 'Olabilir', ve 'Olmayacak' (Must have, Should have, Could have, Won't have) temelinde önceliklendirir?",
+    "options": [
+      "RICE Skorlaması",
+      "Kano Modeli",
+      "MoSCoW Yöntemi",
+      "Değer vs. Efor Matrisi"
+    ],
+    "correctAnswer": "MoSCoW Yöntemi",
+    "category": "Önceliklendirme"
+  },
+  {
+    "question": "'Ürün-Pazar Uyumu' ne anlama gelir?",
+    "options": [
+      "Ürünün kârlılığa ulaştığı.",
+      "Ürünün birden fazla coğrafi pazarda mevcut olduğu.",
+      "Ürünün güçlü bir pazar talebini karşıladığı.",
+      "Pazarlama kampanyasının başarılı olduğu."
+    ],
+    "correctAnswer": "Ürünün güçlü bir pazar talebini karşıladığı.",
+    "category": "Strateji ve Vizyon"
+  },
+  {
+    "question": "Çevik (Agile) geliştirme bağlamında (Scrum), Ürün Sahibi'nin (Product Owner) temel rolü nedir?",
+    "options": [
+      "Geliştirme ekibinin günlük görevlerini yönetmek.",
+      "Ürün özelliklerinin kodunu yazmak.",
+      "Geliştirme Ekibinin çalışması sonucunda ortaya çıkan ürünün değerini en üst düzeye çıkarmak.",
+      "Proje zaman çizelgelerini ve bütçeyi yönetmek."
+    ],
+    "correctAnswer": "Geliştirme Ekibinin çalışması sonucunda ortaya çıkan ürünün değerini en üst düzeye çıkarmak.",
+    "category": "Çevik (Agile) ve Geliştirme"
+  },
+  {
+    "question": "Kullanıcı personaları oluşturmanın temel amacı nedir?",
+    "options": [
+      "Ürünün teknik mimarisini sonlandırmak.",
+      "Tasarım ve geliştirme kararlarına rehberlik etmesi için hedef kullanıcıların kurgusal bir temsilini sağlamak.",
+      "Nihai fiyatlandırma stratejisini belirlemek.",
+      "Kullanıcı görüşmeleri ihtiyacını ortadan kaldırmak."
+    ],
+    "correctAnswer": "Tasarım ve geliştirme kararlarına rehberlik etmesi için hedef kullanıcıların kurgusal bir temsilini sağlamak.",
+    "category": "Kullanıcı Anlayışı"
+  },
+  {
+    "question": "Hangi metrik, belirli bir süre içinde bir ürünü kullanmayı bırakan kullanıcıların yüzdesini ölçer?",
+    "options": [
+      "Müşteri Edinme Maliyeti (CAC)",
+      "Kayıp Oranı (Churn Rate)",
+      "Aylık Yinelenen Gelir (MRR)",
+      "Müşteri Yaşam Boyu Değeri (CLTV)"
+    ],
+    "correctAnswer": "Kayıp Oranı (Churn Rate)",
+    "category": "Metrikler ve Analitik"
+  },
+  {
+    "question": "Bir ürün yol haritası öncelikle neyi iletir?",
+    "options": [
+      "Geliştiriciler için ayrıntılı teknik özellikler.",
+      "Bir sonraki sprint'te düzeltilecek hataların listesi.",
+      "Zaman içinde ürün için stratejik yön ve öncelikler.",
+      "Şirketin üç aylık finansal projeksiyonları."
+    ],
+    "correctAnswer": "Zaman içinde ürün için stratejik yön ve öncelikler.",
+    "category": "Yol Haritalama"
+  },
+  {
+    "question": "Ürün yönetiminde A/B testi tipik olarak ne için kullanılır?",
+    "options": [
+      "Toplam adreslenebilir pazarı belirlemek.",
+      "Bir özelliğin veya tasarımın iki versiyonunu karşılaştırarak hangisinin daha iyi performans gösterdiğini görmek.",
+      "Uzun vadeli ürün vizyonunu belirlemek.",
+      "Yeni ekip üyelerini ürün hakkında eğitmek."
+    ],
+    "correctAnswer": "Bir özelliğin veya tasarımın iki versiyonunu karşılaştırarak hangisinin daha iyi performans gösterdiğini görmek.",
+    "category": "Metrikler ve Analitik"
+  },
+  {
+    "question": "'Yapılacak İşler' (Jobs to be Done - JTBD) çerçevesi neyi anlamaya odaklanır?",
+    "options": [
+      "Kullanıcıların en sık talep ettiği belirli özellikler.",
+      "Hedef kitlenin demografik profili.",
+      "Bir müşterinin bir ürünü 'işe aldığında' yapmaya çalıştığı temel 'iş' veya ilerleme.",
+      "Rekabet ortamı ve özellik denkliği."
+    ],
+    "correctAnswer": "Bir müşterinin bir ürünü 'işe aldığında' yapmaya çalıştığı temel 'iş' veya ilerleme.",
+    "category": "Kullanıcı Anlayışı"
+  },
+  {
+    "question": "Bir ürün vizyonu ile bir ürün stratejisi arasındaki temel fark nedir?",
+    "options": [
+      "Vizyon kısa vadelidir, Strateji uzun vadelidir.",
+      "Vizyon 'neden'i (gelecekteki durum) tanımlar, Strateji 'nasıl'ı (oraya ulaşma yolu) tanımlar.",
+      "Vizyon gelire odaklanır, Strateji özelliklere odaklanır.",
+      "Vizyon mühendislik tarafından belirlenir, Strateji pazarlama tarafından belirlenir."
+    ],
+    "correctAnswer": "Vizyon 'neden'i (gelecekteki durum) tanımlar, Strateji 'nasıl'ı (oraya ulaşma yolu) tanımlar.",
+    "category": "Strateji ve Vizyon"
+  },
+  {
+    "question": "Önceliklendirme için RICE skorlama modelinde 'E' ne anlama gelir?",
+    "options": [
+      "Verimlilik (Efficiency)",
+      "Efor (Effort)",
+      "Etkileşim (Engagement)",
+      "Gider (Expense)"
+    ],
+    "correctAnswer": "Efor (Effort)",
+    "category": "Önceliklendirme"
+  },
+  {
+    "question": "Hangi araştırma türü öncelikle sayısal veri ve istatistiksel analiz üretir?",
+    "options": [
+      "Kalitatif (Nitel) Araştırma",
+      "Etnografik Çalışma",
+      "Kantitatif (Nicel) Araştırma",
+      "Kullanıcı Görüşmeleri"
+    ],
+    "correctAnswer": "Kantitatif (Nicel) Araştırma",
+    "category": "Pazar Araştırması"
+  },
+  {
+    "question": "Ürün Yaşam Döngüsünün hangi aşaması tipik olarak hızlı satış artışı ve artan rekabet ile karakterize edilir?",
+    "options": [
+      "Giriş (Introduction)",
+      "Büyüme (Growth)",
+      "Olgunluk (Maturity)",
+      "Düşüş (Decline)"
+    ],
+    "correctAnswer": "Büyüme (Growth)",
+    "category": "Ürün Yaşam Döngüsü"
+  },
+  {
+    "question": "Bir 'Kutup Yıldızı Metriği' (North Star Metric - NSM) en iyi nasıl tanımlanır?",
+    "options": [
+      "Toplam kayıtlı kullanıcı sayısı.",
+      "Ürününüzün müşterilere sunduğu temel değeri en iyi yakalayan tek bir metrik.",
+      "Günlük aktif kullanıcı (DAU) sayısı.",
+      "Şirketin genel yıllık gelir hedefi."
+    ],
+    "correctAnswer": "Ürününüzün müşterilere sunduğu temel değeri en iyi yakalayan tek bir metrik.",
+    "category": "Metrikler ve Analitik"
+  },
+  {
+    "question": "Bir Pazara Giriş (Go-to-Market - GTM) stratejisinin temel amacı nedir?",
+    "options": [
+      "Ürünün teknik mimarisini özetlemek.",
+      "Bir şirketin bir ürünü piyasaya sürerken hedef müşterilere nasıl ulaşacağını ve rekabet avantajı elde edeceğini tanımlamak.",
+      "Geliştirme ekibi için kullanıcı hikayelerini belgelemek.",
+      "İç ekibin tatil programını yönetmek."
+    ],
+    "correctAnswer": "Bir şirketin bir ürünü piyasaya sürerken hedef müşterilere nasıl ulaşacağını ve rekabet avantajı elde edeceğini tanımlamak.",
+    "category": "Pazara Giriş"
+  },
+  {
+    "question": "Scrum'da Sprint Retrospektifi'nin (Sprint Değerlendirmesi) temel amacı nedir?",
+    "options": [
+      "Tamamlanan işi paydaşlara göstermek.",
+      "Bir sonraki sprint için işi planlamak.",
+      "Geçmiş sprint'i insanlar, ilişkiler, süreç ve araçlar açısından incelemek ve iyileştirmeler için bir plan oluşturmak.",
+      "Ürün iş listesi (product backlog) öğelerini iyileştirmek."
+    ],
+    "correctAnswer": "Geçmiş sprint'i insanlar, ilişkiler, süreç ve araçlar açısından incelemek ve iyileştirmeler için bir plan oluşturmak.",
+    "category": "Çevik (Agile) ve Geliştirme"
+  },
+  {
+    "question": "Hangi terim bir ürün veya hizmet için toplam potansiyel pazar talebini tanımlar?",
+    "options": [
+      "Hizmet Verilebilir Mevcut Pazar (SAM)",
+      "Hizmet Verilebilir Elde Edilebilir Pazar (SOM)",
+      "Toplam Adreslenebilir Pazar (TAM)",
+      "Hedef Pazar Segmenti"
+    ],
+    "correctAnswer": "Toplam Adreslenebilir Pazar (TAM)",
+    "category": "Pazar Araştırması"
+  },
+  {
+    "question": "Kullanıcı hikayesi formatında ('Bir [kullanıcı tipi] olarak, [bir eylem] istiyorum, böylece [bir fayda]'), 'böylece' kısmı neyi temsil eder?",
+    "options": [
+      "Talep edilen belirli özellik.",
+      "Teknik gereksinim.",
+      "Kullanıcı personası.",
+      "Talebin arkasındaki değer veya neden."
+    ],
+    "correctAnswer": "Talebin arkasındaki değer veya neden.",
+    "category": "Çevik (Agile) ve Geliştirme"
+  },
+  {
+    "question": "İş metriklerinde 'CAC' ne anlama gelir?",
+    "options": [
+      "Müşteri Yıllık Katkısı",
+      "Müşteri Edinme Maliyeti",
+      "Şirket Yıllık Sermayesi",
+      "Müşteri Aktivite Döngüsü"
+    ],
+    "correctAnswer": "Müşteri Edinme Maliyeti",
+    "category": "Metrikler ve Analitik"
+  },
+  {
+    "question": "Kano Modeli, ürün ekiplerinin özellikleri neye göre kategorize etmelerine yardımcı olur?",
+    "options": [
+      "Geliştirme maliyetleri ve eforları.",
+      "Müşteri memnuniyeti üzerindeki potansiyel etkileri (Temel, Performans, Heyecan Verici).",
+      "Şirketin stratejik hedefleriyle uyumları.",
+      "Üretecekleri tahmini gelir."
+    ],
+    "correctAnswer": "Müşteri memnuniyeti üzerindeki potansiyel etkileri (Temel, Performans, Heyecan Verici).",
+    "category": "Önceliklendirme"
+  },
+  {
+    "question": "Kullanıcı Deneyimi (UX) ile Kullanıcı Arayüzü (UI) arasındaki temel fark nedir?",
+    "options": [
+      "UX kodla ilgilidir, UI grafiklerle ilgilidir.",
+      "UX deneyimin genel hissi ve kullanılabilirliğine odaklanır, UI görsel tasarıma ve etkileşimli öğelere odaklanır.",
+      "UI tasarımcıları kullanıcı görüşmeleri yapar, UX tasarımcıları maketler oluşturur.",
+      "Önemli bir fark yoktur; terimler birbirinin yerine kullanılabilir."
+    ],
+    "correctAnswer": "UX deneyimin genel hissi ve kullanılabilirliğine odaklanır, UI görsel tasarıma ve etkileşimli öğelere odaklanır.",
+    "category": "UX/UI Tasarımı"
+  },
+  {
+    "question": "Bir SWOT analizi, bir kuruluşun veya ürünün nelerini belirlemek için kullanılan stratejik bir planlama tekniğidir?",
+    "options": [
+      "Satışlar, Kazançlar, Fırsatlar, Hedefler",
+      "Yazılım, İş Akışları, Operasyonlar, Teknoloji",
+      "Güçlü Yönler, Zayıf Yönler, Fırsatlar, Tehditler",
+      "Strateji, İş Gücü, Hedefler, Zaman Çizelgeleri"
+    ],
+    "correctAnswer": "Güçlü Yönler, Zayıf Yönler, Fırsatlar, Tehditler",
+    "category": "Strateji ve Vizyon"
+  },
+  {
+    "question": "Kullanılabilirlik testinin temel amacı nedir?",
+    "options": [
+      "Bir ürün için pazar büyüklüğünü belirlemek.",
+      "Kullanıcı arayüzü tasarımındaki sorunları belirlemek ve ürünün kullanımının ne kadar kolay olduğunu değerlendirmek.",
+      "Pazarlama kampanyalarından müşteri memnuniyetini ölçmek.",
+      "Ürünün fiyatlandırma stratejisini sonlandırmak."
+    ],
+    "correctAnswer": "Kullanıcı arayüzü tasarımındaki sorunları belirlemek ve ürünün kullanımının ne kadar kolay olduğunu değerlendirmek.",
+    "category": "Kullanıcı Anlayışı"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi 'teknik borcu' en iyi tanımlar?",
+    "options": [
+      "Yazılım lisansları için borçlu olunan para miktarı.",
+      "Şimdi daha uzun sürecek daha iyi bir yaklaşım kullanmak yerine kolay (sınırlı) bir çözüm seçmenin neden olduğu gelecekteki yeniden işleme maliyeti.",
+      "Mühendislerin yeni özellikler oluşturmak yerine hataları düzeltmek için harcadığı zaman.",
+      "Ürünü çalıştırmayla ilişkili donanım maliyetleri."
+    ],
+    "correctAnswer": "Şimdi daha uzun sürecek daha iyi bir yaklaşım kullanmak yerine kolay (sınırlı) bir çözüm seçmenin neden olduğu gelecekteki yeniden işleme maliyeti.",
+    "category": "Teknik Kavramlar"
+  },
+  {
+    "question": "Bir 'Freemium' fiyatlandırma modeli tipik olarak ne içerir?",
+    "options": [
+      "Kullanıcıları kullanım hacimlerine göre ücretlendirmek.",
+      "Ürünün temel bir sürümünü ücretsiz sunmak, gelişmiş özellikler veya sürümler için ücret almak.",
+      "Ömür boyu erişim için tek seferlik bir satın alma ücreti.",
+      "Ödeme gerektirmeden önce ücretsiz bir deneme süresi sağlamak."
+    ],
+    "correctAnswer": "Ürünün temel bir sürümünü ücretsiz sunmak, gelişmiş özellikler veya sürümler için ücret almak.",
+    "category": "Fiyatlandırma ve Paraya Çevirme"
+  },
+  {
+    "question": "Scrum'da Ürün İş Listesi (Product Backlog) ile Sprint İş Listesi (Sprint Backlog) arasındaki fark nedir?",
+    "options": [
+      "Product Backlog hatalar içindir, Sprint Backlog özellikler içindir.",
+      "Product Backlog ürün için bilinen tüm gereksinimleri içerir; Sprint Backlog belirli bir Sprint için seçilen görevleri içerir.",
+      "Product Backlog Scrum Master tarafından yönetilir, Sprint Backlog Product Owner tarafından yönetilir.",
+      "Product Backlog günlük olarak güncellenir, Sprint Backlog yıllık olarak güncellenir."
+    ],
+    "correctAnswer": "Product Backlog ürün için bilinen tüm gereksinimleri içerir; Sprint Backlog belirli bir Sprint için seçilen görevleri içerir.",
+    "category": "Çevik (Agile) ve Geliştirme"
+  },
+  {
+    "question": "Bir Uygulama Programlama Arayüzü (API) öncelikle neye izin verir?",
+    "options": [
+      "Kullanıcıların ürünün görsel öğeleriyle doğrudan etkileşim kurmasına.",
+      "Farklı yazılım sistemlerinin birbirleriyle iletişim kurmasına ve veri alışverişinde bulunmasına.",
+      "Ürün yöneticilerinin kullanıcı etkileşim metriklerini izlemesine.",
+      "Pazarlama ekiplerinin reklam kampanyaları tasarlamasına."
+    ],
+    "correctAnswer": "Farklı yazılım sistemlerinin birbirleriyle iletişim kurmasına ve veri alışverişinde bulunmasına.",
+    "category": "Teknik Kavramlar"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi genellikle bir 'Göz Boyayan Metrik' (Vanity Metric) olarak kabul edilir?",
+    "options": [
+      "Dönüşüm Oranı (Conversion Rate)",
+      "Müşteri Yaşam Boyu Değeri (CLTV)",
+      "Toplam sayfa görüntüleme sayısı",
+      "Kayıp Oranı (Churn Rate)"
+    ],
+    "correctAnswer": "Toplam sayfa görüntüleme sayısı",
+    "category": "Metrikler ve Analitik"
+  },
+  {
+    "question": "Alfa testi tipik olarak piyasaya sürülmemiş bir ürün sürümünün kimlerle test edilmesini içerir?",
+    "options": [
+      "Genel halk.",
+      "Gerçek dünya koşullarında seçkin bir dış son kullanıcı grubu.",
+      "Şirket içi çalışanlar veya özel bir şirket içi QA ekibi.",
+      "Rakiplerin kullanıcıları."
+    ],
+    "correctAnswer": "Şirket içi çalışanlar veya özel bir şirket içi QA ekibi.",
+    "category": "Pazara Giriş"
+  },
+  {
+    "question": "Bir Ürün Yöneticisi (Product Manager) ile bir Proje Yöneticisi (Project Manager) arasındaki temel fark şudur:",
+    "options": [
+      "Ürün Yöneticileri koda odaklanır, Proje Yöneticileri tasarıma odaklanır.",
+      "Ürün Yöneticileri 'ne' ve 'neden'den (ürün vizyonu, stratejisi, başarısı) sorumludur, Proje Yöneticileri 'nasıl' ve 'ne zaman'a (yürütme, zaman çizelgesi, kaynaklar) odaklanır.",
+      "Ürün Yöneticileri Pazarlamaya rapor verir, Proje Yöneticileri Mühendisliğe rapor verir.",
+      "Sadece Proje Yöneticileri bütçeleri yönetir."
+    ],
+    "correctAnswer": "Ürün Yöneticileri 'ne' ve 'neden'den (ürün vizyonu, stratejisi, başarısı) sorumludur, Proje Yöneticileri 'nasıl' ve 'ne zaman'a (yürütme, zaman çizelgesi, kaynaklar) odaklanır.",
+    "category": "Temel Kavramlar"
+  },
+  {
+    "question": "Ürün doğrulamasında 'Boyalı Kapı' (Painted Door) testinin temel amacı nedir?",
+    "options": [
+      "Kullanıcı arayüzünün görsel çekiciliğini test etmek.",
+      "Potansiyel bir özelliğe veya ürüne olan kullanıcı ilgisini gerçekten oluşturmadan önce ölçmek.",
+      "Farklı renk şemaları üzerinde A/B testi yapmak.",
+      "Mevcut bir özellik hakkında ayrıntılı geri bildirim toplamak."
+    ],
+    "correctAnswer": "Potansiyel bir özelliğe veya ürüne olan kullanıcı ilgisini gerçekten oluşturmadan önce ölçmek.",
+    "category": "Ürün Keşfi"
+  },
+  {
+    "question": "Paydaş yönetiminde, Satış ekibiyle uğraşırken yaygın bir zorluk nedir?",
+    "options": [
+      "Genellikle uzun vadeli stratejiye çok odaklanmışlardır.",
+      "Ürün özellikleri hakkında nadiren fikirleri vardır.",
+      "Genellikle bireysel anlaşmalar için belirli özellikler talep ederler ve bu da yol haritası önceliklerini potansiyel olarak saptırabilir.",
+      "Yaklaşan ürün değişiklikleri hakkında bilgilendirilmeyi tercih etmezler."
+    ],
+    "correctAnswer": "Genellikle bireysel anlaşmalar için belirli özellikler talep ederler ve bu da yol haritası önceliklerini potansiyel olarak saptırabilir.",
+    "category": "Paydaş Yönetimi"
+  },
+  {
+    "question": "'AARRR' çerçevesi (Korsan Metrikleri - Pirate Metrics) öncelikle ürün yöneticilerinin neyi izlemesine yardımcı olur?",
+    "options": [
+      "Yazılım geliştirme hataları ve düzeltmeleri.",
+      "Müşteri yaşam döngüsü hunisi (Edinme, Etkinleştirme, Elde Tutma, Yönlendirme, Gelir).",
+      "Rakip fiyatlandırma stratejileri.",
+      "İç ekip performans metrikleri."
+    ],
+    "correctAnswer": "Müşteri yaşam döngüsü hunisi (Edinme, Etkinleştirme, Elde Tutma, Yönlendirme, Gelir).",
+    "category": "Metrikler ve Analitik"
+  },
+  {
+    "question": "Agile'da Günlük Scrum (Daily Stand-up) toplantısının temel amacı nedir?",
+    "options": [
+      "Ekip dışındaki paydaşlara durum güncellemeleri sağlamak.",
+      "Karmaşık teknik sorunları çözmek.",
+      "Geliştirme ekibinin faaliyetlerini senkronize etmesi ve sonraki 24 saat için bir plan oluşturması.",
+      "Sprint sırasında tamamlanan işi gözden geçirmek ve onaylamak."
+    ],
+    "correctAnswer": "Geliştirme ekibinin faaliyetlerini senkronize etmesi ve sonraki 24 saat için bir plan oluşturması.",
+    "category": "Çevik (Agile) ve Geliştirme"
+  },
+  {
+    "question": "Bir 'Sonuç Odaklı Yol Haritası' (Outcome-Based Roadmap) öncelikle neye odaklanır?",
+    "options": [
+      "Belirli özellikleri ve teslim tarihlerini listelemek.",
+      "Teknik mimari iyileştirmelerini detaylandırmak.",
+      "Belirli müşteri veya iş hedeflerine ulaşmak ('neden').",
+      "Kullanım kılavuzu içeriğini belgelemek."
+    ],
+    "correctAnswer": "Belirli müşteri veya iş hedeflerine ulaşmak ('neden').",
+    "category": "Yol Haritalama"
+  },
+  {
+    "question": "Ürün geliştirmede 'Problem Alanı' (Problem Space) ile 'Çözüm Alanı' (Solution Space) arasındaki fark nedir?",
+    "options": [
+      "Problem alanı bütçeyi tanımlar, Çözüm alanı özellikleri tanımlar.",
+      "Problem alanı kullanıcı ihtiyaçlarını ve sıkıntılarını anlamaya odaklanır, Çözüm alanı bunlara nasıl çözüm bulunacağına (özellikler, ürünler) odaklanır.",
+      "Problem alanı pazarlama tarafından ele alınır, Çözüm alanı mühendislik tarafından.",
+      "Problem alanı hataları içerir, Çözüm alanı yeni özellikleri içerir."
+    ],
+    "correctAnswer": "Problem alanı kullanıcı ihtiyaçlarını ve sıkıntılarını anlamaya odaklanır, Çözüm alanı bunlara nasıl çözüm bulunacağına (özellikler, ürünler) odaklanır.",
+    "category": "Ürün Keşfi"
+  },
+  {
+    "question": "Belirli bir açılış sayfasındaki yüksek 'Hemen Çıkma Oranı' (Bounce Rate) muhtemelen neyi gösterir?",
+    "options": [
+      "Kullanıcıların içerikle yüksek düzeyde etkileşimde bulunduğunu.",
+      "Sayfanın çok hızlı yüklendiğini.",
+      "Kullanıcıların yalnızca o sayfayı görüntüledikten sonra siteden ayrıldığını, bu da beklentilerini veya ihtiyaçlarını karşılamayabileceğini düşündürür.",
+      "Sayfaya trafik yönlendiren pazarlama kampanyasının çok başarılı olduğunu."
+    ],
+    "correctAnswer": "Kullanıcıların yalnızca o sayfayı görüntüledikten sonra siteden ayrıldığını, bu da beklentilerini veya ihtiyaçlarını karşılamayabileceğini düşündürür.",
+    "category": "Metrikler ve Analitik"
+  },
+  {
+    "question": "Agile bağlamında 'Tamamlanma Tanımı' (Definition of Done - DoD) nedir?",
+    "options": [
+      "Belirli bir ekip üyesine atanan görevlerin bir kontrol listesi.",
+      "Ürün lansmanından önce CEO tarafından verilen nihai onay.",
+      "Bir iş parçasının tamamlanmış sayılması için karşılaması gereken kalite kriterleri ve standartlar konusunda ekip içinde paylaşılan bir anlayış.",
+      "Tüm ürün için planlanan özelliklerin listesi."
+    ],
+    "correctAnswer": "Bir iş parçasının tamamlanmış sayılması için karşılaması gereken kalite kriterleri ve standartlar konusunda ekip içinde paylaşılan bir anlayış.",
+    "category": "Çevik (Agile) ve Geliştirme"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, yaşam döngüsünün 'Düşüş' aşamasındaki bir ürünü yönetmek için yaygın bir stratejidir?",
+    "options": [
+      "Yeni özellik geliştirmeye yoğun yatırım yapmak.",
+      "Yeni kullanıcı segmentleri kazanmak için pazarlama çabalarını genişletmek.",
+      "Ürünü hasat etmek (kalan kârı en üst düzeye çıkarmak için yatırımı azaltmak) veya kullanımdan kaldırmayı planlamak.",
+      "Geliri artırmak için fiyatı önemli ölçüde artırmak."
+    ],
+    "correctAnswer": "Ürünü hasat etmek (kalan kârı en üst düzeye çıkarmak için yatırımı azaltmak) veya kullanımdan kaldırmayı planlamak.",
+    "category": "Ürün Yaşam Döngüsü"
+  },
+  {
+    "question": "'Fırsat Çözüm Ağaçları'nı (Opportunity Solution Trees) kullanmanın temel faydası nedir?",
+    "options": [
+      "Kullanıcı arayüzünün görsel tasarımını sonlandırmak.",
+      "Geliştirme ekibi hızını (velocity) takip etmek.",
+      "İstenen sonuçları potansiyel fırsatlar ve çözümlerle görsel olarak eşleştirerek keşif çalışmalarını yapılandırmaya yardımcı olmak.",
+      "Proje bütçesini ve zaman çizelgelerini yönetmek."
+    ],
+    "correctAnswer": "İstenen sonuçları potansiyel fırsatlar ve çözümlerle görsel olarak eşleştirerek keşif çalışmalarını yapılandırmaya yardımcı olmak.",
+    "category": "Ürün Keşfi"
+  },
+  {
+    "question": "'Kohort Analizi'ni genel 'Kullanıcı Segmentasyonu' ile karşılaştırmak, ürün yöneticilerinin neyi anlamasına yardımcı olur?",
+    "options": [
+      "Yalnızca kullanıcıların demografik dökümünü.",
+      "Belirli kullanıcı gruplarının (aynı anda katılan) davranışlarının zaman içinde nasıl değiştiğini, zamandan bağımsız olarak özelliklere göre gruplamaya karşı.",
+      "Her ay bildirilen toplam hata sayısını.",
+      "Şirketin hisse senedi performansını."
+    ],
+    "correctAnswer": "Belirli kullanıcı gruplarının (aynı anda katılan) davranışlarının zaman içinde nasıl değiştiğini, zamandan bağımsız olarak özelliklere göre gruplamaya karşı.",
+    "category": "Metrikler ve Analitik"
+  },
+  {
+    "question": "Bir ürün stratejisi bağlamında 'pivot yapmak' ne anlama gelir?",
+    "options": [
+      "Küçük bir hata düzeltme güncellemesi yayınlamak.",
+      "Ürünün kullanıcı arayüzü tasarımını değiştirmek.",
+      "Öğrenmeye dayalı yeni bir yönü doğruladıktan sonra stratejide önemli bir değişiklik yapmak, genellikle hedef müşteriyi, problemi veya temel özellikleri değiştirmek.",
+      "Yeni bir ürün yöneticisi işe almak."
+    ],
+    "correctAnswer": "Öğrenmeye dayalı yeni bir yönü doğruladıktan sonra stratejide önemli bir değişiklik yapmak, genellikle hedef müşteriyi, problemi veya temel özellikleri değiştirmek.",
+    "category": "Strateji ve Vizyon"
+  },
+  {
+    "question": "Bir 'Empati Haritası' (Empathy Map) öncelikle hangi amaçla kullanılan bir araçtır?",
+    "options": [
+      "Sprint iş listesini planlamak.",
+      "Bir kullanıcının ne söylediğini, düşündüğünü, hissettiğini ve yaptığını göz önünde bulundurarak onun bakış açısını daha derinlemesine anlamak.",
+      "Müşteri Yaşam Boyu Değerini hesaplamak.",
+      "Veritabanı şemasını tasarlamak."
+    ],
+    "correctAnswer": "Bir kullanıcının ne söylediğini, düşündüğünü, hissettiğini ve yaptığını göz önünde bulundurarak onun bakış açısını daha derinlemesine anlamak.",
+    "category": "Kullanıcı Anlayışı"
+  },
+  {
+    "question": "Agile geliştirmede işi parçalara ayırmak için yaygın olarak hangi hiyerarşi kullanılır?",
+    "options": [
+      "Aşama -> Görev -> Modül",
+      "Hedef -> Amaç -> Taktik",
+      "Epik (Epic) -> Kullanıcı Hikayesi (User Story) -> Görev (Task)",
+      "Proje -> Kilometre Taşı -> Teslim Edilebilir"
+    ],
+    "correctAnswer": "Epik (Epic) -> Kullanıcı Hikayesi (User Story) -> Görev (Task)",
+    "category": "Çevik (Agile) ve Geliştirme"
+  },
+  {
+    "question": "Bir ürün yol haritasını yönetici liderliğe iletirken vurgulanması gereken en önemli şey nedir?",
+    "options": [
+      "Her özelliğin ayrıntılı teknik özellikleri.",
+      "Geliştiricilere atanan bireysel görevler.",
+      "Yol haritasının stratejik iş hedefleri ve beklenen sonuçlarla nasıl uyumlu olduğu.",
+      "Yaklaşan sürümler için belirli UI tasarım seçimleri."
+    ],
+    "correctAnswer": "Yol haritasının stratejik iş hedefleri ve beklenen sonuçlarla nasıl uyumlu olduğu.",
+    "category": "Paydaş Yönetimi"
+  },
+  {
+    "question": "Bir 'Ürün' (Product) ile bir 'Platform' arasındaki temel fark nedir?",
+    "options": [
+      "Ürünler yazılımdır, Platformlar donanımdır.",
+      "Ürünler belirli kullanıcı ihtiyaçlarını çözer, Platformlar diğer ürünleri veya süreçleri mümkün kılar.",
+      "Ürünler B2C satılır, Platformlar B2B satılır.",
+      "Ürünlerin API'leri vardır, Platformların yoktur."
+    ],
+    "correctAnswer": "Ürünler belirli kullanıcı ihtiyaçlarını çözer, Platformlar diğer ürünleri veya süreçleri mümkün kılar.",
+    "category": "Temel Kavramlar"
+  },
+  {
+    "question": "'Ürün Odaklı Büyüme' (Product-Led Growth - PLG) neyi vurgular?",
+    "options": [
+      "Geliri artırmak için büyük satış ekipleri kullanmak.",
+      "Edinme için öncelikle pazarlama kampanyalarına odaklanmak.",
+      "Müşteri edinme, dönüştürme ve genişlemenin birincil itici gücü olarak ürünün kendisini kullanmak.",
+      "Mühendislik liderliğindeki özellik geliştirmeye öncelik vermek."
+    ],
+    "correctAnswer": "Müşteri edinme, dönüştürme ve genişlemenin birincil itici gücü olarak ürünün kendisini kullanmak.",
+    "category": "Strateji ve Vizyon"
+  },
+  {
+    "question": "Ürün geliştirmede 'Hikaye Haritalama'nın (Story Mapping) amacı nedir?",
+    "options": [
+      "Kullanıcının ürün içindeki yolculuğunun görsel bir temsilini oluşturarak kullanıcı hikayelerini düzenlemek.",
+      "Her kullanıcı hikayesi için geliştirme süresini tahmin etmek.",
+      "Kullanıcı hikayelerinden otomatik olarak kod oluşturmak.",
+      "Teknik mimariyi belgelemek."
+    ],
+    "correctAnswer": "Kullanıcının ürün içindeki yolculuğunun görsel bir temsilini oluşturarak kullanıcı hikayelerini düzenlemek.",
+    "category": "Çevik (Agile) ve Geliştirme"
+  },
+  {
+    "question": "OKR'ler (Hedefler ve Anahtar Sonuçlar - Objectives and Key Results) bağlamında, bir 'Anahtar Sonuç' (Key Result) nedir?",
+    "options": [
+      "Yüksek seviyeli, nitel bir hedef.",
+      "Bir Hedefe doğru ilerlemeyi gösteren belirli, ölçülebilir bir sonuç.",
+      "Tamamlanacak görevlerin bir listesi.",
+      "Genel şirket misyonu beyanı."
+    ],
+    "correctAnswer": "Bir Hedefe doğru ilerlemeyi gösteren belirli, ölçülebilir bir sonuç.",
+    "category": "Strateji ve Vizyon"
+  },
+  {
+    "question": "'Birincil Araştırma' (Primary Research) ile 'İkincil Araştırma' (Secondary Research) arasındaki temel fark nedir?",
+    "options": [
+      "Birincil araştırma nicel veri kullanır, İkincil nitel veri kullanır.",
+      "Birincil araştırma doğrudan yeni veri toplamayı içerir (ör. görüşmeler, anketler), İkincil mevcut verileri analiz etmeyi içerir (ör. raporlar, makaleler).",
+      "Birincil araştırma ikincil araştırmadan daha ucuz ve hızlıdır.",
+      "Birincil araştırma rakiplere odaklanır, İkincil müşterilere odaklanır."
+    ],
+    "correctAnswer": "Birincil araştırma doğrudan yeni veri toplamayı içerir (ör. görüşmeler, anketler), İkincil mevcut verileri analiz etmeyi içerir (ör. raporlar, makaleler).",
+    "category": "Pazar Araştırması"
+  },
+  {
+    "question": "Bir Kullanıcı Hikayesindeki 'Kabul Kriterleri'nin (Acceptance Criteria) temel işlevi nedir?",
+    "options": [
+      "Hedef kullanıcı personasını tanımlamak.",
+      "Yüksek seviyeli iş değerini özetlemek.",
+      "Hikayenin tamamlanmış sayılması için karşılanması gereken belirli, test edilebilir koşulları sağlamak.",
+      "Gerekli geliştirme eforunu tahmin etmek."
+    ],
+    "correctAnswer": "Hikayenin tamamlanmış sayılması için karşılanması gereken belirli, test edilebilir koşulları sağlamak.",
+    "category": "Çevik (Agile) ve Geliştirme"
+  },
+  {
+    "question": "'Bir Özellik Satın Al' (Buy a Feature) önceliklendirme yöntemi neyi içerir?",
+    "options": [
+      "Her potansiyel özellik için yatırım getirisini (ROI) hesaplamak.",
+      "Paydaşlardan en çok değer verdikleri özelliklere sınırlı bir bütçe 'harcamalarını' istemek.",
+      "Özellikleri geliştirme maliyetine göre sıralamak.",
+      "Yalnızca en yüksek ödeme yapan müşteri tarafından talep edilen özellikleri uygulamak."
+    ],
+    "correctAnswer": "Paydaşlardan en çok değer verdikleri özelliklere sınırlı bir bütçe 'harcamalarını' istemek.",
+    "category": "Önceliklendirme"
+  },
+  {
+    "question": "Özellik tabanlı yol haritalarının yaygın bir tuzağı nedir?",
+    "options": [
+      "Stratejik sonuçlara çok fazla odaklanırlar.",
+      "Etkiden ziyade çıktıya odaklanan bir 'özellik fabrikası' zihniyetine yol açabilirler.",
+      "Paydaşların anlaması çok zordur.",
+      "Nadiren zaman çizelgeleri içerirler."
+    ],
+    "correctAnswer": "Etkiden ziyade çıktıya odaklanan bir 'özellik fabrikası' zihniyetine yol açabilirler.",
+    "category": "Yol Haritalama"
+  },
+  {
+    "question": "'Net Tavsiye Skoru' (Net Promoter Score - NPS) neyi ölçer?",
+    "options": [
+      "Bir ürünün kullanım kolaylığını.",
+      "Müşterilerin bir ürünü veya hizmeti tavsiye etme olasılığını.",
+      "Aylık yinelenen geliri.",
+      "Anahtar bir eylemi tamamlayan kullanıcıların yüzdesini."
+    ],
+    "correctAnswer": "Müşterilerin bir ürünü veya hizmeti tavsiye etme olasılığını.",
+    "category": "Metrikler ve Analitik"
+  },
+  {
+    "question": "Bir ürün lansmanı bağlamında 'Satış Yetkinleştirme' (Sales Enablement) nedir?",
+    "options": [
+      "Yeni ürün için satış kotaları belirlemek.",
+      "Satış ekibini yeni ürünü etkili bir şekilde satmak için ihtiyaç duydukları bilgi, kaynak ve araçlarla donatmak.",
+      "Lansmandan önce ek satış elemanları işe almak.",
+      "Satış ekibi için ücretlendirme planını geliştirmek."
+    ],
+    "correctAnswer": "Satış ekibini yeni ürünü etkili bir şekilde satmak için ihtiyaç duydukları bilgi, kaynak ve araçlarla donatmak.",
+    "category": "Pazara Giriş"
+  },
+  {
+    "question": "Teknik borcu yönetirken temel bir zorluk nedir?",
+    "options": [
+      "Her zaman tanımlanması ve ölçülmesi kolaydır.",
+      "Borcu ödemeyi (yeniden düzenleme, işlevsel olmayan işler) yeni özellikler oluşturmaya karşı önceliklendirmek.",
+      "Yalnızca kullanıcı arayüzünü etkiler.",
+      "Genellikle özel bir çaba göstermeden kendi kendine çözülür."
+    ],
+    "correctAnswer": "Borcu ödemeyi (yeniden düzenleme, işlevsel olmayan işler) yeni özellikler oluşturmaya karşı önceliklendirmek.",
+    "category": "Teknik Kavramlar"
+  },
+  {
+    "question": "'Değer Bazlı Fiyatlandırma' (Value-Based Pricing), bir ürünün fiyatını neye göre belirler?",
+    "options": [
+      "Ürünü geliştirme ve üretme maliyeti artı bir kar marjı.",
+      "Rakiplerin benzer ürünler için talep ettiği ücret.",
+      "Ürünün müşteriye sağladığı algılanan değer.",
+      "İlk yıl içinde başabaş noktasına gelmek."
+    ],
+    "correctAnswer": "Ürünün müşteriye sağladığı algılanan değer.",
+    "category": "Fiyatlandırma ve Paraya Çevirme"
+  },
+  {
+    "question": "Kullanıcı araştırmasından sonra 'Yakınlık Haritalama'nın (Affinity Mapping) (veya Yakınlık Diyagramı) amacı nedir?",
+    "options": [
+      "Bulguların istatistiksel anlamlılığını hesaplamak.",
+      "Temaları ve kalıpları belirlemek için nitel verilerden ilgili gözlemleri, fikirleri ve içgörüleri gruplamak.",
+      "Kullanıcı arayüzü için tel kafesler (wireframe) oluşturmak.",
+      "Tahmini gelire göre özellikleri önceliklendirmek."
+    ],
+    "correctAnswer": "Temaları ve kalıpları belirlemek için nitel verilerden ilgili gözlemleri, fikirleri ve içgörüleri gruplamak.",
+    "category": "Kullanıcı Anlayışı"
+  },
+  {
+    "question": "Agile'da 'Hikaye Puanları'nın (Story Points) temel amacı nedir?",
+    "options": [
+      "Bir görevin alacağı tam saatleri ölçmek.",
+      "Kullanıcı hikayeleri için göreceli bir efor, karmaşıklık ve belirsizlik ölçüsünü temsil etmek.",
+      "Geliştirmeye harcanan bütçeyi takip etmek.",
+      "Görevleri belirli geliştiricilere atamak."
+    ],
+    "correctAnswer": "Kullanıcı hikayeleri için göreceli bir efor, karmaşıklık ve belirsizlik ölçüsünü temsil etmek.",
+    "category": "Çevik (Agile) ve Geliştirme"
+  },
+  {
+    "question": "Önceliklendirmede 'Gecikme Maliyeti' (Cost of Delay) neyi temsil eder?",
+    "options": [
+      "Geliştirme ekibinin geç kalmasından kaynaklanan gerçek maliyet.",
+      "Bir özelliğin lansmanını veya kullanılabilirliğini geciktirmenin finansal etkisi (kaybedilen gelir, kaçırılan fırsat).",
+      "Potansiyel proje aşımları için ayrılan bütçe.",
+      "Sürümden sonra bulunan hataları düzeltmeyle ilişkili maliyet."
+    ],
+    "correctAnswer": "Bir özelliğin lansmanını veya kullanılabilirliğini geciktirmenin finansal etkisi (kaybedilen gelir, kaçırılan fırsat).",
+    "category": "Önceliklendirme"
+  },
+  {
+    "question": "Bir 'Şimdi, Sonra, Daha Sonra' (Now, Next, Later) yol haritası formatı ne için kullanışlıdır?",
+    "options": [
+      "Gelecekteki kesin teslim tarihlerine taahhütte bulunmak.",
+      "Zamanla azalan kesinlikle öncelikleri iletmek ('Şimdi' için yüksek kesinlik, 'Daha Sonra' için daha düşük).",
+      "Yalnızca mühendislik ekibi için teknik görevleri detaylandırmak.",
+      "Her öğe için kesin gelir tahminini göstermek."
+    ],
+    "correctAnswer": "Zamanla azalan kesinlikle öncelikleri iletmek ('Şimdi' için yüksek kesinlik, 'Daha Sonra' için daha düşük).",
+    "category": "Yol Haritalama"
+  },
+  {
+    "question": "Veri analiz ederken 'Korelasyon' (Correlation) ile 'Nedensellik' (Causation) arasındaki temel fark nedir?",
+    "options": [
+      "Korelasyon, iki değişkenin birlikte değiştiği anlamına gelir, Nedensellik, bir değişkenin diğerindeki değişime doğrudan neden olduğu anlamına gelir.",
+      "Korelasyon nitel verilerde kullanılır, Nedensellik nicel verilerde.",
+      "Nedenselliği kanıtlamak Korelasyondan daha kolaydır.",
+      "Veri analizinde birbirinin yerine kullanılabilen terimlerdir."
+    ],
+    "correctAnswer": "Korelasyon, iki değişkenin birlikte değiştiği anlamına gelir, Nedensellik, bir değişkenin diğerindeki değişime doğrudan neden olduğu anlamına gelir.",
+    "category": "Metrikler ve Analitik"
+  },
+  {
+    "question": "Beta Testinin temel amacı nedir?",
+    "options": [
+      "Pazarlama mesajını sonlandırmak.",
+      "Daha geniş bir lansmandan önce şirket dışındaki gerçek kullanıcılardan kullanılabilirlik hakkında geri bildirim toplamak, hataları bulmak ve memnuniyeti ölçmek.",
+      "İç destek ekibini eğitmek.",
+      "Sunucularda ilk yük testini yapmak."
+    ],
+    "correctAnswer": "Daha geniş bir lansmandan önce şirket dışındaki gerçek kullanıcılardan kullanılabilirlik hakkında geri bildirim toplamak, hataları bulmak ve memnuniyeti ölçmek.",
+    "category": "Pazara Giriş"
+  },
+  {
+    "question": "Zor bir kararı (örneğin, bir özellik talebine 'hayır' demek) bir paydaşa iletirken ne yapmak faydalıdır?",
+    "options": [
+      "Zaman kazanmak için gerekçeyi açıklamaktan kaçınmak.",
+      "Yalnızca teknik sınırlamalara odaklanmak.",
+      "Gerekçeyi açıklamak, stratejik önceliklere veya kısıtlamalara bağlamak ve potansiyel olarak alternatifler önermek.",
+      "Önceliğe bakılmaksızın bir sonraki planlama döngüsünde yeniden değerlendirme sözü vermek."
+    ],
+    "correctAnswer": "Gerekçeyi açıklamak, stratejik önceliklere veya kısıtlamalara bağlamak ve potansiyel olarak alternatifler önermek.",
+    "category": "Paydaş Yönetimi"
+  },
+  {
+    "question": "Bir Ürün Yöneticisinin bakış açısından, 'Sürekli Entegrasyon/Sürekli Dağıtım'ın (CI/CD) ilgisi nedir?",
+    "options": [
+      "Öncelikle pazarlama ekibinin iş akışını etkiler.",
+      "Özelliklerin ve düzeltmelerin kullanıcılara daha hızlı ve daha güvenilir bir şekilde teslim edilmesini sağlayarak daha hızlı geri bildirim döngülerini mümkün kılar.",
+      "Belirli bir kullanıcı arayüzü tasarım desenidir.",
+      "Geliştiriciler tarafından kullanılan programlama dilini belirler."
+    ],
+    "correctAnswer": "Özelliklerin ve düzeltmelerin kullanıcılara daha hızlı ve daha güvenilir bir şekilde teslim edilmesini sağlayarak daha hızlı geri bildirim döngülerini mümkün kılar.",
+    "category": "Teknik Kavramlar"
+  },
+  {
+    "question": "'Maliyet Artı Fiyatlandırma' (Cost-Plus Pricing), fiyatı neye göre hesaplamayı içerir?",
+    "options": [
+      "Algılanan müşteri değeri.",
+      "Üretim maliyeti artı önceden belirlenmiş bir kar marjı.",
+      "En düşük rakibin fiyatıyla eşleşmek.",
+      "Erken benimseyenlerin ödemeye istekli olduğu miktar."
+    ],
+    "correctAnswer": "Üretim maliyeti artı önceden belirlenmiş bir kar marjı.",
+    "category": "Fiyatlandırma ve Paraya Çevirme"
+  },
+  {
+    "question": "Bir 'Kullanıcı Yolculuğu Haritası'nın (User Journey Map) temel amacı nedir?",
+    "options": [
+      "Bir özellikte yer alan teknik adımları belgelemek.",
+      "Bir kullanıcının belirli bir hedefe ulaşmak için bir ürün veya hizmetle etkileşimde bulunurken yaşadığı uçtan uca deneyimi görselleştirmek.",
+      "Tüm potansiyel kullanıcı personalarını listelemek.",
+      "Günlük aktif kullanıcıları takip etmek."
+    ],
+    "correctAnswer": "Bir kullanıcının belirli bir hedefe ulaşmak için bir ürün veya hizmetle etkileşimde bulunurken yaşadığı uçtan uca deneyimi görselleştirmek.",
+    "category": "Kullanıcı Anlayışı"
+  },
+  {
+    "question": "Bir Scrum ekibinde 'Scrum Master'ın rolü nedir?",
+    "options": [
+      "Ürün iş listesini yönetmek ve özellikleri önceliklendirmek.",
+      "Hizmetkar bir lider olarak hareket etmek, ekibin Scrum teorisini ve uygulamasını anlamasına ve hayata geçirmesine yardımcı olmak ve engelleri kaldırmak.",
+      "Bireysel geliştiricilere günlük görevler atamak.",
+      "Sürümden önce nihai ürünü onaylamak."
+    ],
+    "correctAnswer": "Hizmetkar bir lider olarak hareket etmek, ekibin Scrum teorisini ve uygulamasını anlamasına ve hayata geçirmesine yardımcı olmak ve engelleri kaldırmak.",
+    "category": "Çevik (Agile) ve Geliştirme"
+  },
+  {
+    "question": "Ürün keşfi bağlamında 'Etnografik Araştırma' nedir?",
+    "options": [
+      "Web sitesi trafik verilerini analiz etmek.",
+      "Büyük ölçekli çevrimiçi anketler yapmak.",
+      "Kullanıcıları davranışlarını, ihtiyaçlarını ve zorluklarını anlamak için doğal ortamlarında gözlemlemek.",
+      "Rakip finansal raporlarını incelemek."
+    ],
+    "correctAnswer": "Kullanıcıları davranışlarını, ihtiyaçlarını ve zorluklarını anlamak için doğal ortamlarında gözlemlemek.",
+    "category": "Pazar Araştırması"
+  },
+  {
+    "question": "'Bilgi Mimarisi' (Information Architecture - IA) ne ile ilgilenir?",
+    "options": [
+      "Bir ürünün görsel estetiği (renkler, yazı tipleri).",
+      "Kullanıcıların bilgiyi bulmalarına ve görevleri tamamlamalarına yardımcı olmak için bir ürün içindeki içeriği ve gezinmeyi yapılandırmak ve organize etmek.",
+      "Altta yatan sunucu altyapısı.",
+      "Kullanıcı arayüzü için kodu yazmak."
+    ],
+    "correctAnswer": "Kullanıcıların bilgiyi bulmalarına ve görevleri tamamlamalarına yardımcı olmak için bir ürün içindeki içeriği ve gezinmeyi yapılandırmak ve organize etmek.",
+    "category": "UX/UI Tasarımı"
+  },
+  {
+    "question": "Ürün tasarımında 'Erişilebilirlik' (genellikle a11y olarak kısaltılır) ne anlama gelir?",
+    "options": [
+      "Ürünün birden fazla dilde mevcut olması.",
+      "Ürünün engelli kişiler tarafından (ör. görme, işitme, motor, bilişsel engelli) kullanılabilmesi.",
+      "Ürünün düşük bir fiyat noktasına sahip olması.",
+      "Ürünün kod tabanının geliştiriciler için anlaşılması kolay olması."
+    ],
+    "correctAnswer": "Ürünün engelli kişiler tarafından (ör. görme, işitme, motor, bilişsel engelli) kullanılabilmesi.",
+    "category": "UX/UI Tasarımı"
+  },
+  {
+    "question": "Bir 'Tasarım Sistemi' (Design System) nedir?",
+    "options": [
+      "Maket oluşturmak için kullanılan belirli bir yazılım.",
+      "Uygulamaları tutarlı ve verimli bir şekilde oluşturmak için bir araya getirilebilen, açık standartlarla yönlendirilen yeniden kullanılabilir bileşenlerin bir koleksiyonu.",
+      "Kullanıcı görüşmeleri yapma süreci.",
+      "Ürün vizyonunu özetleyen bir belge."
+    ],
+    "correctAnswer": "Uygulamaları tutarlı ve verimli bir şekilde oluşturmak için bir araya getirilebilen, açık standartlarla yönlendirilen yeniden kullanılabilir bileşenlerin bir koleksiyonu.",
+    "category": "UX/UI Tasarımı"
+  },
+  {
+    "question": "Bir 'Sezgisel Değerlendirme'nin (Heuristic Evaluation) amacı nedir?",
+    "options": [
+      "Pazar büyüklüğünü ölçmek.",
+      "Bir arayüzün kullanılabilirliğini bir dizi tanınmış kullanılabilirlik ilkesine (sezgisel yöntemler) göre değerlendirmek.",
+      "Geliştirme maliyetini hesaplamak.",
+      "Kullanıcı personalarını tanımlamak."
+    ],
+    "correctAnswer": "Bir arayüzün kullanılabilirliğini bir dizi tanınmış kullanılabilirlik ilkesine (sezgisel yöntemler) göre değerlendirmek.",
+    "category": "UX/UI Tasarımı"
+  },
+  {
+    "question": "'Müşteri Efor Skoru' (Customer Effort Score - CES) nedir?",
+    "options": [
+      "Bir müşterinin bir sorunu çözmek, bir talebi yerine getirmek veya bir soruyu yanıtlamak için harcamak zorunda kaldığı çabanın bir ölçüsü.",
+      "Müşteri başına elde edilen toplam gelir.",
+      "Bir müşterinin destekle iletişim kurma sayısı.",
+      "Müşterileri şirkete olan değerlerine göre sıralayan bir puan."
+    ],
+    "correctAnswer": "Bir müşterinin bir sorunu çözmek, bir talebi yerine getirmek veya bir soruyu yanıtlamak için harcamak zorunda kaldığı çabanın bir ölçüsü.",
+    "category": "Metrikler ve Analitik"
+  },
+  {
+    "question": "Ürün analitiğinde 'Huni Analizi' (Funnel Analysis) ne için kullanılır?",
+    "options": [
+      "Sunucu kesinti süresini izlemek.",
+      "Kullanıcıların anahtar bir eylemi veya iş akışını (ör. kaydolma, satın alma) tamamlamak için attığı adımları anlamak ve optimize etmek.",
+      "Ürün özelliklerini rakiplerle karşılaştırmak.",
+      "Ürün geliştirme bütçesini yönetmek."
+    ],
+    "correctAnswer": "Kullanıcıların anahtar bir eylemi veya iş akışını (ör. kaydolma, satın alma) tamamlamak için attığı adımları anlamak ve optimize etmek.",
+    "category": "Metrikler ve Analitik"
+  }
+]

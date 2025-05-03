@@ -1,0 +1,817 @@
+[
+  {
+    "question": "What is the primary goal of a Minimum Viable Product (MVP)?",
+    "options": [
+      "To launch a fully featured product quickly",
+      "To test a core hypothesis with minimal resources",
+      "To generate maximum initial revenue",
+      "To satisfy all potential customer segments"
+    ],
+    "correctAnswer": "To test a core hypothesis with minimal resources",
+    "category": "Core Concepts"
+  },
+  {
+    "question": "Which framework prioritizes tasks based on Must have, Should have, Could have, and Won't have?",
+    "options": [
+      "RICE Scoring",
+      "Kano Model",
+      "MoSCoW Method",
+      "Value vs. Effort Matrix"
+    ],
+    "correctAnswer": "MoSCoW Method",
+    "category": "Prioritization"
+  },
+  {
+    "question": "What does 'Product-Market Fit' signify?",
+    "options": [
+      "The product has achieved profitability.",
+      "The product is available in multiple geographic markets.",
+      "The product satisfies a strong market demand.",
+      "The marketing campaign has been successful."
+    ],
+    "correctAnswer": "The product satisfies a strong market demand.",
+    "category": "Strategy & Vision"
+  },
+  {
+    "question": "In the context of Agile development (Scrum), what is the primary role of the Product Owner?",
+    "options": [
+      "To manage the development team's daily tasks.",
+      "To write the code for the product features.",
+      "To maximize the value of the product resulting from the work of the Development Team.",
+      "To manage project timelines and budget."
+    ],
+    "correctAnswer": "To maximize the value of the product resulting from the work of the Development Team.",
+    "category": "Agile & Development"
+  },
+  {
+    "question": "What is the main purpose of creating user personas?",
+    "options": [
+      "To finalize the product's technical architecture.",
+      "To provide a fictional representation of target users to guide design and development decisions.",
+      "To determine the final pricing strategy.",
+      "To replace the need for user interviews."
+    ],
+    "correctAnswer": "To provide a fictional representation of target users to guide design and development decisions.",
+    "category": "User Understanding"
+  },
+  {
+    "question": "Which metric measures the percentage of users who stop using a product over a specific period?",
+    "options": [
+      "Customer Acquisition Cost (CAC)",
+      "Churn Rate",
+      "Monthly Recurring Revenue (MRR)",
+      "Customer Lifetime Value (CLTV)"
+    ],
+    "correctAnswer": "Churn Rate",
+    "category": "Metrics & Analytics"
+  },
+  {
+    "question": "A product roadmap primarily communicates:",
+    "options": [
+      "Detailed technical specifications for developers.",
+      "A list of bugs to be fixed in the next sprint.",
+      "The strategic direction and priorities for the product over time.",
+      "The company's quarterly financial projections."
+    ],
+    "correctAnswer": "The strategic direction and priorities for the product over time.",
+    "category": "Roadmapping"
+  },
+  {
+    "question": "What is A/B testing typically used for in product management?",
+    "options": [
+      "Determining the total addressable market.",
+      "Comparing two versions of a feature or design to see which performs better.",
+      "Setting the long-term product vision.",
+      "Training new team members on the product."
+    ],
+    "correctAnswer": "Comparing two versions of a feature or design to see which performs better.",
+    "category": "Metrics & Analytics"
+  },
+  {
+    "question": "The 'Jobs to be Done' (JTBD) framework focuses on understanding:",
+    "options": [
+      "The specific features users request most often.",
+      "The demographic profile of the target audience.",
+      "The underlying 'job' or progress a customer is trying to make when they 'hire' a product.",
+      "The competitive landscape and feature parity."
+    ],
+    "correctAnswer": "The underlying 'job' or progress a customer is trying to make when they 'hire' a product.",
+    "category": "User Understanding"
+  },
+  {
+    "question": "What is the primary difference between a product vision and a product strategy?",
+    "options": [
+      "Vision is short-term, Strategy is long-term.",
+      "Vision describes the 'why' (the future state), Strategy describes the 'how' (the path to get there).",
+      "Vision focuses on revenue, Strategy focuses on features.",
+      "Vision is set by engineering, Strategy is set by marketing."
+    ],
+    "correctAnswer": "Vision describes the 'why' (the future state), Strategy describes the 'how' (the path to get there).",
+    "category": "Strategy & Vision"
+  },
+  {
+    "question": "In the RICE scoring model for prioritization, what does 'E' stand for?",
+    "options": ["Efficiency", "Effort", "Engagement", "Expense"],
+    "correctAnswer": "Effort",
+    "category": "Prioritization"
+  },
+  {
+    "question": "What type of research primarily yields numerical data and statistical analysis?",
+    "options": [
+      "Qualitative Research",
+      "Ethnographic Study",
+      "Quantitative Research",
+      "User Interviews"
+    ],
+    "correctAnswer": "Quantitative Research",
+    "category": "Market Research"
+  },
+  {
+    "question": "Which stage of the Product Lifecycle is typically characterized by rapid sales growth and increasing competition?",
+    "options": ["Introduction", "Growth", "Maturity", "Decline"],
+    "correctAnswer": "Growth",
+    "category": "Product Lifecycle"
+  },
+  {
+    "question": "A 'North Star Metric' (NSM) is best described as:",
+    "options": [
+      "The total number of registered users.",
+      "A single metric that best captures the core value your product delivers to customers.",
+      "The daily active users (DAU) count.",
+      "The company's overall annual revenue target."
+    ],
+    "correctAnswer": "A single metric that best captures the core value your product delivers to customers.",
+    "category": "Metrics & Analytics"
+  },
+  {
+    "question": "What is the primary purpose of a Go-to-Market (GTM) strategy?",
+    "options": [
+      "To outline the technical architecture of the product.",
+      "To define how a company will reach target customers and achieve competitive advantage upon launching a product.",
+      "To document user stories for the development team.",
+      "To manage the internal team's vacation schedule."
+    ],
+    "correctAnswer": "To define how a company will reach target customers and achieve competitive advantage upon launching a product.",
+    "category": "Go-to-Market"
+  },
+  {
+    "question": "What is the primary purpose of a Sprint Retrospective in Scrum?",
+    "options": [
+      "To demonstrate the completed work to stakeholders.",
+      "To plan the work for the next sprint.",
+      "To inspect the past sprint regarding people, relationships, process, and tools, and create a plan for improvements.",
+      "To refine the product backlog items."
+    ],
+    "correctAnswer": "To inspect the past sprint regarding people, relationships, process, and tools, and create a plan for improvements.",
+    "category": "Agile & Development"
+  },
+  {
+    "question": "Which term describes the total potential market demand for a product or service?",
+    "options": [
+      "Serviceable Available Market (SAM)",
+      "Serviceable Obtainable Market (SOM)",
+      "Total Addressable Market (TAM)",
+      "Target Market Segment"
+    ],
+    "correctAnswer": "Total Addressable Market (TAM)",
+    "category": "Market Research"
+  },
+  {
+    "question": "In user story format ('As a [type of user], I want [an action], so that [a benefit]'), what does the 'so that' part represent?",
+    "options": [
+      "The specific feature being requested.",
+      "The technical requirement.",
+      "The user persona.",
+      "The value or reason behind the request."
+    ],
+    "correctAnswer": "The value or reason behind the request.",
+    "category": "Agile & Development"
+  },
+  {
+    "question": "What does 'CAC' stand for in business metrics?",
+    "options": [
+      "Customer Annual Contribution",
+      "Customer Acquisition Cost",
+      "Company Annual Capital",
+      "Client Activity Cycle"
+    ],
+    "correctAnswer": "Customer Acquisition Cost",
+    "category": "Metrics & Analytics"
+  },
+  {
+    "question": "The Kano Model helps product teams categorize features based on:",
+    "options": [
+      "Their development cost and effort.",
+      "Their potential impact on customer satisfaction (Basic, Performance, Excitement).",
+      "Their alignment with the company's strategic goals.",
+      "The estimated revenue they will generate."
+    ],
+    "correctAnswer": "Their potential impact on customer satisfaction (Basic, Performance, Excitement).",
+    "category": "Prioritization"
+  },
+  {
+    "question": "What is the main difference between User Experience (UX) and User Interface (UI)?",
+    "options": [
+      "UX is about the code, UI is about the graphics.",
+      "UX focuses on the overall feel and usability of the experience, UI focuses on the visual design and interactive elements.",
+      "UI designers conduct user interviews, UX designers create mockups.",
+      "There is no significant difference; the terms are interchangeable."
+    ],
+    "correctAnswer": "UX focuses on the overall feel and usability of the experience, UI focuses on the visual design and interactive elements.",
+    "category": "UX/UI Design"
+  },
+  {
+    "question": "A SWOT analysis is a strategic planning technique used to identify an organization's or product's:",
+    "options": [
+      "Sales, Wins, Opportunities, Targets",
+      "Software, Workflows, Operations, Technology",
+      "Strengths, Weaknesses, Opportunities, Threats",
+      "Strategy, Workforce, Objectives, Timelines"
+    ],
+    "correctAnswer": "Strengths, Weaknesses, Opportunities, Threats",
+    "category": "Strategy & Vision"
+  },
+  {
+    "question": "What is the primary goal of usability testing?",
+    "options": [
+      "To determine the market size for a product.",
+      "To identify problems in the user interface design and assess how easy the product is to use.",
+      "To measure customer satisfaction with marketing campaigns.",
+      "To finalize the product's pricing strategy."
+    ],
+    "correctAnswer": "To identify problems in the user interface design and assess how easy the product is to use.",
+    "category": "User Understanding"
+  },
+  {
+    "question": "Which of the following best describes 'technical debt'?",
+    "options": [
+      "The amount of money owed for software licenses.",
+      "The future cost of rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer.",
+      "The time engineers spend fixing bugs instead of building new features.",
+      "The hardware costs associated with running the product."
+    ],
+    "correctAnswer": "The future cost of rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer.",
+    "category": "Technical Concepts"
+  },
+  {
+    "question": "A 'Freemium' pricing model typically involves:",
+    "options": [
+      "Charging users based on their usage volume.",
+      "Offering a basic version of the product for free, with charges for advanced features or versions.",
+      "A one-time purchase fee for lifetime access.",
+      "Providing a free trial period after which payment is required."
+    ],
+    "correctAnswer": "Offering a basic version of the product for free, with charges for advanced features or versions.",
+    "category": "Pricing & Monetization"
+  },
+  {
+    "question": "What is the difference between a Product Backlog and a Sprint Backlog in Scrum?",
+    "options": [
+      "The Product Backlog is for bugs, the Sprint Backlog is for features.",
+      "The Product Backlog contains all known requirements for the product; the Sprint Backlog contains tasks selected for a specific Sprint.",
+      "The Product Backlog is managed by the Scrum Master, the Sprint Backlog by the Product Owner.",
+      "The Product Backlog is updated daily, the Sprint Backlog is updated yearly."
+    ],
+    "correctAnswer": "The Product Backlog contains all known requirements for the product; the Sprint Backlog contains tasks selected for a specific Sprint.",
+    "category": "Agile & Development"
+  },
+  {
+    "question": "An Application Programming Interface (API) primarily allows:",
+    "options": [
+      "Users to directly interact with the product's visual elements.",
+      "Different software systems to communicate and exchange data with each other.",
+      "Product managers to track user engagement metrics.",
+      "Marketing teams to design ad campaigns."
+    ],
+    "correctAnswer": "Different software systems to communicate and exchange data with each other.",
+    "category": "Technical Concepts"
+  },
+  {
+    "question": "Which of the following is generally considered a 'Vanity Metric'?",
+    "options": [
+      "Conversion Rate",
+      "Customer Lifetime Value (CLTV)",
+      "Total number of page views",
+      "Churn Rate"
+    ],
+    "correctAnswer": "Total number of page views",
+    "category": "Metrics & Analytics"
+  },
+  {
+    "question": "Alpha testing typically involves testing a pre-release product version with:",
+    "options": [
+      "The general public.",
+      "A select group of external end-users under real-world conditions.",
+      "Internal employees or a dedicated internal QA team.",
+      "Competitors' users."
+    ],
+    "correctAnswer": "Internal employees or a dedicated internal QA team.",
+    "category": "Go-to-Market"
+  },
+  {
+    "question": "A key difference between a Product Manager and a Project Manager is:",
+    "options": [
+      "Product Managers focus on code, Project Managers focus on design.",
+      "Product Managers are responsible for the 'what' and 'why' (product vision, strategy, success), Project Managers focus on the 'how' and 'when' (execution, timeline, resources).",
+      "Product Managers report to Marketing, Project Managers report to Engineering.",
+      "Only Project Managers manage budgets."
+    ],
+    "correctAnswer": "Product Managers are responsible for the 'what' and 'why' (product vision, strategy, success), Project Managers focus on the 'how' and 'when' (execution, timeline, resources).",
+    "category": "Core Concepts"
+  },
+  {
+    "question": "What is the primary purpose of a 'Painted Door' test in product validation?",
+    "options": [
+      "To test the visual appeal of the user interface.",
+      "To measure user interest in a potential feature or product before actually building it.",
+      "To perform A/B testing on different color schemes.",
+      "To gather detailed feedback on an existing feature."
+    ],
+    "correctAnswer": "To measure user interest in a potential feature or product before actually building it.",
+    "category": "Product Discovery"
+  },
+  {
+    "question": "In stakeholder management, what is a common challenge when dealing with the Sales team?",
+    "options": [
+      "They are usually too focused on long-term strategy.",
+      "They rarely have opinions on product features.",
+      "They often request specific features for individual deals, potentially diverting roadmap priorities.",
+      "They prefer not to be informed about upcoming product changes."
+    ],
+    "correctAnswer": "They often request specific features for individual deals, potentially diverting roadmap priorities.",
+    "category": "Stakeholder Management"
+  },
+  {
+    "question": "What does the 'AARRR' framework (Pirate Metrics) primarily help product managers track?",
+    "options": [
+      "Software development bugs and fixes.",
+      "The customer lifecycle funnel (Acquisition, Activation, Retention, Referral, Revenue).",
+      "Competitor pricing strategies.",
+      "Internal team performance metrics."
+    ],
+    "correctAnswer": "The customer lifecycle funnel (Acquisition, Activation, Retention, Referral, Revenue).",
+    "category": "Metrics & Analytics"
+  },
+  {
+    "question": "What is the main goal of the Daily Scrum (Daily Stand-up) meeting in Agile?",
+    "options": [
+      "To provide status updates to stakeholders outside the team.",
+      "To solve complex technical problems.",
+      "For the development team to synchronize activities and create a plan for the next 24 hours.",
+      "To review and approve the work completed during the sprint."
+    ],
+    "correctAnswer": "For the development team to synchronize activities and create a plan for the next 24 hours.",
+    "category": "Agile & Development"
+  },
+  {
+    "question": "An 'Outcome-Based Roadmap' focuses primarily on:",
+    "options": [
+      "Listing specific features and delivery dates.",
+      "Detailing the technical architecture improvements.",
+      "Achieving specific customer or business goals (the 'why').",
+      "Documenting user manual content."
+    ],
+    "correctAnswer": "Achieving specific customer or business goals (the 'why').",
+    "category": "Roadmapping"
+  },
+  {
+    "question": "What is the difference between the 'Problem Space' and the 'Solution Space' in product development?",
+    "options": [
+      "Problem space defines the budget, Solution space defines the features.",
+      "Problem space focuses on understanding user needs and pains, Solution space focuses on how to address them (features, products).",
+      "Problem space is handled by marketing, Solution space by engineering.",
+      "Problem space involves bugs, Solution space involves new features."
+    ],
+    "correctAnswer": "Problem space focuses on understanding user needs and pains, Solution space focuses on how to address them (features, products).",
+    "category": "Product Discovery"
+  },
+  {
+    "question": "A high 'Bounce Rate' on a specific landing page likely indicates that:",
+    "options": [
+      "Users are highly engaged with the content.",
+      "The page is loading very quickly.",
+      "Users are leaving the site after viewing only that page, suggesting it may not meet their expectations or needs.",
+      "The marketing campaign driving traffic to the page is very successful."
+    ],
+    "correctAnswer": "Users are leaving the site after viewing only that page, suggesting it may not meet their expectations or needs.",
+    "category": "Metrics & Analytics"
+  },
+  {
+    "question": "What is the 'Definition of Done' (DoD) in an Agile context?",
+    "options": [
+      "A checklist of tasks assigned to a specific team member.",
+      "The final approval given by the CEO before product launch.",
+      "A shared understanding within the team of the quality criteria and standards a piece of work must meet to be considered complete.",
+      "The list of features planned for the entire product."
+    ],
+    "correctAnswer": "A shared understanding within the team of the quality criteria and standards a piece of work must meet to be considered complete.",
+    "category": "Agile & Development"
+  },
+  {
+    "question": "Which of the following is a common strategy for managing a product in the 'Decline' stage of its lifecycle?",
+    "options": [
+      "Investing heavily in new feature development.",
+      "Expanding marketing efforts to acquire new user segments.",
+      "Harvesting the product (reducing investment to maximize remaining profit) or planning for discontinuation.",
+      "Significantly increasing the price to boost revenue."
+    ],
+    "correctAnswer": "Harvesting the product (reducing investment to maximize remaining profit) or planning for discontinuation.",
+    "category": "Product Lifecycle"
+  },
+  {
+    "question": "What is the primary benefit of using 'Opportunity Solution Trees'?",
+    "options": [
+      "To finalize the visual design of the user interface.",
+      "To track development team velocity.",
+      "To visually map desired outcomes to potential opportunities and solutions, helping to structure discovery work.",
+      "To manage the project budget and timelines."
+    ],
+    "correctAnswer": "To visually map desired outcomes to potential opportunities and solutions, helping to structure discovery work.",
+    "category": "Product Discovery"
+  },
+  {
+    "question": "Comparing 'Cohort Analysis' to general 'User Segmentation' helps product managers understand:",
+    "options": [
+      "Only the demographic breakdown of users.",
+      "How the behavior of specific groups of users (joined at the same time) changes over time, versus grouping by characteristics regardless of time.",
+      "The total number of bugs reported each month.",
+      "The company's stock performance."
+    ],
+    "correctAnswer": "How the behavior of specific groups of users (joined at the same time) changes over time, versus grouping by characteristics regardless of time.",
+    "category": "Metrics & Analytics"
+  },
+  {
+    "question": "What does it mean to 'pivot' in a product strategy context?",
+    "options": [
+      "To release a minor bug fix update.",
+      "To change the product's user interface design.",
+      "To make a significant change in strategy after validating a new direction based on learning, often changing target customer, problem, or core features.",
+      "To hire a new product manager."
+    ],
+    "correctAnswer": "To make a significant change in strategy after validating a new direction based on learning, often changing target customer, problem, or core features.",
+    "category": "Strategy & Vision"
+  },
+  {
+    "question": "An 'Empathy Map' is a tool primarily used to:",
+    "options": [
+      "Plan the sprint backlog.",
+      "Gain a deeper understanding of a user's perspective by considering what they say, think, feel, and do.",
+      "Calculate the Customer Lifetime Value.",
+      "Design the database schema."
+    ],
+    "correctAnswer": "Gain a deeper understanding of a user's perspective by considering what they say, think, feel, and do.",
+    "category": "User Understanding"
+  },
+  {
+    "question": "What hierarchy is commonly used to break down work in Agile development?",
+    "options": [
+      "Phase -> Task -> Module",
+      "Goal -> Objective -> Tactic",
+      "Epic -> User Story -> Task",
+      "Project -> Milestone -> Deliverable"
+    ],
+    "correctAnswer": "Epic -> User Story -> Task",
+    "category": "Agile & Development"
+  },
+  {
+    "question": "When communicating a product roadmap to executive leadership, it's most important to emphasize:",
+    "options": [
+      "Detailed technical specifications of each feature.",
+      "Individual tasks assigned to developers.",
+      "How the roadmap aligns with strategic business objectives and expected outcomes.",
+      "The specific UI design choices for upcoming releases."
+    ],
+    "correctAnswer": "How the roadmap aligns with strategic business objectives and expected outcomes.",
+    "category": "Stakeholder Management"
+  },
+  {
+    "question": "What is the primary difference between a 'Product' and a 'Platform'?",
+    "options": [
+      "Products are software, Platforms are hardware.",
+      "Products solve specific user needs, Platforms enable other products or processes.",
+      "Products are sold B2C, Platforms are sold B2B.",
+      "Products have APIs, Platforms do not."
+    ],
+    "correctAnswer": "Products solve specific user needs, Platforms enable other products or processes.",
+    "category": "Core Concepts"
+  },
+  {
+    "question": "What does 'Product-Led Growth' (PLG) emphasize?",
+    "options": [
+      "Using large sales teams to drive revenue.",
+      "Focusing primarily on marketing campaigns for acquisition.",
+      "Using the product itself as the primary driver of customer acquisition, conversion, and expansion.",
+      "Prioritizing engineering-led feature development."
+    ],
+    "correctAnswer": "Using the product itself as the primary driver of customer acquisition, conversion, and expansion.",
+    "category": "Strategy & Vision"
+  },
+  {
+    "question": "What is the purpose of 'Story Mapping' in product development?",
+    "options": [
+      "To create a visual representation of the user's journey through the product, organizing user stories.",
+      "To estimate the development time for each user story.",
+      "To automatically generate code from user stories.",
+      "To document the technical architecture."
+    ],
+    "correctAnswer": "To create a visual representation of the user's journey through the product, organizing user stories.",
+    "category": "Agile & Development"
+  },
+  {
+    "question": "In the context of OKRs (Objectives and Key Results), what is a 'Key Result'?",
+    "options": [
+      "A high-level, qualitative goal.",
+      "A specific, measurable outcome that indicates progress towards an Objective.",
+      "A list of tasks to be completed.",
+      "The overall company mission statement."
+    ],
+    "correctAnswer": "A specific, measurable outcome that indicates progress towards an Objective.",
+    "category": "Strategy & Vision"
+  },
+  {
+    "question": "What is the main difference between 'Primary Research' and 'Secondary Research'?",
+    "options": [
+      "Primary research uses quantitative data, Secondary uses qualitative.",
+      "Primary research involves collecting new data directly (e.g., interviews, surveys), Secondary involves analyzing existing data (e.g., reports, articles).",
+      "Primary research is cheaper and faster than secondary research.",
+      "Primary research focuses on competitors, Secondary focuses on customers."
+    ],
+    "correctAnswer": "Primary research involves collecting new data directly (e.g., interviews, surveys), Secondary involves analyzing existing data (e.g., reports, articles).",
+    "category": "Market Research"
+  },
+  {
+    "question": "What is the primary function of 'Acceptance Criteria' on a User Story?",
+    "options": [
+      "To define the target user persona.",
+      "To outline the high-level business value.",
+      "To provide specific, testable conditions that must be met for the story to be considered complete.",
+      "To estimate the development effort required."
+    ],
+    "correctAnswer": "To provide specific, testable conditions that must be met for the story to be considered complete.",
+    "category": "Agile & Development"
+  },
+  {
+    "question": "The 'Buy a Feature' prioritization method involves:",
+    "options": [
+      "Calculating the ROI for each potential feature.",
+      "Asking stakeholders to 'spend' a limited budget on features they value most.",
+      "Ranking features based on development cost.",
+      "Implementing only the features requested by the highest-paying customer."
+    ],
+    "correctAnswer": "Asking stakeholders to 'spend' a limited budget on features they value most.",
+    "category": "Prioritization"
+  },
+  {
+    "question": "What is a common pitfall of feature-based roadmaps?",
+    "options": [
+      "They focus too much on strategic outcomes.",
+      "They can lead to a 'feature factory' mindset, focusing on output rather than impact.",
+      "They are too difficult for stakeholders to understand.",
+      "They rarely include timelines."
+    ],
+    "correctAnswer": "They can lead to a 'feature factory' mindset, focusing on output rather than impact.",
+    "category": "Roadmapping"
+  },
+  {
+    "question": "What does 'Net Promoter Score' (NPS) measure?",
+    "options": [
+      "The ease of use of a product.",
+      "The likelihood of customers recommending a product or service.",
+      "The monthly recurring revenue.",
+      "The percentage of users who complete a key action."
+    ],
+    "correctAnswer": "The likelihood of customers recommending a product or service.",
+    "category": "Metrics & Analytics"
+  },
+  {
+    "question": "What is 'Sales Enablement' in the context of a product launch?",
+    "options": [
+      "Setting sales quotas for the new product.",
+      "Equipping the sales team with the knowledge, resources, and tools they need to effectively sell the new product.",
+      "Hiring additional salespeople before the launch.",
+      "Developing the compensation plan for the sales team."
+    ],
+    "correctAnswer": "Equipping the sales team with the knowledge, resources, and tools they need to effectively sell the new product.",
+    "category": "Go-to-Market"
+  },
+  {
+    "question": "What is a key challenge when managing technical debt?",
+    "options": [
+      "It's always easy to identify and measure.",
+      "Prioritizing paying down debt (refactoring, non-functional work) against building new features.",
+      "It only affects the user interface.",
+      "It typically resolves itself without specific effort."
+    ],
+    "correctAnswer": "Prioritizing paying down debt (refactoring, non-functional work) against building new features.",
+    "category": "Technical Concepts"
+  },
+  {
+    "question": "'Value-Based Pricing' sets the price of a product based on:",
+    "options": [
+      "The cost of developing and producing the product plus a markup.",
+      "What competitors are charging for similar products.",
+      "The perceived value the product provides to the customer.",
+      "Breaking even within the first year."
+    ],
+    "correctAnswer": "The perceived value the product provides to the customer.",
+    "category": "Pricing & Monetization"
+  },
+  {
+    "question": "What is the purpose of 'Affinity Mapping' (or Affinity Diagramming) after user research?",
+    "options": [
+      "To calculate statistical significance of findings.",
+      "To group related observations, ideas, and insights from qualitative data to identify themes and patterns.",
+      "To create wireframes for the user interface.",
+      "To prioritize features based on estimated revenue."
+    ],
+    "correctAnswer": "To group related observations, ideas, and insights from qualitative data to identify themes and patterns.",
+    "category": "User Understanding"
+  },
+  {
+    "question": "In Agile, what is the main purpose of 'Story Points'?",
+    "options": [
+      "To measure the exact hours a task will take.",
+      "To represent a relative measure of effort, complexity, and uncertainty for user stories.",
+      "To track the budget spent on development.",
+      "To assign tasks to specific developers."
+    ],
+    "correctAnswer": "To represent a relative measure of effort, complexity, and uncertainty for user stories.",
+    "category": "Agile & Development"
+  },
+  {
+    "question": "What does 'Cost of Delay' represent in prioritization?",
+    "options": [
+      "The actual cost incurred by the development team being late.",
+      "The financial impact (lost revenue, missed opportunity) of delaying the launch or availability of a feature.",
+      "The budget allocated for potential project overruns.",
+      "The cost associated with fixing bugs found after release."
+    ],
+    "correctAnswer": "The financial impact (lost revenue, missed opportunity) of delaying the launch or availability of a feature.",
+    "category": "Prioritization"
+  },
+  {
+    "question": "A 'Now, Next, Later' roadmap format is useful for:",
+    "options": [
+      "Committing to exact delivery dates far into the future.",
+      "Communicating priorities with decreasing certainty over time (high certainty for 'Now', lower for 'Later').",
+      "Detailing only the technical tasks for the engineering team.",
+      "Showing the exact revenue forecast for each item."
+    ],
+    "correctAnswer": "Communicating priorities with decreasing certainty over time (high certainty for 'Now', lower for 'Later').",
+    "category": "Roadmapping"
+  },
+  {
+    "question": "What is a key difference between 'Correlation' and 'Causation' when analyzing data?",
+    "options": [
+      "Correlation means two variables change together, Causation means one variable directly causes the change in the other.",
+      "Correlation is used in qualitative data, Causation in quantitative.",
+      "Causation is easier to prove than Correlation.",
+      "They are interchangeable terms in data analysis."
+    ],
+    "correctAnswer": "Correlation means two variables change together, Causation means one variable directly causes the change in the other.",
+    "category": "Metrics & Analytics"
+  },
+  {
+    "question": "What is the primary goal of Beta Testing?",
+    "options": [
+      "To finalize the marketing message.",
+      "To gather feedback on usability, find bugs, and gauge satisfaction from real users outside the company before a wider launch.",
+      "To train the internal support team.",
+      "To perform initial load testing on the servers."
+    ],
+    "correctAnswer": "To gather feedback on usability, find bugs, and gauge satisfaction from real users outside the company before a wider launch.",
+    "category": "Go-to-Market"
+  },
+  {
+    "question": "When communicating a difficult decision (e.g., saying 'no' to a feature request) to a stakeholder, it's helpful to:",
+    "options": [
+      "Avoid explaining the reasoning to save time.",
+      "Focus only on the technical limitations.",
+      "Explain the reasoning, connect it back to strategic priorities or constraints, and potentially suggest alternatives.",
+      "Promise to reconsider it in the very next planning cycle, regardless of priority."
+    ],
+    "correctAnswer": "Explain the reasoning, connect it back to strategic priorities or constraints, and potentially suggest alternatives.",
+    "category": "Stakeholder Management"
+  },
+  {
+    "question": "From a Product Manager's perspective, what is the relevance of 'Continuous Integration/Continuous Deployment' (CI/CD)?",
+    "options": [
+      "It primarily impacts the marketing team's workflow.",
+      "It allows for faster and more reliable delivery of features and fixes to users, enabling quicker feedback loops.",
+      "It's a specific user interface design pattern.",
+      "It dictates the programming language used by developers."
+    ],
+    "correctAnswer": "It allows for faster and more reliable delivery of features and fixes to users, enabling quicker feedback loops.",
+    "category": "Technical Concepts"
+  },
+  {
+    "question": "'Cost-Plus Pricing' involves calculating the price based on:",
+    "options": [
+      "The perceived customer value.",
+      "The cost of production plus a predetermined profit margin.",
+      "Matching the lowest competitor's price.",
+      "What early adopters are willing to pay."
+    ],
+    "correctAnswer": "The cost of production plus a predetermined profit margin.",
+    "category": "Pricing & Monetization"
+  },
+  {
+    "question": "What is the main purpose of a 'User Journey Map'?",
+    "options": [
+      "To document the technical steps involved in a feature.",
+      "To visualize the end-to-end experience a user has when interacting with a product or service to achieve a specific goal.",
+      "To list all potential user personas.",
+      "To track daily active users."
+    ],
+    "correctAnswer": "To visualize the end-to-end experience a user has when interacting with a product or service to achieve a specific goal.",
+    "category": "User Understanding"
+  },
+  {
+    "question": "What is the role of the 'Scrum Master' in a Scrum team?",
+    "options": [
+      "To manage the product backlog and prioritize features.",
+      "To act as a servant-leader, helping the team understand and enact Scrum theory and practice, and removing impediments.",
+      "To assign daily tasks to individual developers.",
+      "To approve the final product before release."
+    ],
+    "correctAnswer": "To act as a servant-leader, helping the team understand and enact Scrum theory and practice, and removing impediments.",
+    "category": "Agile & Development"
+  },
+  {
+    "question": "What is 'Ethnographic Research' in the context of product discovery?",
+    "options": [
+      "Analyzing website traffic data.",
+      "Conducting large-scale online surveys.",
+      "Observing users in their natural environment to understand their behaviors, needs, and challenges.",
+      "Reviewing competitor financial reports."
+    ],
+    "correctAnswer": "Observing users in their natural environment to understand their behaviors, needs, and challenges.",
+    "category": "Market Research"
+  },
+  {
+    "question": "What is 'Information Architecture' (IA) concerned with?",
+    "options": [
+      "The visual aesthetics (colors, fonts) of a product.",
+      "Structuring and organizing content and navigation within a product to help users find information and complete tasks.",
+      "The underlying server infrastructure.",
+      "Writing the code for the user interface."
+    ],
+    "correctAnswer": "Structuring and organizing content and navigation within a product to help users find information and complete tasks.",
+    "category": "UX/UI Design"
+  },
+  {
+    "question": "What does 'Accessibility' (often abbreviated as a11y) mean in product design?",
+    "options": [
+      "The product is available in multiple languages.",
+      "The product can be used by people with disabilities (e.g., visual, auditory, motor, cognitive).",
+      "The product has a low price point.",
+      "The product's codebase is easy for developers to understand."
+    ],
+    "correctAnswer": "The product can be used by people with disabilities (e.g., visual, auditory, motor, cognitive).",
+    "category": "UX/UI Design"
+  },
+  {
+    "question": "What is a 'Design System'?",
+    "options": [
+      "A specific software used for creating mockups.",
+      "A collection of reusable components, guided by clear standards, that can be assembled to build applications consistently and efficiently.",
+      "The process of conducting user interviews.",
+      "A document outlining the product vision."
+    ],
+    "correctAnswer": "A collection of reusable components, guided by clear standards, that can be assembled to build applications consistently and efficiently.",
+    "category": "UX/UI Design"
+  },
+  {
+    "question": "What is the purpose of a 'Heuristic Evaluation'?",
+    "options": [
+      "To measure the market size.",
+      "To assess the usability of an interface against a set of recognized usability principles (heuristics).",
+      "To calculate the development cost.",
+      "To define user personas."
+    ],
+    "correctAnswer": "To assess the usability of an interface against a set of recognized usability principles (heuristics).",
+    "category": "UX/UI Design"
+  },
+  {
+    "question": "What is 'Customer Effort Score' (CES)?",
+    "options": [
+      "A measure of how much effort a customer had to exert to get an issue resolved, a request fulfilled, or a question answered.",
+      "The total revenue generated per customer.",
+      "The number of times a customer contacts support.",
+      "A score ranking customers by their value to the company."
+    ],
+    "correctAnswer": "A measure of how much effort a customer had to exert to get an issue resolved, a request fulfilled, or a question answered.",
+    "category": "Metrics & Analytics"
+  },
+  {
+    "question": "What is 'Funnel Analysis' used for in product analytics?",
+    "options": [
+      "To track server downtime.",
+      "To understand and optimize the steps users take to complete a key action or workflow (e.g., sign-up, purchase).",
+      "To compare product features against competitors.",
+      "To manage the product development budget."
+    ],
+    "correctAnswer": "To understand and optimize the steps users take to complete a key action or workflow (e.g., sign-up, purchase).",
+    "category": "Metrics & Analytics"
+  }
+]
