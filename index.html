@@ -33,6 +33,7 @@
       display: inline-block;
     }
   </style>
+
 </head>
 
 <body
@@ -78,6 +79,7 @@
   </div>
 
   <script>
+    window.tailwind.config["darkMode"] = "class";
     // --- DOM Elements ---
     const htmlElement = document.documentElement;
     const darkModeToggle = document.getElementById('dark-mode-toggle');
@@ -114,6 +116,7 @@
 
     // --- Initial Load ---
     loadDarkModePreference(); // Apply dark mode on page load
+
 
   </script>
 
