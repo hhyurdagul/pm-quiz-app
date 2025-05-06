@@ -1,0 +1,882 @@
+[
+    {
+        "question": "What is the primary goal of project management?",
+        "options": [
+            "To minimize costs at all expenses.",
+            "To complete the project on time, within budget, and to scope.",
+            "To maximize the project team's workload.",
+            "To ignore stakeholder expectations and focus on the technical aspects."
+        ],
+        "correctAnswer": "To complete the project on time, within budget, and to scope.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "Which of the following is NOT typically considered a project constraint?",
+        "options": [
+            "Time.",
+            "Cost.",
+            "Quality.",
+            "Team Morale."
+        ],
+        "correctAnswer": "Team Morale.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "What is a 'stakeholder' in project management?",
+        "options": [
+            "Only the project manager and the client.",
+            "Anyone who may be affected by or have an interest in the project.",
+            "Only the people working directly on the project team.",
+            "Only the people who are funding the project."
+        ],
+        "correctAnswer": "Anyone who may be affected by or have an interest in the project.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "Which project management phase typically involves defining the project goals and objectives?",
+        "options": [
+            "Initiating.",
+            "Planning.",
+            "Executing.",
+            "Closing."
+        ],
+        "correctAnswer": "Initiating.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "What is the 'triple constraint' in project management?",
+        "options": [
+            "Scope, Quality, Resources.",
+            "Time, Cost, Quality.",
+            "Scope, Time, Cost.",
+            "Resources, Risk, Communication."
+        ],
+        "correctAnswer": "Scope, Time, Cost.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "Which of the following is the BEST definition of a project?",
+        "options": [
+            "Routine day-to-day tasks of an organization.",
+            "A temporary endeavor undertaken to create a unique product, service, or result.",
+            "Ongoing operational work.",
+            "A collection of programs."
+        ],
+        "correctAnswer": "A temporary endeavor undertaken to create a unique product, service, or result.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "What is the purpose of a Project Charter?",
+        "options": [
+            "To detail the project schedule.",
+            "To formally authorize a project and document initial high-level requirements.",
+            "To manage project risks.",
+            "To track project expenses."
+        ],
+        "correctAnswer": "To formally authorize a project and document initial high-level requirements.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "Which of the following BEST describes a 'Program' in project management context?",
+        "options": [
+            "A single, small project.",
+            "A group of related projects, managed in a coordinated way to obtain benefits not available from managing them individually.",
+            "A set of unrelated projects.",
+            "An operational task repeated regularly."
+        ],
+        "correctAnswer": "A group of related projects, managed in a coordinated way to obtain benefits not available from managing them individually.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "What is a 'Portfolio' in project management?",
+        "options": [
+            "A single, very large project.",
+            "A collection of projects, programs, subsidiary portfolios, and operations managed as a group to achieve strategic objectives.",
+            "Only projects related to IT.",
+            "A list of project risks."
+        ],
+        "correctAnswer": "A collection of projects, programs, subsidiary portfolios, and operations managed as a group to achieve strategic objectives.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "What is the primary role of a Project Management Office (PMO)?",
+        "options": [
+            "To manage individual projects directly.",
+            "To provide support, standards, and guidance for project management within an organization.",
+            "To execute all project tasks.",
+            "To only track project budgets."
+        ],
+        "correctAnswer": "To provide support, standards, and guidance for project management within an organization.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "Which of the following is a key characteristic of the 'Planning' process group in project management?",
+        "options": [
+            "Authorizing the project to begin.",
+            "Defining and refining objectives, and planning the course of action to attain the objectives.",
+            "Directing and managing the work of the project.",
+            "Formalizing acceptance of the project deliverables."
+        ],
+        "correctAnswer": "Defining and refining objectives, and planning the course of action to attain the objectives.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "In which project phase is the majority of the project work typically carried out?",
+        "options": [
+            "Initiating.",
+            "Planning.",
+            "Executing.",
+            "Closing."
+        ],
+        "correctAnswer": "Executing.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "What is the purpose of the 'Monitoring and Controlling' process group?",
+        "options": [
+            "To start the project.",
+            "To define the project scope.",
+            "To track, review, and regulate the progress and performance of the project.",
+            "To finalize the project deliverables."
+        ],
+        "correctAnswer": "To track, review, and regulate the progress and performance of the project.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "What happens in the 'Closing' process group?",
+        "options": [
+            "The project team starts working on tasks.",
+            "The project plan is created.",
+            "The project is formally finalized, deliverables are accepted, and project resources are released.",
+            "Risks are identified and analyzed."
+        ],
+        "correctAnswer": "The project is formally finalized, deliverables are accepted, and project resources are released.",
+        "category": "Fundamentals of Project Management"
+    },
+    {
+        "question": "What is the core principle behind the Agile Manifesto?",
+        "options": [
+            "Following a plan rigidly.",
+            "Responding to change over following a plan.",
+            "Comprehensive documentation over working software.",
+            "Contract negotiation over customer collaboration."
+        ],
+        "correctAnswer": "Responding to change over following a plan.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "Which of the following is an Agile value?",
+        "options": [
+            "Processes and tools over individuals and interactions.",
+            "Working software over comprehensive documentation.",
+            "Contract negotiation over customer collaboration.",
+            "Following a plan over responding to change."
+        ],
+        "correctAnswer": "Working software over comprehensive documentation.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "What does 'Individuals and interactions over processes and tools' mean in Agile?",
+        "options": [
+            "Processes and tools are not important in Agile.",
+            "Good processes and tools are less important than effective teamwork and communication.",
+            "Individuals should work in isolation to be more efficient.",
+            "Processes should be strictly followed regardless of team dynamics."
+        ],
+        "correctAnswer": "Good processes and tools are less important than effective teamwork and communication.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "What is the primary focus of Agile methodologies?",
+        "options": [
+            "Predictive planning and upfront design.",
+            "Flexibility, collaboration, and iterative development.",
+            "Strict adherence to detailed documentation.",
+            "Hierarchical project management structures."
+        ],
+        "correctAnswer": "Flexibility, collaboration, and iterative development.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "According to the Agile Manifesto, 'Customer collaboration over contract negotiation' means:",
+        "options": [
+            "Contracts are not needed in Agile projects.",
+            "Working closely with the customer to deliver value is more important than rigid contract terms.",
+            "Negotiating contracts is not the project manager's responsibility.",
+            "Customers should dictate every aspect of the project."
+        ],
+        "correctAnswer": "Working closely with the customer to deliver value is more important than rigid contract terms.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "What is the meaning of 'Working software is the primary measure of progress' in Agile?",
+        "options": [
+            "Documentation is unimportant in Agile.",
+            "Delivering functional software frequently and consistently demonstrates real progress.",
+            "Project plans are not necessary.",
+            "Only software projects can be Agile."
+        ],
+        "correctAnswer": "Delivering functional software frequently and consistently demonstrates real progress.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "What does 'Welcome changing requirements, even late in development' imply in Agile?",
+        "options": [
+            "Changes should be avoided at all costs.",
+            "Agile processes harness change for the customer's competitive advantage.",
+            "Changes are only accepted in the initial project phases.",
+            "Change management is not needed in Agile."
+        ],
+        "correctAnswer": "Agile processes harness change for the customer's competitive advantage.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "Which of the following is NOT a principle behind the Agile Manifesto?",
+        "options": [
+            "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.",
+            "Working software is the primary measure of progress.",
+            "Business people and developers must work together daily throughout the project.",
+            "Comprehensive documentation is more valuable than working software."
+        ],
+        "correctAnswer": "Comprehensive documentation is more valuable than working software.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "What is the 'Agile mindset' primarily about?",
+        "options": [
+            "Using specific Agile tools and techniques.",
+            "A set of attitudes, underpinned by the Agile values and principles, that guide decision-making.",
+            "Strictly following a defined Agile process.",
+            "Minimizing project documentation."
+        ],
+        "correctAnswer": "A set of attitudes, underpinned by the Agile values and principles, that guide decision-making.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "What does 'Simplicity--the art of maximizing the amount of work not done--is essential' mean in Agile?",
+        "options": [
+            "Agile teams should avoid doing any unnecessary work.",
+            "Focus on delivering only the essential features and avoiding complexity.",
+            "Documentation should be kept to a minimum.",
+            "Planning should be as simple as possible."
+        ],
+        "correctAnswer": "Focus on delivering only the essential features and avoiding complexity.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "Which of the following best describes 'Iterative and Incremental' development in Agile?",
+        "options": [
+            "Planning everything upfront and then executing sequentially.",
+            "Developing the entire product in one go, with all features at once.",
+            "Breaking down work into small increments that are developed iteratively and delivered frequently.",
+            "Only delivering the product at the very end of the project."
+        ],
+        "correctAnswer": "Breaking down work into small increments that are developed iteratively and delivered frequently.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "In Agile, 'Self-organizing teams' are encouraged because:",
+        "options": [
+            "They require less management oversight and reduce project manager workload.",
+            "They are believed to be more creative, innovative, and productive.",
+            "They can operate without any defined roles or responsibilities.",
+            "They eliminate the need for project planning."
+        ],
+        "correctAnswer": "They are believed to be more creative, innovative, and productive.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "What is the primary benefit of 'Frequent reflection and adjustment' in Agile?",
+        "options": [
+            "To ensure strict adherence to the initial plan.",
+            "To continuously improve processes, practices, and team effectiveness.",
+            "To reduce the need for upfront planning.",
+            "To speed up the development process by skipping reviews."
+        ],
+        "correctAnswer": "To continuously improve processes, practices, and team effectiveness.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "Which of these statements BEST describes the Agile approach to documentation?",
+        "options": [
+            "Documentation should be as comprehensive as possible to ensure clarity and prevent misunderstandings.",
+            "Documentation is not needed in Agile.",
+            "Agile favors 'working software over comprehensive documentation', focusing on 'just enough' documentation that supports development and understanding.",
+            "Documentation is only created at the end of the project."
+        ],
+        "correctAnswer": "Agile favors 'working software over comprehensive documentation', focusing on 'just enough' documentation that supports development and understanding.",
+        "category": "Agile Principles and Values"
+    },
+    {
+        "question": "What is Scrum?",
+        "options": [
+            "A predictive project management methodology.",
+            "A complete project management methodology covering all aspects of project management.",
+            "A lightweight framework for Agile development, focused on iterative and incremental delivery.",
+            "A set of strict rules and processes that must be followed exactly."
+        ],
+        "correctAnswer": "A lightweight framework for Agile development, focused on iterative and incremental delivery.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "Who is the Product Owner in Scrum?",
+        "options": [
+            "The person who manages the development team.",
+            "The person responsible for the technical aspects of the product.",
+            "The person responsible for maximizing the value of the product and managing the Product Backlog.",
+            "The person who facilitates the Scrum process."
+        ],
+        "correctAnswer": "The person responsible for maximizing the value of the product and managing the Product Backlog.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "What is the role of the Scrum Master?",
+        "options": [
+            "To assign tasks to the development team members.",
+            "To manage the project budget and timeline.",
+            "To facilitate the Scrum process and remove impediments for the Development Team.",
+            "To define the product vision and strategy."
+        ],
+        "correctAnswer": "To facilitate the Scrum process and remove impediments for the Development Team.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "What is a 'Sprint' in Scrum?",
+        "options": [
+            "A long phase in the project lifecycle (e.g., several months).",
+            "A time-boxed iteration, typically 2-4 weeks, where a 'Done', usable, and potentially releasable product Increment is created.",
+            "The project planning phase.",
+            "The product testing phase."
+        ],
+        "correctAnswer": "A time-boxed iteration, typically 2-4 weeks, where a 'Done', usable, and potentially releasable product Increment is created.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "Which Scrum event is used for the Development Team to plan their work for the Sprint?",
+        "options": [
+            "Daily Scrum.",
+            "Sprint Review.",
+            "Sprint Retrospective.",
+            "Sprint Planning."
+        ],
+        "correctAnswer": "Sprint Planning.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "What is the purpose of the Daily Scrum?",
+        "options": [
+            "To report progress to stakeholders.",
+            "To review the Increment with the Product Owner.",
+            "To inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary.",
+            "To plan the next Sprint."
+        ],
+        "correctAnswer": "To inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "What is the Sprint Review event for?",
+        "options": [
+            "To plan the work for the next Sprint.",
+            "To inspect the Increment and adapt the Product Backlog if needed.",
+            "To discuss what went well and what could be improved in the Sprint.",
+            "To resolve conflicts within the Development Team."
+        ],
+        "correctAnswer": "To inspect the Increment and adapt the Product Backlog if needed.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "What is the purpose of the Sprint Retrospective?",
+        "options": [
+            "To demonstrate the Increment to stakeholders.",
+            "To plan the next Sprint.",
+            "To inspect the Sprint and identify improvements for future Sprints.",
+            "To assign tasks for the next Sprint."
+        ],
+        "correctAnswer": "To inspect the Sprint and identify improvements for future Sprints.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "What is the ideal size of a Scrum Development Team according to the Scrum Guide?",
+        "options": [
+            "3-5 people.",
+            "5-9 people.",
+            "10-15 people.",
+            "No specific size is recommended."
+        ],
+        "correctAnswer": "5-9 people.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "Which of the following is NOT a Scrum value?",
+        "options": [
+            "Courage.",
+            "Focus.",
+            "Transparency.",
+            "Perfection."
+        ],
+        "correctAnswer": "Perfection.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "What is the 'Product Backlog' in Scrum?",
+        "options": [
+            "A list of tasks for the current Sprint.",
+            "A prioritized list of everything that might be needed in the product.",
+            "A list of resolved bugs.",
+            "A Gantt chart for the project."
+        ],
+        "correctAnswer": "A prioritized list of everything that might be needed in the product.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "What is a 'Sprint Goal'?",
+        "options": [
+            "A detailed list of tasks for the Sprint.",
+            "An objective set for the Sprint that can be met through the implementation of Product Backlog Items within the Sprint.",
+            "The budget for the Sprint.",
+            "The deadline for the Sprint."
+        ],
+        "correctAnswer": "An objective set for the Sprint that can be met through the implementation of Product Backlog Items within the Sprint.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "Who is responsible for creating the Sprint Backlog?",
+        "options": [
+            "The Product Owner.",
+            "The Scrum Master.",
+            "The Development Team.",
+            "The Project Manager."
+        ],
+        "correctAnswer": "The Development Team.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "What is the time-box for a Daily Scrum?",
+        "options": [
+            "5 minutes.",
+            "15 minutes.",
+            "30 minutes.",
+            "1 hour."
+        ],
+        "correctAnswer": "15 minutes.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "Who is typically present at the Daily Scrum?",
+        "options": [
+            "The Product Owner and Scrum Master only.",
+            "Stakeholders and the Product Owner.",
+            "The Development Team.",
+            "The entire Scrum Team (Product Owner, Scrum Master, Development Team)."
+        ],
+        "correctAnswer": "The Development Team.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "What is the artifact inspected during the Sprint Review?",
+        "options": [
+            "The Sprint Backlog.",
+            "The Product Backlog.",
+            "The Increment.",
+            "The Sprint Goal."
+        ],
+        "correctAnswer": "The Increment.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "Who typically participates in the Sprint Review?",
+        "options": [
+            "Only the Development Team.",
+            "Only the Product Owner and Stakeholders.",
+            "The Scrum Team and key stakeholders.",
+            "Only the Scrum Master."
+        ],
+        "correctAnswer": "The Scrum Team and key stakeholders.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "Who facilitates the Sprint Retrospective?",
+        "options": [
+            "The Product Owner.",
+            "The Scrum Master.",
+            "The Development Team.",
+            "Stakeholders."
+        ],
+        "correctAnswer": "The Scrum Master.",
+        "category": "Scrum Framework"
+    },
+    {
+        "question": "Kanban is best described as:",
+        "options": [
+            "A time-boxed iterative framework.",
+            "A flow-based system focused on visualizing workflow and limiting work in progress.",
+            "A methodology that emphasizes comprehensive documentation.",
+            "A project management approach that strictly defines roles and responsibilities upfront."
+        ],
+        "correctAnswer": "A flow-based system focused on visualizing workflow and limiting work in progress.",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "Which of the following is a key practice in Kanban?",
+        "options": [
+            "Sprint Planning meetings.",
+            "Daily Stand-ups with predefined questions.",
+            "Limiting Work In Progress (WIP).",
+            "Time-boxed iterations."
+        ],
+        "correctAnswer": "Limiting Work In Progress (WIP).",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "What is the primary goal of implementing Kanban?",
+        "options": [
+            "To create fixed-length Sprints.",
+            "To improve flow and reduce waste in the workflow.",
+            "To strictly define roles and responsibilities.",
+            "To eliminate documentation."
+        ],
+        "correctAnswer": "To improve flow and reduce waste in the workflow.",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "What is a 'Kanban board'?",
+        "options": [
+            "A budget tracking spreadsheet.",
+            "A visual tool to manage and visualize workflow, typically using columns to represent stages of work.",
+            "A document outlining project risks.",
+            "A calendar showing project deadlines."
+        ],
+        "correctAnswer": "A visual tool to manage and visualize workflow, typically using columns to represent stages of work.",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "What does 'Limit Work in Progress (WIP)' mean in Kanban?",
+        "options": [
+            "Restricting the total hours a team can work in a week.",
+            "Limiting the number of tasks that can be in progress at any one time in each stage of the workflow.",
+            "Reducing the scope of the project.",
+            "Delaying the start of new tasks until the end of the project."
+        ],
+        "correctAnswer": "Limiting the number of tasks that can be in progress at any one time in each stage of the workflow.",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "Which metric is commonly used to measure flow in Kanban?",
+        "options": [
+            "Velocity (as used in Scrum).",
+            "Burn-down charts.",
+            "Lead Time and Cycle Time.",
+            "Story Points completed per Sprint."
+        ],
+        "correctAnswer": "Lead Time and Cycle Time.",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "Is Kanban iterative or continuous flow system?",
+        "options": [
+            "Primarily iterative, like Scrum.",
+            "Primarily a continuous flow system.",
+            "Strictly waterfall in nature.",
+            "Neither iterative nor continuous."
+        ],
+        "correctAnswer": "Primarily a continuous flow system.",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "Does Kanban prescribe specific roles like Scrum (e.g., Product Owner, Scrum Master)?",
+        "options": [
+            "Yes, Kanban has the same roles as Scrum.",
+            "No, Kanban typically does not prescribe specific roles, and roles are often defined based on existing job functions.",
+            "Kanban mandates more roles than Scrum.",
+            "Kanban roles are very strictly defined and cannot be adapted."
+        ],
+        "correctAnswer": "No, Kanban typically does not prescribe specific roles, and roles are often defined based on existing job functions.",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "What is a 'pull system' in the context of Kanban?",
+        "options": [
+            "Work is 'pushed' to team members by a manager.",
+            "Work is 'pulled' into the next stage of the workflow when capacity is available.",
+            "Work is only started when all requirements are fully documented.",
+            "Work is pulled from a predefined schedule, regardless of team capacity."
+        ],
+        "correctAnswer": "Work is 'pulled' into the next stage of the workflow when capacity is available.",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "Are estimations mandatory in Kanban?",
+        "options": [
+            "Yes, estimations are always required in Kanban for planning.",
+            "No, estimations are optional in Kanban and depend on the team's needs.",
+            "Estimations must be very precise in Kanban.",
+            "Kanban uses story point estimations like Scrum."
+        ],
+        "correctAnswer": "No, estimations are optional in Kanban and depend on the team's needs.",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "Which of the following is a benefit of visualizing workflow in Kanban?",
+        "options": [
+            "It automatically solves all project problems.",
+            "It makes the process transparent, identifies bottlenecks, and improves communication.",
+            "It eliminates the need for team meetings.",
+            "It strictly enforces deadlines."
+        ],
+        "correctAnswer": "It makes the process transparent, identifies bottlenecks, and improves communication.",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "Can Kanban and Scrum be used together?",
+        "options": [
+            "No, they are mutually exclusive methodologies.",
+            "Yes, often organizations use 'Scrumban', a hybrid approach that combines elements of both frameworks.",
+            "Only Kanban is considered truly Agile, not Scrum.",
+            "Scrum is always superior to Kanban."
+        ],
+        "correctAnswer": "Yes, often organizations use 'Scrumban', a hybrid approach that combines elements of both frameworks.",
+        "category": "Kanban Framework"
+    },
+    {
+        "question": "What is the purpose of 'Collect Requirements' process in Project Scope Management?",
+        "options": [
+            "To define the budget for the project.",
+            "To document and manage stakeholder needs and requirements to meet the project objectives.",
+            "To create the project schedule.",
+            "To identify project risks."
+        ],
+        "correctAnswer": "To document and manage stakeholder needs and requirements to meet the project objectives.",
+        "category": "Project Scope Management"
+    },
+    {
+        "question": "What is a 'Scope Statement'?",
+        "options": [
+            "A detailed breakdown of project tasks.",
+            "A document that describes the project deliverables and the work required to create those deliverables.",
+            "The project budget document.",
+            "A list of project stakeholders."
+        ],
+        "correctAnswer": "A document that describes the project deliverables and the work required to create those deliverables.",
+        "category": "Project Scope Management"
+    },
+    {
+        "question": "What is the primary output of the 'Define Scope' process?",
+        "options": [
+            "Requirements Documentation.",
+            "Work Breakdown Structure (WBS).",
+            "Scope Statement.",
+            "Project Charter."
+        ],
+        "correctAnswer": "Scope Statement.",
+        "category": "Project Scope Management"
+    },
+    {
+        "question": "What is the 'Validate Scope' process about?",
+        "options": [
+            "Verifying the project budget.",
+            "Formalizing acceptance of the completed project deliverables by stakeholders.",
+            "Validating the project schedule.",
+            "Verifying the project team's performance."
+        ],
+        "correctAnswer": "Formalizing acceptance of the completed project deliverables by stakeholders.",
+        "category": "Project Scope Management"
+    },
+    {
+        "question": "What is the main purpose of the 'Control Scope' process?",
+        "options": [
+            "To plan the project scope initially.",
+            "To ensure that only approved scope changes are implemented and to manage scope creep.",
+            "To define the Work Breakdown Structure.",
+            "To collect project requirements."
+        ],
+        "correctAnswer": "To ensure that only approved scope changes are implemented and to manage scope creep.",
+        "category": "Project Scope Management"
+    },
+    {
+        "question": "What is the purpose of 'Define Activities' process in Project Schedule Management?",
+        "options": [
+            "To estimate the cost of project tasks.",
+            "To identify and document the specific actions to be performed to produce the project deliverables.",
+            "To sequence project activities.",
+            "To develop the project schedule."
+        ],
+        "correctAnswer": "To identify and document the specific actions to be performed to produce the project deliverables.",
+        "category": "Project Schedule Management"
+    },
+    {
+        "question": "What is 'Sequencing Activities' about in schedule management?",
+        "options": [
+            "Estimating the duration of activities.",
+            "Identifying and documenting dependencies among the project activities.",
+            "Assigning resources to activities.",
+            "Controlling the project schedule."
+        ],
+        "correctAnswer": "Identifying and documenting dependencies among the project activities.",
+        "category": "Project Schedule Management"
+    },
+    {
+        "question": "What is a 'Project Schedule Network Diagram'?",
+        "options": [
+            "A budget allocation chart.",
+            "A visual representation of the project activities and their logical relationships (dependencies).",
+            "A risk register.",
+            "A stakeholder engagement plan."
+        ],
+        "correctAnswer": "A visual representation of the project activities and their logical relationships (dependencies).",
+        "category": "Project Schedule Management"
+    },
+    {
+        "question": "What is 'Estimating Activity Durations' process?",
+        "options": [
+            "Estimating the cost of activities.",
+            "Predicting the number of work periods needed to complete individual activities.",
+            "Assigning resources to activities.",
+            "Sequencing project activities."
+        ],
+        "correctAnswer": "Predicting the number of work periods needed to complete individual activities.",
+        "category": "Project Schedule Management"
+    },
+    {
+        "question": "What is the 'Critical Path Method (CPM)' used for in project schedule management?",
+        "options": [
+            "To estimate project costs.",
+            "To calculate the shortest possible project duration and identify critical activities.",
+            "To manage project risks.",
+            "To improve team communication."
+        ],
+        "correctAnswer": "To calculate the shortest possible project duration and identify critical activities.",
+        "category": "Project Schedule Management"
+    },
+    {
+        "question": "What is 'Schedule Baseline'?",
+        "options": [
+            "The initial project schedule before any changes.",
+            "The approved version of a schedule that is used as a basis for comparison to actual results.",
+            "A list of project activities without durations.",
+            "A risk management plan."
+        ],
+        "correctAnswer": "The approved version of a schedule that is used as a basis for comparison to actual results.",
+        "category": "Project Schedule Management"
+    },
+    {
+        "question": "What is the 'Estimate Costs' process in Project Cost Management?",
+        "options": [
+            "To allocate budget to project activities.",
+            "To develop an approximation of the monetary resources needed to complete project activities.",
+            "To control project costs.",
+            "To plan how costs will be managed."
+        ],
+        "correctAnswer": "To develop an approximation of the monetary resources needed to complete project activities.",
+        "category": "Project Cost Management"
+    },
+    {
+        "question": "What is 'Determine Budget' process about?",
+        "options": [
+            "Estimating individual activity costs.",
+            "Aggregating the estimated costs of individual activities or work packages to establish an authorized cost baseline.",
+            "Controlling project costs.",
+            "Planning cost management processes."
+        ],
+        "correctAnswer": "Aggregating the estimated costs of individual activities or work packages to establish an authorized cost baseline.",
+        "category": "Project Cost Management"
+    },
+    {
+        "question": "What is 'Cost Baseline'?",
+        "options": [
+            "The initial cost estimate before project initiation.",
+            "The approved budget that will be used to compare actual expenditures.",
+            "A list of project costs without categorization.",
+            "A risk management budget."
+        ],
+        "correctAnswer": "The approved budget that will be used to compare actual expenditures.",
+        "category": "Project Cost Management"
+    },
+    {
+        "question": "What is 'Control Costs' process in Project Cost Management?",
+        "options": [
+            "Planning how costs will be estimated.",
+            "Influencing the factors that create cost variances and controlling changes to the project budget.",
+            "Estimating project costs initially.",
+            "Determining the total project budget."
+        ],
+        "correctAnswer": "Influencing the factors that create cost variances and controlling changes to the project budget.",
+        "category": "Project Cost Management"
+    },
+    {
+        "question": "What is 'Earned Value Management (EVM)'?",
+        "options": [
+            "A technique for estimating project costs.",
+            "A methodology to measure project performance by integrating scope, schedule, and cost data.",
+            "A risk assessment technique.",
+            "A communication management tool."
+        ],
+        "correctAnswer": "A methodology to measure project performance by integrating scope, schedule, and cost data.",
+        "category": "Project Cost Management"
+    },
+    {
+        "question": "What is 'Identify Risks' process in Project Risk Management?",
+        "options": [
+            "To plan risk responses.",
+            "To determine which risks might affect the project and documenting their characteristics.",
+            "To analyze identified risks qualitatively.",
+            "To control project risks."
+        ],
+        "correctAnswer": "To determine which risks might affect the project and documenting their characteristics.",
+        "category": "Project Risk Management"
+    },
+    {
+        "question": "What is 'Perform Qualitative Risk Analysis' about?",
+        "options": [
+            "Numerically analyzing the effect of identified risks on overall project objectives.",
+            "Prioritizing risks for further analysis or action by assessing and combining their probability of occurrence and impact.",
+            "Planning risk responses.",
+            "Controlling project risks."
+        ],
+        "correctAnswer": "Prioritizing risks for further analysis or action by assessing and combining their probability of occurrence and impact.",
+        "category": "Project Risk Management"
+    },
+    {
+        "question": "What is 'Perform Quantitative Risk Analysis'?",
+        "options": [
+            "Subjectively assessing the probability and impact of risks.",
+            "Numerically analyzing the effect of identified risks on overall project objectives, often using techniques like Monte Carlo simulation.",
+            "Developing risk response strategies.",
+            "Monitoring and controlling risks."
+        ],
+        "correctAnswer": "Numerically analyzing the effect of identified risks on overall project objectives, often using techniques like Monte Carlo simulation.",
+        "category": "Project Risk Management"
+    },
+    {
+        "question": "What is the purpose of 'Plan Risk Responses' process?",
+        "options": [
+            "To identify project risks.",
+            "To develop options and actions to enhance opportunities and reduce threats to project objectives.",
+            "To analyze risks qualitatively.",
+            "To control project risks."
+        ],
+        "correctAnswer": "To develop options and actions to enhance opportunities and reduce threats to project objectives.",
+        "category": "Project Risk Management"
+    },
+    {
+        "question": "What is 'Control Risks' process about?",
+        "options": [
+            "Identifying potential project risks.",
+            "Implementing risk response plans, tracking identified risks, monitoring residual risks, and identifying new risks.",
+            "Analyzing risks quantitatively.",
+            "Planning risk response strategies."
+        ],
+        "correctAnswer": "Implementing risk response plans, tracking identified risks, monitoring residual risks, and identifying new risks.",
+        "category": "Project Risk Management"
+    },
+    {
+        "question": "What is a 'Risk Register'?",
+        "options": [
+            "A list of project costs.",
+            "A document containing the results of risk management processes, often including identified risks, their analysis, and planned responses.",
+            "A schedule of project activities.",
+            "A stakeholder communication plan."
+        ],
+        "correctAnswer": "A document containing the results of risk management processes, often including identified risks, their analysis, and planned responses.",
+        "category": "Project Risk Management"
+    }
+]
